@@ -1,0 +1,22 @@
+[
+    {
+        "question": "1. What does CSS stand for?",
+        "options": [
+            "Cascading Style Sheets",
+            "Colorful Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style Sheets"
+        ],
+        "correctAnswer": "Cascading Style Sheets"
+    },
+    {
+        "question": "2. Which HTML tag is used to define an internal style sheet?",
+        "options": [
+            "<style>",
+            "<css>",
+            "<script>",
+            "<link>"
+        ],
+        "correctAnswer": "<style>"
+    }
+]
