@@ -902,12 +902,13 @@
     {
         "question": "91. What is npm?",
         "options": [
-            "Node Package Manager - the default package manager for Node.js",
+            "Node Package Manager",
             "Node Process Monitor",
             "Node Project Module",
             "New Programming Method"
         ],
-        "correctAnswer":[
+        "correctAnswer": "Node Package Manager"
+    },
     {
         "question": "1. What is Express.js?",
         "options": [
@@ -1808,305 +1809,304 @@
         ],
         "correctAnswer": "To create platform-specific path strings"
     },
-    
-        {
-            "question": "91. What is npm?",
-            "options": [
-                "Node Package Manager",
-                "Node Process Monitor",
-                "Node Project Module",
-                "New Programming Method"
-            ],
-            "correctAnswer": "Node Package Manager"
-        },
-        {
-            "question": "92. What happens when you run the command 'npm install express --save'?",
-            "options": [
-                "Express is installed globally on your system",
-                "Express is installed locally and added to package.json dependencies",
-                "Express is installed but not added to package.json",
-                "Express documentation is saved locally"
-            ],
-            "correctAnswer": "Express is installed locally and added to package.json dependencies"
-        },
-        {
-            "question": "93. What is the purpose of the 'joi' library in Node.js applications?",
-            "options": [
-                "To handle file uploads",
-                "To perform data validation",
-                "To create user interfaces",
-                "To connect to SQL databases"
-            ],
-            "correctAnswer": "To perform data validation"
-        },
-        {
-            "question": "94. What does the HTTP status code 304 indicate?",
-            "options": [
-                "Moved Permanently",
-                "Temporary Redirect",
-                "Not Modified",
-                "Permanent Redirect"
-            ],
-            "correctAnswer": "Not Modified"
-        },
-        {
-            "question": "95. Which module would you use to compress HTTP responses in an Express application?",
-            "options": [
-                "express-zip",
-                "express-compressor",
-                "compression",
-                "express-minify"
-            ],
-            "correctAnswer": "compression"
-        },
-        {
-            "question": "96. What does the 'Access-Control-Allow-Origin' header do?",
-            "options": [
-                "It prevents cross-site scripting attacks",
-                "It restricts which domains can access your API",
-                "It specifies which domains can access resources from a server",
-                "It allows access only to authenticated users"
-            ],
-            "correctAnswer": "It specifies which domains can access resources from a server"
-        },
-        {
-            "question": "97. What is middleware chaining in Express?",
-            "options": [
-                "Using multiple middleware in the same route handler",
-                "Connecting middleware to database chains",
-                "Creating chains of if-else statements in middleware",
-                "Linking multiple Express applications together"
-            ],
-            "correctAnswer": "Using multiple middleware in the same route handler"
-        },
-        {
-            "question": "98. Which of the following is NOT a valid method to retrieve documents in Mongoose?",
-            "options": [
-                "Model.find()",
-                "Model.findOne()",
-                "Model.retrieve()",
-                "Model.findById()"
-            ],
-            "correctAnswer": "Model.retrieve()"
-        },
-        {
-            "question": "99. What does the 'trustProxy' option in Express do?",
-            "options": [
-                "Automatically trusts all proxy servers",
-                "Enables Express to use proxies for outgoing requests",
-                "Enables the app to trust the X-Forwarded-* headers from proxies",
-                "Creates a proxy server for the application"
-            ],
-            "correctAnswer": "Enables the app to trust the X-Forwarded-* headers from proxies"
-        },
-        {
-            "question": "100. What is the purpose of the 'mongoose-unique-validator' plugin?",
-            "options": [
-                "To create unique IDs for MongoDB documents",
-                "To add pre-save validation for unique fields in a Mongoose schema",
-                "To validate that Mongoose is properly connected",
-                "To ensure all documents in a collection are unique"
-            ],
-            "correctAnswer": "To add pre-save validation for unique fields in a Mongoose schema"
-        },
-        {
-            "question": "101. What does the 'stale-while-revalidate' caching strategy mean?",
-            "options": [
-                "Never use cached data",
-                "Return cached data while fetching fresh data in the background",
-                "Always validate data before using cache",
-                "Use stale data only when the server is down"
-            ],
-            "correctAnswer": "Return cached data while fetching fresh data in the background"
-        },
-        {
-            "question": "102. Which of the following is a valid way to implement server-side pagination in Express?",
-            "options": [
-                "Using the page.js middleware",
-                "Using query parameters like limit and offset",
-                "Using the pagination plugin for Express",
-                "Using the browser's built-in pagination features"
-            ],
-            "correctAnswer": "Using query parameters like limit and offset"
-        },
-        {
-            "question": "103. What is MongoDB's ObjectId composed of?",
-            "options": [
-                "A random string of characters",
-                "A UUID generated by the client",
-                "A 12-byte value containing a timestamp, machine ID, process ID, and counter",
-                "An auto-incrementing integer"
-            ],
-            "correctAnswer": "A 12-byte value containing a timestamp, machine ID, process ID, and counter"
-        },
-        {
-            "question": "104. What is a common way to handle file uploads in Express?",
-            "options": [
-                "express.upload() middleware",
-                "Using the built-in file handler",
-                "Using multer middleware",
-                "Direct file system access"
-            ],
-            "correctAnswer": "Using multer middleware"
-        },
-        {
-            "question": "105. What is the purpose of the 'winston' package in Node.js?",
-            "options": [
-                "User authentication",
-                "Data validation",
-                "Logging",
-                "Database connection pooling"
-            ],
-            "correctAnswer": "Logging"
-        },
-        {
-            "question": "106. Which of the following is the correct way to implement a 404 handler in Express?",
-            "options": [
-                "app.get('*', (req, res) => res.status(404).send('Not found'))",
-                "app.use((req, res) => res.status(404).send('Not found'))",
-                "app.error((req, res) => res.status(404).send('Not found'))",
-                "app.missing((req, res) => res.status(404).send('Not found'))"
-            ],
-            "correctAnswer": "app.use((req, res) => res.status(404).send('Not found'))"
-        },
-        {
-            "question": "107. What is the difference between res.send() and res.json() in Express?",
-            "options": [
-                "res.send() can send any type of response, while res.json() specifically sends JSON responses",
-                "res.json() is faster than res.send()",
-                "res.send() only sends text, while res.json() sends objects",
-                "There is no difference; they are aliases of the same function"
-            ],
-            "correctAnswer": "res.send() can send any type of response, while res.json() specifically sends JSON responses"
-        },
-        {
-            "question": "108. Which of these is not a feature of MongoDB?",
-            "options": [
-                "Document-oriented storage",
-                "High availability",
-                "Strong ACID transactions by default",
-                "Horizontal scalability"
-            ],
-            "correctAnswer": "Strong ACID transactions by default"
-        },
-        {
-            "question": "109. What is the purpose of the 'cluster' module in Node.js?",
-            "options": [
-                "To connect multiple databases together",
-                "To group similar routes together",
-                "To run Node.js applications across multiple CPU cores",
-                "To create clusters of microservices"
-            ],
-            "correctAnswer": "To run Node.js applications across multiple CPU cores"
-        },
-        {
-            "question": "110. What is the primary purpose of a refresh token in JWT authentication?",
-            "options": [
-                "To refresh expired user data",
-                "To keep the user logged in after their access token expires",
-                "To refresh the application state",
-                "To synchronize client and server data"
-            ],
-            "correctAnswer": "To keep the user logged in after their access token expires"
-        },
-        {
-            "question": "111. Which security issue does the 'helmet' package NOT address?",
-            "options": [
-                "SQL Injection",
-                "Cross-Site Scripting (XSS)",
-                "Content Security Policy",
-                "X-XSS-Protection"
-            ],
-            "correctAnswer": "SQL Injection"
-        },
-        {
-            "question": "112. What is the purpose of the 'validator' npm package?",
-            "options": [
-                "To validate JWT tokens",
-                "To validate string inputs (emails, URLs, etc.)",
-                "To validate API responses",
-                "To validate database schemas"
-            ],
-            "correctAnswer": "To validate string inputs (emails, URLs, etc.)"
-        },
-        {
-            "question": "113. What is socket.io used for in Node.js applications?",
-            "options": [
-                "Low-level socket programming",
-                "Network diagnostic tools",
-                "Real-time bidirectional event-based communication",
-                "Creating socket connections to databases"
-            ],
-            "correctAnswer": "Real-time bidirectional event-based communication"
-        },
-        {
-            "question": "114. What does a pure function mean in the context of APIs?",
-            "options": [
-                "A function that only uses pure JavaScript",
-                "A function that produces the same output for the same input and has no side effects",
-                "A function that doesn't use external libraries",
-                "A function that only processes sanitized input"
-            ],
-            "correctAnswer": "A function that produces the same output for the same input and has no side effects"
-        },
-        {
-            "question": "115. What is the purpose of the 'pm2' tool in Node.js production environments?",
-            "options": [
-                "To monitor database performance",
-                "To test API endpoints",
-                "To manage and keep Node.js applications alive",
-                "To optimize JavaScript code"
-            ],
-            "correctAnswer": "To manage and keep Node.js applications alive"
-        },
-        {
-            "question": "116. What is the main purpose of using a .env file?",
-            "options": [
-                "To list all environment variables used in the application",
-                "To store environment-specific configuration variables",
-                "To declare environment dependencies",
-                "To specify which environment the app should run in"
-            ],
-            "correctAnswer": "To store environment-specific configuration variables"
-        },
-        {
-            "question": "117. What is the 'projection' parameter in MongoDB queries?",
-            "options": [
-                "The expected result format",
-                "A way to filter which fields to include or exclude in the results",
-                "A way to project data onto different models",
-                "A parameter to specify the database to query"
-            ],
-            "correctAnswer": "A way to filter which fields to include or exclude in the results"
-        },
-        {
-            "question": "118. What does the 'pre' hook in Mongoose do?",
-            "options": [
-                "Executes before a defined event (like save, validate, remove)",
-                "Defines prerequisites for database operations",
-                "Prefetches related documents",
-                "Pre-compiles queries for faster execution"
-            ],
-            "correctAnswer": "Executes before a defined event (like save, validate, remove)"
-        },
-        {
-            "question": "119. What is a common use of the 'crypto' module in Node.js?",
-            "options": [
-                "To create cryptocurrencies",
-                "To encrypt API endpoints",
-                "To generate secure random values and hash data",
-                "To analyze cryptographic performance"
-            ],
-            "correctAnswer": "To generate secure random values and hash data"
-        },
-        {
-            "question": "120. What is an idempotent API endpoint?",
-            "options": [
-                "An endpoint that requires authentication",
-                "An endpoint that returns the same data every time",
-                "An endpoint that can be called multiple times without changing the result beyond the initial call",
-                "An endpoint that processes data incrementally"
-            ],
-            "correctAnswer": "An endpoint that can be called multiple times without changing the result beyond the initial call"
-        }
-    ]
+    {
+        "question": "91. What is npm?",
+        "options": [
+            "Node Package Manager",
+            "Node Process Monitor",
+            "Node Project Module",
+            "New Programming Method"
+        ],
+        "correctAnswer": "Node Package Manager"
+    },
+    {
+        "question": "92. What happens when you run the command 'npm install express --save'?",
+        "options": [
+            "Express is installed globally on your system",
+            "Express is installed locally and added to package.json dependencies",
+            "Express is installed but not added to package.json",
+            "Express documentation is saved locally"
+        ],
+        "correctAnswer": "Express is installed locally and added to package.json dependencies"
+    },
+    {
+        "question": "93. What is the purpose of the 'joi' library in Node.js applications?",
+        "options": [
+            "To handle file uploads",
+            "To perform data validation",
+            "To create user interfaces",
+            "To connect to SQL databases"
+        ],
+        "correctAnswer": "To perform data validation"
+    },
+    {
+        "question": "94. What does the HTTP status code 304 indicate?",
+        "options": [
+            "Moved Permanently",
+            "Temporary Redirect",
+            "Not Modified",
+            "Permanent Redirect"
+        ],
+        "correctAnswer": "Not Modified"
+    },
+    {
+        "question": "95. Which module would you use to compress HTTP responses in an Express application?",
+        "options": [
+            "express-zip",
+            "express-compressor",
+            "compression",
+            "express-minify"
+        ],
+        "correctAnswer": "compression"
+    },
+    {
+        "question": "96. What does the 'Access-Control-Allow-Origin' header do?",
+        "options": [
+            "It prevents cross-site scripting attacks",
+            "It restricts which domains can access your API",
+            "It specifies which domains can access resources from a server",
+            "It allows access only to authenticated users"
+        ],
+        "correctAnswer": "It specifies which domains can access resources from a server"
+    },
+    {
+        "question": "97. What is middleware chaining in Express?",
+        "options": [
+            "Using multiple middleware in the same route handler",
+            "Connecting middleware to database chains",
+            "Creating chains of if-else statements in middleware",
+            "Linking multiple Express applications together"
+        ],
+        "correctAnswer": "Using multiple middleware in the same route handler"
+    },
+    {
+        "question": "98. Which of the following is NOT a valid method to retrieve documents in Mongoose?",
+        "options": [
+            "Model.find()",
+            "Model.findOne()",
+            "Model.retrieve()",
+            "Model.findById()"
+        ],
+        "correctAnswer": "Model.retrieve()"
+    },
+    {
+        "question": "99. What does the 'trustProxy' option in Express do?",
+        "options": [
+            "Automatically trusts all proxy servers",
+            "Enables Express to use proxies for outgoing requests",
+            "Enables the app to trust the X-Forwarded-* headers from proxies",
+            "Creates a proxy server for the application"
+        ],
+        "correctAnswer": "Enables the app to trust the X-Forwarded-* headers from proxies"
+    },
+    {
+        "question": "100. What is the purpose of the 'mongoose-unique-validator' plugin?",
+        "options": [
+            "To create unique IDs for MongoDB documents",
+            "To add pre-save validation for unique fields in a Mongoose schema",
+            "To validate that Mongoose is properly connected",
+            "To ensure all documents in a collection are unique"
+        ],
+        "correctAnswer": "To add pre-save validation for unique fields in a Mongoose schema"
+    },
+    {
+        "question": "101. What does the 'stale-while-revalidate' caching strategy mean?",
+        "options": [
+            "Never use cached data",
+            "Return cached data while fetching fresh data in the background",
+            "Always validate data before using cache",
+            "Use stale data only when the server is down"
+        ],
+        "correctAnswer": "Return cached data while fetching fresh data in the background"
+    },
+    {
+        "question": "102. Which of the following is a valid way to implement server-side pagination in Express?",
+        "options": [
+            "Using the page.js middleware",
+            "Using query parameters like limit and offset",
+            "Using the pagination plugin for Express",
+            "Using the browser's built-in pagination features"
+        ],
+        "correctAnswer": "Using query parameters like limit and offset"
+    },
+    {
+        "question": "103. What is MongoDB's ObjectId composed of?",
+        "options": [
+            "A random string of characters",
+            "A UUID generated by the client",
+            "A 12-byte value containing a timestamp, machine ID, process ID, and counter",
+            "An auto-incrementing integer"
+        ],
+        "correctAnswer": "A 12-byte value containing a timestamp, machine ID, process ID, and counter"
+    },
+    {
+        "question": "104. What is a common way to handle file uploads in Express?",
+        "options": [
+            "express.upload() middleware",
+            "Using the built-in file handler",
+            "Using multer middleware",
+            "Direct file system access"
+        ],
+        "correctAnswer": "Using multer middleware"
+    },
+    {
+        "question": "105. What is the purpose of the 'winston' package in Node.js?",
+        "options": [
+            "User authentication",
+            "Data validation",
+            "Logging",
+            "Database connection pooling"
+        ],
+        "correctAnswer": "Logging"
+    },
+    {
+        "question": "106. Which of the following is the correct way to implement a 404 handler in Express?",
+        "options": [
+            "app.get('*', (req, res) => res.status(404).send('Not found'))",
+            "app.use((req, res) => res.status(404).send('Not found'))",
+            "app.error((req, res) => res.status(404).send('Not found'))",
+            "app.missing((req, res) => res.status(404).send('Not found'))"
+        ],
+        "correctAnswer": "app.use((req, res) => res.status(404).send('Not found'))"
+    },
+    {
+        "question": "107. What is the difference between res.send() and res.json() in Express?",
+        "options": [
+            "res.send() can send any type of response, while res.json() specifically sends JSON responses",
+            "res.json() is faster than res.send()",
+            "res.send() only sends text, while res.json() sends objects",
+            "There is no difference; they are aliases of the same function"
+        ],
+        "correctAnswer": "res.send() can send any type of response, while res.json() specifically sends JSON responses"
+    },
+    {
+        "question": "108. Which of these is not a feature of MongoDB?",
+        "options": [
+            "Document-oriented storage",
+            "High availability",
+            "Strong ACID transactions by default",
+            "Horizontal scalability"
+        ],
+        "correctAnswer": "Strong ACID transactions by default"
+    },
+    {
+        "question": "109. What is the purpose of the 'cluster' module in Node.js?",
+        "options": [
+            "To connect multiple databases together",
+            "To group similar routes together",
+            "To run Node.js applications across multiple CPU cores",
+            "To create clusters of microservices"
+        ],
+        "correctAnswer": "To run Node.js applications across multiple CPU cores"
+    },
+    {
+        "question": "110. What is the primary purpose of a refresh token in JWT authentication?",
+        "options": [
+            "To refresh expired user data",
+            "To keep the user logged in after their access token expires",
+            "To refresh the application state",
+            "To synchronize client and server data"
+        ],
+        "correctAnswer": "To keep the user logged in after their access token expires"
+    },
+    {
+        "question": "111. Which security issue does the 'helmet' package NOT address?",
+        "options": [
+            "SQL Injection",
+            "Cross-Site Scripting (XSS)",
+            "Content Security Policy",
+            "X-XSS-Protection"
+        ],
+        "correctAnswer": "SQL Injection"
+    },
+    {
+        "question": "112. What is the purpose of the 'validator' npm package?",
+        "options": [
+            "To validate JWT tokens",
+            "To validate string inputs (emails, URLs, etc.)",
+            "To validate API responses",
+            "To validate database schemas"
+        ],
+        "correctAnswer": "To validate string inputs (emails, URLs, etc.)"
+    },
+    {
+        "question": "113. What is socket.io used for in Node.js applications?",
+        "options": [
+            "Low-level socket programming",
+            "Network diagnostic tools",
+            "Real-time bidirectional event-based communication",
+            "Creating socket connections to databases"
+        ],
+        "correctAnswer": "Real-time bidirectional event-based communication"
+    },
+    {
+        "question": "114. What does a pure function mean in the context of APIs?",
+        "options": [
+            "A function that only uses pure JavaScript",
+            "A function that produces the same output for the same input and has no side effects",
+            "A function that doesn't use external libraries",
+            "A function that only processes sanitized input"
+        ],
+        "correctAnswer": "A function that produces the same output for the same input and has no side effects"
+    },
+    {
+        "question": "115. What is the purpose of the 'pm2' tool in Node.js production environments?",
+        "options": [
+            "To monitor database performance",
+            "To test API endpoints",
+            "To manage and keep Node.js applications alive",
+            "To optimize JavaScript code"
+        ],
+        "correctAnswer": "To manage and keep Node.js applications alive"
+    },
+    {
+        "question": "116. What is the main purpose of using a .env file?",
+        "options": [
+            "To list all environment variables used in the application",
+            "To store environment-specific configuration variables",
+            "To declare environment dependencies",
+            "To specify which environment the app should run in"
+        ],
+        "correctAnswer": "To store environment-specific configuration variables"
+    },
+    {
+        "question": "117. What is the 'projection' parameter in MongoDB queries?",
+        "options": [
+            "The expected result format",
+            "A way to filter which fields to include or exclude in the results",
+            "A way to project data onto different models",
+            "A parameter to specify the database to query"
+        ],
+        "correctAnswer": "A way to filter which fields to include or exclude in the results"
+    },
+    {
+        "question": "118. What does the 'pre' hook in Mongoose do?",
+        "options": [
+            "Executes before a defined event (like save, validate, remove)",
+            "Defines prerequisites for database operations",
+            "Prefetches related documents",
+            "Pre-compiles queries for faster execution"
+        ],
+        "correctAnswer": "Executes before a defined event (like save, validate, remove)"
+    },
+    {
+        "question": "119. What is a common use of the 'crypto' module in Node.js?",
+        "options": [
+            "To create cryptocurrencies",
+            "To encrypt API endpoints",
+            "To generate secure random values and hash data",
+            "To analyze cryptographic performance"
+        ],
+        "correctAnswer": "To generate secure random values and hash data"
+    },
+    {
+        "question": "120. What is an idempotent API endpoint?",
+        "options": [
+            "An endpoint that requires authentication",
+            "An endpoint that returns the same data every time",
+            "An endpoint that can be called multiple times without changing the result beyond the initial call",
+            "An endpoint that processes data incrementally"
+        ],
+        "correctAnswer": "An endpoint that can be called multiple times without changing the result beyond the initial call"
+    }
+]
