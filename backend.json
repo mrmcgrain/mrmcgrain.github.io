@@ -270,7 +270,7 @@
         "correctAnswer": "To serve static files like CSS, images, and JavaScript"
     },
     {
-        "question": "28. How do you extract data from a POST request body in Express?",
+        "question": "28. How do you extract data from a POST request in Express?",
         "options": [
             "req.body",
             "req.params",
