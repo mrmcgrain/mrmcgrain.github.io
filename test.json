@@ -18,5 +18,15 @@
             "<link>"
         ],
         "correctAnswer": "<style>"
+    },
+    {
+        "question": "3. Which HTML tag is used to define an internal style sheet?",
+        "options": [
+            "<1>",
+            "<2>",
+            "<3>",
+            "BOTH A and B"
+        ],
+        "correctAnswer": "BOTH A and B"
     }
 ]
