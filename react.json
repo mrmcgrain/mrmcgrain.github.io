@@ -315,7 +315,7 @@
             "Using spread syntax: <Child {...props} />",
             "Using the all attribute: <Child all={props} />",
             "Using forward: <Child forward={props} />",
-            "Using inherit: <Child inherit />",
+            "Using inherit: <Child inherit />"
         ],
         "correctAnswer": "Using spread syntax: <Child {...props} />"
     },
