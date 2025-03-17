@@ -1,6 +1,4 @@
-[
-    
-    
+[  
       {
         "question": "1. Which keyword is used to declare a block-scoped variable in JavaScript?",
         "options": ["var", "let", "function", "scope"],
@@ -515,7 +513,7 @@
         "question": "100. Which object in JavaScript represents the HTML document loaded in the browser, serving as an entry point for DOM manipulation?",
         "options": ["document", "window", "navigator", "location"],
         "correctAnswer": "document"
-      }
+      },
       {
         "question": "101. Which statement is true about JavaScript's object-based nature?",
         "options": ["It only supports single inheritance.", "It does not allow creation of custom objects.", "Objects are fundamental building blocks in JavaScript.", "JavaScript cannot handle complex object structures."],
