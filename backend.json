@@ -272,12 +272,12 @@
     {
         "question": "28. How do you extract data from a POST request body in Express?",
         "options": [
-            "req.body (after using appropriate middleware)",
+            "req.body",
             "req.params",
             "req.query",
             "req.data"
         ],
-        "correctAnswer": "req.body (after using appropriate middleware)"
+        "correctAnswer": "req.body"
     },
     {
         "question": "29. Which module is used to create and verify cookies in Express?",
@@ -670,7 +670,7 @@
         "correctAnswer": "POST"
     },
     {
-        "question": "68. What is the purpose of the body-parser middleware in Express?",
+        "question": "68. What is the purpose of the express.json() middleware in Express?",
         "options": [
             "To parse HTML bodies",
             "To parse incoming request bodies before handlers",
@@ -909,8 +909,6 @@
         ],
         "correctAnswer": "Node Package Manager"
     },
-   
-  
     {
         "question": "92. What happens when you run the command 'npm install express --save'?",
         "options": [
