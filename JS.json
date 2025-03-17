@@ -1,1221 +1,1002 @@
 [
   {
-    "question": "Which statement is true about JavaScript's object-based nature?",
-    "options": [
-      "It only supports single inheritance.",
-      "It does not allow creation of custom objects.",
-      "Objects are fundamental building blocks in JavaScript.",
-      "JavaScript cannot handle complex object structures."
-    ],
-    "correctAnswer": "Objects are fundamental building blocks in JavaScript."
-  },
-  {
-    "question": "Which property of a function references the function's textual code as a string?",
-    "options": [
-      "function.source",
-      "function.text",
-      "function.toString()",
-      "function.code"
-    ],
-    "correctAnswer": "function.toString()"
-  },
-  {
-    "question": "Which array method in JavaScript returns a new array with the results of calling a provided function on every element in the calling array?",
-    "options": [
-      "forEach()",
-      "map()",
-      "reduce()",
-      "filter()"
-    ],
-    "correctAnswer": "map()"
-  },
-  {
-    "question": "Which statement is used in JavaScript to skip the current iteration of a loop and continue to the next one?",
-    "options": [
-      "break",
-      "skip",
-      "pass",
-      "continue"
-    ],
-    "correctAnswer": "continue"
-  },
-  {
-    "question": "Which DOM element property can be used to change the text within an element?",
-    "options": [
-      "element.textContent",
-      "element.innerText",
-      "element.innerHTML",
-      "All of the above"
-    ],
-    "correctAnswer": "All of the above"
-  },
-  {
-    "question": "Which operator can be used to conditionally assign a value based on a Boolean expression?",
-    "options": [
-      "?: (ternary operator)",
-      "= (assignment)",
-      "=> (arrow operator)",
-      "!= (inequality)"
-    ],
-    "correctAnswer": "?: (ternary operator)"
-  },
-  {
-    "question": "Which method is used to stop event propagation in JavaScript?",
-    "options": [
-      "event.preventDefault()",
-      "event.stopPropagation()",
-      "event.cancelBubble",
-      "event.halt()"
-    ],
-    "correctAnswer": "event.stopPropagation()"
-  },
-  {
-    "question": "Which JavaScript concept helps prevent naming collisions by separating code into distinct scopes or modules?",
-    "options": [
-      "IIFE (Immediately Invoked Function Expression)",
-      "use strict",
-      "Global variables",
-      "eval"
-    ],
-    "correctAnswer": "IIFE (Immediately Invoked Function Expression)"
-  },
-  {
-    "question": "Which method can transform a string into an array of substrings based on a specified separator?",
-    "options": [
-      "String.split()",
-      "String.slice()",
-      "String.splice()",
-      "String.join()"
-    ],
-    "correctAnswer": "String.split()"
-  },
-  {
-    "question": "Which data type can be used to store a sequence of characters in JavaScript?",
-    "options": [
-      "String",
-      "Boolean",
-      "Undefined",
-      "Symbol"
-    ],
-    "correctAnswer": "String"
-  },
-  {
-    "question": "Which statement is used to handle an expected error in synchronous code?",
-    "options": [
-      "catch",
-      "finally",
-      "throw",
-      "try...catch"
-    ],
-    "correctAnswer": "try...catch"
-  },
-  {
-    "question": "Which array method determines whether at least one element in an array passes a test implemented by a provided function?",
-    "options": [
-      "every()",
-      "some()",
-      "includes()",
-      "test()"
-    ],
-    "correctAnswer": "some()"
-  },
-  {
-    "question": "Which method can be used to convert a number to a string in JavaScript?",
-    "options": [
-      "String.toNumber()",
-      "String.valueOf()",
-      "number.toString()",
-      "number.parse()"
-    ],
-    "correctAnswer": "number.toString()"
-  },
-  {
-    "question": "Which type of variable can be accessed outside of the function in which it is declared?",
-    "options": [
-      "Local variable",
-      "Block-scoped variable",
-      "Global variable",
-      "None of the above"
-    ],
-    "correctAnswer": "Global variable"
-  },
-  {
-    "question": "Which method is used to schedule a function to run repeatedly with a fixed time delay between runs?",
-    "options": [
-      "setInterval()",
-      "setTimeout()",
-      "scheduleTask()",
-      "runInterval()"
-    ],
-    "correctAnswer": "setInterval()"
-  },
-  {
-    "question": "Which statement best describes server-side JavaScript?",
-    "options": [
-      "JavaScript code executed in the user's browser.",
-      "JavaScript code executed on a remote server before sending output to the client.",
-      "JavaScript code that manipulates the DOM.",
-      "JavaScript code that only works offline."
-    ],
-    "correctAnswer": "JavaScript code executed on a remote server before sending output to the client."
-  },
-  {
-    "question": "Which object method can you use to replace parts of a string using a pattern (regular expression)?",
-    "options": [
-      "String.match()",
-      "String.search()",
-      "String.replace()",
-      "String.regexReplace()"
-    ],
-    "correctAnswer": "String.replace()"
-  },
-  {
-    "question": "Which method is used to convert a string into a floating-point number?",
-    "options": [
-      "parseFloat()",
-      "parseInt()",
-      "toNumber()",
-      "Number()"
-    ],
-    "correctAnswer": "parseFloat()"
-  },
-  {
-    "question": "Which built-in object provides methods to perform mathematical tasks, such as rounding or generating random numbers?",
-    "options": [
-      "Number",
-      "Math",
-      "Calculator",
-      "Precision"
-    ],
-    "correctAnswer": "Math"
-  },
-  {
-    "question": "Which boolean operator would you use in a condition to verify that both conditions must be true?",
-    "options": [
-      "|| (OR)",
-      "&& (AND)",
-      "!= (NOT equal)",
-      "^ (XOR)"
-    ],
-    "correctAnswer": "&& (AND)"
-  },
-  {
-    "question": "Which HTML element is used to embed JavaScript code directly into an HTML page?",
-    "options": [
-      "<script>",
-      "<javascript>",
-      "<js>",
-      "<embed>"
-    ],
-    "correctAnswer": "<script>"
-  },
-  {
-    "question": "Which logical operator returns true if at least one of its operands is true?",
-    "options": [
-      "|| (OR)",
-      "&& (AND)",
-      "! (NOT)",
-      "?? (nullish)"
-    ],
-    "correctAnswer": "|| (OR)"
-  },
-  {
-    "question": "1. Which keyword is used to declare a block-scoped variable in JavaScript?",
+    "question": "1. Which keyword creates a constant reference to a value in JavaScript?",
     "options": [
       "var",
       "let",
-      "function",
-      "scope"
-    ],
-    "correctAnswer": "let"
-  },
-  {
-    "question": "2. Which method can convert a string to a floating-point number in JavaScript?",
-    "options": [
-      "parseFloat()",
-      "parseInt()",
-      "Number.toFloat()",
-      "stringToFloat()"
-    ],
-    "correctAnswer": "parseFloat()"
-  },
-  {
-    "question": "3. Which event is fired when a user clicks inside an element?",
-    "options": [
-      "onsubmit",
-      "onchange",
-      "onclick",
-      "onhover"
-    ],
-    "correctAnswer": "onclick"
-  },
-  {
-    "question": "4. Which array method calls a function once for each element, returning a new array of modified elements?",
-    "options": [
-      "forEach()",
-      "map()",
-      "filter()",
-      "reduce()"
-    ],
-    "correctAnswer": "map()"
-  },
-  {
-    "question": "5. Which statement about 'use strict' in JavaScript is correct?",
-    "options": [
-      "It disables the ECMAScript standard.",
-      "It enables stricter parsing and error handling.",
-      "It automatically declares all variables.",
-      "It is deprecated and has no effect."
-    ],
-    "correctAnswer": "It enables stricter parsing and error handling."
-  },
-  {
-    "question": "6. Which DOM property is used to set or return the HTML content inside an element?",
-    "options": [
-      "element.innerHTML",
-      "element.textContent",
-      "element.value",
-      "element.HTMLBody"
-    ],
-    "correctAnswer": "element.innerHTML"
-  },
-  {
-    "question": "7. Which method would you use to repeatedly call a function at specified time intervals?",
-    "options": [
-      "setTimeout()",
-      "setInterval()",
-      "schedule()",
-      "timeLoop()"
-    ],
-    "correctAnswer": "setInterval()"
-  },
-  {
-    "question": "8. Which operator checks for both value and type equality in JavaScript?",
-    "options": [
-      "==",
-      "===",
-      "!=",
-      "!=="
-    ],
-    "correctAnswer": "==="
-  },
-  {
-    "question": "9. Which object is at the highest level in the browser's client-side JavaScript hierarchy?",
-    "options": [
-      "document",
-      "window",
-      "screen",
-      "navigator"
-    ],
-    "correctAnswer": "window"
-  },
-  {
-    "question": "10. Which array method removes the last element from an array and returns that element?",
-    "options": [
-      "pop()",
-      "push()",
-      "shift()",
-      "unshift()"
-    ],
-    "correctAnswer": "pop()"
-  },
-  {
-    "question": "11. Which statement is used to handle an exception that might be thrown in JavaScript code?",
-    "options": [
-      "try...catch",
-      "if...else",
-      "break",
-      "switch"
-    ],
-    "correctAnswer": "try...catch"
-  },
-  {
-    "question": "12. Which method do you use to round a number down to the nearest integer?",
-    "options": [
-      "Math.floor()",
-      "Math.round()",
-      "Math.ceil()",
-      "Math.down()"
-    ],
-    "correctAnswer": "Math.floor()"
-  },
-  {
-    "question": "13. Which keyword allows you to declare a variable that cannot be reassigned?",
-    "options": [
-      "let",
-      "var",
       "const",
-      "final"
+      "define"
     ],
     "correctAnswer": "const"
   },
   {
-    "question": "14. Which operator would you use to verify that an object is created by a particular constructor?",
+    "question": "2. Which array method executes a function on each element and returns a new array with the results?",
     "options": [
-      "in",
-      "typeof",
-      "instanceof",
-      "constructorOf"
-    ],
-    "correctAnswer": "instanceof"
-  },
-  {
-    "question": "15. Which method converts a JSON string into a JavaScript object?",
-    "options": [
-      "JSON.convert()",
-      "JSON.parse()",
-      "JSON.stringify()",
-      "JSON.obj()"
-    ],
-    "correctAnswer": "JSON.parse()"
-  },
-  {
-    "question": "16. Which method is typically used to attach an event handler to an element in modern JavaScript?",
-    "options": [
-      "element.onclick = function(){}",
-      "element.addEventListener()",
-      "attachEvent()",
-      "bindEvent()"
-    ],
-    "correctAnswer": "element.addEventListener()"
-  },
-  {
-    "question": "17. Which global function can be used to decode a Base64-encoded string?",
-    "options": [
-      "atob()",
-      "btoa()",
-      "encodeURI()",
-      "decodeBase64()"
-    ],
-    "correctAnswer": "atob()"
-  },
-  {
-    "question": "18. Which object stores information about the user's browser, such as the appName and appVersion?",
-    "options": [
-      "window",
-      "navigator",
-      "document",
-      "screen"
-    ],
-    "correctAnswer": "navigator"
-  },
-  {
-    "question": "19. Which property of an array in JavaScript returns its length?",
-    "options": [
-      "array.count",
-      "array.size",
-      "array.length",
-      "array.index"
-    ],
-    "correctAnswer": "array.length"
-  },
-  {
-    "question": "20. Which method is used to select the first DOM element that matches a specified CSS selector?",
-    "options": [
-      "document.querySelector()",
-      "document.getElementById()",
-      "document.getElementsByClassName()",
-      "document.getElementsByTagName()"
-    ],
-    "correctAnswer": "document.querySelector()"
-  },
-  {
-    "question": "21. Which method is used to remove leading and trailing whitespace from a string in JavaScript?",
-    "options": [
-      "String.strip()",
-      "String.trim()",
-      "String.sanitize()",
-      "String.clean()"
-    ],
-    "correctAnswer": "String.trim()"
-  },
-  {
-    "question": "22. Which loop in JavaScript always executes its code block at least once?",
-    "options": [
-      "for loop",
-      "while loop",
-      "do...while loop",
-      "forEach loop"
-    ],
-    "correctAnswer": "do...while loop"
-  },
-  {
-    "question": "23. Which function can be used to delay code execution once after a specified number of milliseconds?",
-    "options": [
-      "setInterval()",
-      "setTimeout()",
-      "delay()",
-      "wait()"
-    ],
-    "correctAnswer": "setTimeout()"
-  },
-  {
-    "question": "24. Which property of the Event object prevents any further event listeners from being called?",
-    "options": [
-      "stopPropagation()",
-      "preventDefault()",
-      "stopImmediatePropagation()",
-      "cancelBubble"
-    ],
-    "correctAnswer": "stopImmediatePropagation()"
-  },
-  {
-    "question": "25. Which type of error is thrown when a syntax error occurs in JavaScript?",
-    "options": [
-      "TypeError",
-      "ReferenceError",
-      "RangeError",
-      "SyntaxError"
-    ],
-    "correctAnswer": "SyntaxError"
-  },
-  {
-    "question": "26. Which statement is used to stop the execution of a loop entirely?",
-    "options": [
-      "break",
-      "continue",
-      "halt",
-      "stop"
-    ],
-    "correctAnswer": "break"
-  },
-  {
-    "question": "27. Which built-in object provides methods for manipulating the browser's session history?",
-    "options": [
-      "window",
-      "location",
-      "history",
-      "navigator"
-    ],
-    "correctAnswer": "history"
-  },
-  {
-    "question": "28. Which operator is used to combine multiple arrays or objects into a new array/object by expanding them?",
-    "options": [
-      "spread operator (...) ",
-      "rest operator (...) ",
-      "pipe operator (|)",
-      "merge operator (<<)"
-    ],
-    "correctAnswer": "spread operator (...) "
-  },
-  {
-    "question": "29. Which method would you use to remove the first element from an array and return that element?",
-    "options": [
-      "shift()",
-      "pop()",
-      "unshift()",
-      "push()"
-    ],
-    "correctAnswer": "shift()"
-  },
-  {
-    "question": "30. Which directive in JavaScript helps you write more secure code by throwing more errors and avoiding silent pitfalls?",
-    "options": [
-      "use strict",
-      "strict mode",
-      "enable security",
-      "debug mode"
-    ],
-    "correctAnswer": "use strict"
-  },
-  {
-    "question": "31. Which string method searches for a match between a regular expression and a specified string, returning the matches?",
-    "options": [
-      "match()",
-      "search()",
-      "indexOf()",
-      "includes()"
-    ],
-    "correctAnswer": "match()"
-  },
-  {
-    "question": "32. Which method cancels the event if it is cancelable, preventing the default action?",
-    "options": [
-      "event.stopPropagation()",
-      "event.preventDefault()",
-      "event.cancel()",
-      "event.halt()"
-    ],
-    "correctAnswer": "event.preventDefault()"
-  },
-  {
-    "question": "33. Which operator can help set a variable to a fallback value only if the primary value is null or undefined?",
-    "options": [
-      "&&",
-      "||",
-      "??",
-      "?:"
-    ],
-    "correctAnswer": "??"
-  },
-  {
-    "question": "34. Which array method can be used to execute a reducer function on each element of the array, resulting in a single output value?",
-    "options": [
-      "reduce()",
-      "map()",
       "forEach()",
-      "slice()"
-    ],
-    "correctAnswer": "reduce()"
-  },
-  {
-    "question": "35. Which object can be used to access session storage for the current origin?",
-    "options": [
-      "localStorage",
-      "sessionStorage",
-      "storage",
-      "cache"
-    ],
-    "correctAnswer": "sessionStorage"
-  },
-  {
-    "question": "36. Which method can be used to reverse the order of the elements in an array?",
-    "options": [
-      "sort()",
-      "reverse()",
-      "slice()",
-      "flip()"
-    ],
-    "correctAnswer": "reverse()"
-  },
-  {
-    "question": "37. Which command in the browser console can pause execution at a specific line of code?",
-    "options": [
-      "stop",
-      "debugger",
-      "pause",
-      "breakpoint"
-    ],
-    "correctAnswer": "debugger"
-  },
-  {
-    "question": "38. Which method is used to attach the same event handler to multiple elements by selecting them with a common class?",
-    "options": [
-      "querySelector()",
-      "querySelectorAll()",
-      "getElementByClass()",
-      "attachAllHandlers()"
-    ],
-    "correctAnswer": "querySelectorAll()"
-  },
-  {
-    "question": "39. Which function can schedule a microtask to run at the end of the current operation before the next event loop tick?",
-    "options": [
-      "queueMicrotask()",
-      "setTimeout(fn, 0)",
-      "setInterval(fn, 0)",
-      "requestAnimationFrame()"
-    ],
-    "correctAnswer": "queueMicrotask()"
-  },
-  {
-    "question": "40. Which property of the window object can be used to read or modify the URL in the address bar?",
-    "options": [
-      "location",
-      "href",
-      "url",
-      "pathname"
-    ],
-    "correctAnswer": "location"
-  },
-  {
-    "question": "41. Which statement about arrow functions in JavaScript is true?",
-    "options": [
-      "They can be used as constructors.",
-      "They bind their own 'this'.",
-      "They do not have their own 'this'.",
-      "They cannot contain any parameters."
-    ],
-    "correctAnswer": "They do not have their own 'this'."
-  },
-  {
-    "question": "42. Which method is commonly used to convert an array-like object to a true array in ES6?",
-    "options": [
-      "Array.from()",
-      "Array.convert()",
-      "Array.slice()",
-      "Array.toArray()"
-    ],
-    "correctAnswer": "Array.from()"
-  },
-  {
-    "question": "43. Which value is returned from a function that does not explicitly return anything?",
-    "options": [
-      "null",
-      "undefined",
-      "0",
-      "false"
-    ],
-    "correctAnswer": "undefined"
-  },
-  {
-    "question": "44. Which logical operator in JavaScript returns true only if both operands are true?",
-    "options": [
-      "|| (OR)",
-      "&& (AND)",
-      "! (NOT)",
-      "?? (Nullish)"
-    ],
-    "correctAnswer": "&& (AND)"
-  },
-  {
-    "question": "45. Which method is used to return all elements in an array that meet a certain condition?",
-    "options": [
-      "filter()",
       "map()",
-      "reduce()",
-      "some()"
-    ],
-    "correctAnswer": "filter()"
-  },
-  {
-    "question": "46. Which object property can store small pieces of data for each web page on the client side?",
-    "options": [
-      "document.cookie",
-      "window.cookie",
-      "navigator.cookie",
-      "localStorage.cookie"
-    ],
-    "correctAnswer": "document.cookie"
-  },
-  {
-    "question": "47. Which operator is used for exponentiation in modern JavaScript?",
-    "options": [
-      "^",
-      "**",
-      "exp",
-      "pow"
-    ],
-    "correctAnswer": "**"
-  },
-  {
-    "question": "48. Which method would you call to copy an object's own enumerable properties into a new object?",
-    "options": [
-      "Object.assign()",
-      "Object.copy()",
-      "Object.duplicate()",
-      "Object.inherit()"
-    ],
-    "correctAnswer": "Object.assign()"
-  },
-  {
-    "question": "49. Which function can be used to serialize an object into a JSON string?",
-    "options": [
-      "JSON.parse()",
-      "JSON.stringify()",
-      "JSON.serialize()",
-      "JSON.encode()"
-    ],
-    "correctAnswer": "JSON.stringify()"
-  },
-  {
-    "question": "50. Which method is used to test whether all elements in an array pass a specified test?",
-    "options": [
-      "every()",
-      "all()",
-      "checkAll()",
+      "filter()",
       "reduce()"
     ],
-    "correctAnswer": "every()"
+    "correctAnswer": "map()"
   },
   {
-    "question": "51. Which property of the Screen object gives you the height of the screen in pixels?",
+    "question": "3. How do you define a private field in a JavaScript class?",
     "options": [
-      "screen.height",
-      "window.height",
-      "innerHeight",
-      "document.height"
+      "Using the private keyword",
+      "Using the # prefix",
+      "Using an underscore prefix",
+      "Using the protected keyword"
     ],
-    "correctAnswer": "screen.height"
+    "correctAnswer": "Using the # prefix"
   },
   {
-    "question": "52. Which method can be used to determine if a string begins with certain characters?",
+    "question": "4. Which function syntax allows 'this' to be lexically inherited from the surrounding code?",
     "options": [
-      "startsWith()",
-      "substr()",
-      "slice()",
-      "search()"
+      "function() {}",
+      "() => {}",
+      "function* {}",
+      "async function() {}"
     ],
-    "correctAnswer": "startsWith()"
+    "correctAnswer": "() => {}"
   },
   {
-    "question": "53. Which statement about the Promise object in JavaScript is true?",
+    "question": "5. How do you create a shallow copy of an object in JavaScript?",
     "options": [
-      "A Promise is used to handle synchronous tasks.",
-      "A Promise represents a value that may be available now, later, or never.",
-      "A Promise cannot be chained.",
-      "A Promise must always be resolved, never rejected."
+      "Object.assign({}, obj)",
+      "obj.clone()",
+      "Object.copy(obj)",
+      "new Object(obj)"
     ],
-    "correctAnswer": "A Promise represents a value that may be available now, later, or never."
+    "correctAnswer": "Object.assign({}, obj)"
   },
   {
-    "question": "54. Which method would you use to run a function at the next screen repaint in the browser?",
+    "question": "6. Which array method returns the first element that satisfies a provided testing function?",
     "options": [
-      "requestAnimationFrame()",
-      "setTimeout(fn, 0)",
-      "setInterval(fn, 0)",
-      "queueMicrotask()"
-    ],
-    "correctAnswer": "requestAnimationFrame()"
-  },
-  {
-    "question": "55. Which object in JavaScript references the element that triggered a specific event?",
-    "options": [
-      "event.caller",
-      "event.src",
-      "event.target",
-      "event.this"
-    ],
-    "correctAnswer": "event.target"
-  },
-  {
-    "question": "56. Which operator returns true if the left operand is false, and otherwise returns the left operand?",
-    "options": [
-      "||",
-      "&&",
-      "!"
-    ],
-    "correctAnswer": "||"
-  },
-  {
-    "question": "57. Which method can be used to split a string by a specific separator into an array of substrings?",
-    "options": [
-      "slice()",
-      "substr()",
-      "split()",
-      "splice()"
-    ],
-    "correctAnswer": "split()"
-  },
-  {
-    "question": "58. Which statement is used to import a default export from a module?",
-    "options": [
-      "import default from 'module'",
-      "import * from 'module'",
-      "import { default } from 'module'",
-      "import x from 'module'"
-    ],
-    "correctAnswer": "import x from 'module'"
-  },
-  {
-    "question": "59. Which statement about a NodeList returned by querySelectorAll() is correct?",
-    "options": [
-      "It is a live list that updates automatically.",
-      "It is a static list that does not update.",
-      "It is automatically converted to an array.",
-      "It can only hold one element."
-    ],
-    "correctAnswer": "It is a static list that does not update."
-  },
-  {
-    "question": "60. Which method in JavaScript returns the first index at which a given element can be found in an array, or -1 if it is not present?",
-    "options": [
-      "Array.find()",
-      "Array.indexOf()",
-      "Array.search()",
-      "Array.contains()"
-    ],
-    "correctAnswer": "Array.indexOf()"
-  },
-  {
-    "question": "61. Which property of the Date object returns the year of a specified date?",
-    "options": [
-      "date.getFullYear()",
-      "date.getYear()",
-      "date.year",
-      "date.toYear()"
-    ],
-    "correctAnswer": "date.getFullYear()"
-  },
-  {
-    "question": "62. Which concept describes a function having access to variables in the parent scope, even after the parent function has closed?",
-    "options": [
-      "IIFE",
-      "Callback",
-      "Closure",
-      "Arrow function"
-    ],
-    "correctAnswer": "Closure"
-  },
-  {
-    "question": "63. Which method is used to log a warning message to the web console?",
-    "options": [
-      "console.warn()",
-      "console.log()",
-      "console.error()",
-      "console.warning()"
-    ],
-    "correctAnswer": "console.warn()"
-  },
-  {
-    "question": "64. Which array method tests whether all elements in the array pass the test implemented by the provided function?",
-    "options": [
-      "some()",
-      "every()",
-      "all()",
-      "includes()"
-    ],
-    "correctAnswer": "every()"
-  },
-  {
-    "question": "65. Which Boolean operator returns the opposite of a given Boolean value in JavaScript?",
-    "options": [
-      "&&",
-      "||",
-      "!",
-      "??"
-    ],
-    "correctAnswer": "!"
-  },
-  {
-    "question": "66. Which statement can be used to handle cleanup actions after a try...catch block?",
-    "options": [
-      "close",
-      "finally",
-      "exit",
-      "end"
-    ],
-    "correctAnswer": "finally"
-  },
-  {
-    "question": "67. Which variable declaration allows a variable to be hoisted but not initialized, resulting in 'undefined' if accessed before declaration?",
-    "options": [
-      "var",
-      "let",
-      "const",
-      "None of the above"
-    ],
-    "correctAnswer": "var"
-  },
-  {
-    "question": "68. Which statement is used to export multiple named values from a module in ES6?",
-    "options": [
-      "export values",
-      "module.exports = {...}",
-      "export { ... }",
-      "exports {...}"
-    ],
-    "correctAnswer": "export { ... }"
-  },
-  {
-    "question": "69. Which property in an Error object describes the type of error?",
-    "options": [
-      "error.name",
-      "error.type",
-      "error.class",
-      "error.category"
-    ],
-    "correctAnswer": "error.name"
-  },
-  {
-    "question": "70. Which method is used to load a JavaScript file dynamically during runtime?",
-    "options": [
-      "importScripts()",
-      "document.createScript()",
-      "dynamicImport()",
-      "script.load()"
-    ],
-    "correctAnswer": "importScripts()"
-  },
-  {
-    "question": "71. Which array method applies a function to accumulate a single value from left to right?",
-    "options": [
-      "reduce()",
-      "map()",
-      "forEach()",
-      "some()"
-    ],
-    "correctAnswer": "reduce()"
-  },
-  {
-    "question": "72. Which object method can you use to list all the keys of an object as an array?",
-    "options": [
-      "Object.getOwnPropertyNames()",
-      "Object.keys()",
-      "Object.values()",
-      "Object.entries()"
-    ],
-    "correctAnswer": "Object.keys()"
-  },
-  {
-    "question": "73. Which statement about server-side JavaScript in Node.js is correct?",
-    "options": [
-      "It cannot access the file system.",
-      "It is single-threaded but uses an event-driven, non-blocking I/O model.",
-      "It runs only on Windows.",
-      "It does not support npm packages."
-    ],
-    "correctAnswer": "It is single-threaded but uses an event-driven, non-blocking I/O model."
-  },
-  {
-    "question": "74. Which operator can be used to destructure an array into individual variables?",
-    "options": [
-      "Array destructuring with []",
-      "Object destructuring with {}",
-      "Spread operator with ...",
-      "All of the above"
-    ],
-    "correctAnswer": "Array destructuring with []"
-  },
-  {
-    "question": "75. Which method checks if a string ends with the characters of a specified string?",
-    "options": [
-      "endsWith()",
-      "finishWith()",
-      "lastIndexOf()",
-      "substring()"
-    ],
-    "correctAnswer": "endsWith()"
-  },
-  {
-    "question": "76. Which approach is used to handle multiple asynchronous operations sequentially, avoiding callback hell?",
-    "options": [
-      "Pyramid of Doom",
-      "Promises or async/await",
-      "Synchronous loops",
-      "Global variables"
-    ],
-    "correctAnswer": "Promises or async/await"
-  },
-  {
-    "question": "77. Which array method adds one or more elements to the end of an array and returns the new length?",
-    "options": [
-      "push()",
-      "pop()",
-      "concat()",
-      "append()"
-    ],
-    "correctAnswer": "push()"
-  },
-  {
-    "question": "78. Which JavaScript method is used to create a deep copy of an object if the object only contains serializable data?",
-    "options": [
-      "Object.assign()",
-      "JSON.parse(JSON.stringify(obj))",
-      "Object.deepCopy()",
-      "Object.clone()"
-    ],
-    "correctAnswer": "JSON.parse(JSON.stringify(obj))"
-  },
-  {
-    "question": "79. Which type of loop statement repeats until a specified condition evaluates to false?",
-    "options": [
-      "for",
-      "while",
-      "do...while",
-      "forEach"
-    ],
-    "correctAnswer": "while"
-  },
-  {
-    "question": "80. Which method is used to merge two or more arrays without changing the existing ones, returning a new array?",
-    "options": [
-      "Array.join()",
-      "Array.concat()",
-      "Array.combine()",
-      "Array.append()"
-    ],
-    "correctAnswer": "Array.concat()"
-  },
-  {
-    "question": "81. Which statement is used in a switch block to stop execution of more case clauses once a match is found?",
-    "options": [
-      "continue",
-      "break",
-      "return",
-      "stop"
-    ],
-    "correctAnswer": "break"
-  },
-  {
-    "question": "82. Which JavaScript function can you use to set a cookie with a specific expiration date?",
-    "options": [
-      "document.cookie = 'name=value; expires=...'",
-      "cookie.set()",
-      "Cookie.create()",
-      "sessionStorage.setCookie()"
-    ],
-    "correctAnswer": "document.cookie = 'name=value; expires=...'"
-  },
-  {
-    "question": "83. Which operator is used to check if a property exists in a given object?",
-    "options": [
-      "property of obj",
-      "obj in property",
-      "property in obj",
-      "obj.hasOwn(property)"
-    ],
-    "correctAnswer": "property in obj"
-  },
-  {
-    "question": "84. Which method from the console object outputs an error message?",
-    "options": [
-      "console.log()",
-      "console.error()",
-      "console.warn()",
-      "console.debug()"
-    ],
-    "correctAnswer": "console.error()"
-  },
-  {
-    "question": "85. Which method can be used to remove elements from an array and optionally insert new elements in their place?",
-    "options": [
-      "slice()",
-      "splice()",
-      "split()",
-      "replace()"
-    ],
-    "correctAnswer": "splice()"
-  },
-  {
-    "question": "86. Which object is used to detect screen size and color depth?",
-    "options": [
-      "navigator",
-      "window",
-      "screen",
-      "document"
-    ],
-    "correctAnswer": "screen"
-  },
-  {
-    "question": "87. Which symbol is used for single-line comments in JavaScript?",
-    "options": [
-      "/* ... */",
-      "//",
-      "<!-- ... -->",
-      "#"
-    ],
-    "correctAnswer": "//"
-  },
-  {
-    "question": "88. Which array method checks whether at least one element in the array passes a specific test function?",
-    "options": [
-      "some()",
-      "every()",
-      "map()",
-      "filter()"
-    ],
-    "correctAnswer": "some()"
-  },
-  {
-    "question": "89. Which function can help you parse a string argument and return an integer of the specified radix (base)?",
-    "options": [
-      "Number()",
-      "parseInt()",
-      "parseFloat()",
-      "int()"
-    ],
-    "correctAnswer": "parseInt()"
-  },
-  {
-    "question": "90. Which method merges two or more arrays by creating a new array without altering the existing ones?",
-    "options": [
-      "concat()",
-      "append()",
-      "push()",
-      "spread()"
-    ],
-    "correctAnswer": "concat()"
-  },
-  {
-    "question": "91. Which array method returns the index of the first element that satisfies a testing function?",
-    "options": [
+      "filter()",
       "find()",
-      "findIndex()",
-      "indexOf()",
-      "includes()"
+      "first()",
+      "detect()"
     ],
-    "correctAnswer": "findIndex()"
+    "correctAnswer": "find()"
   },
   {
-    "question": "92. Which method is used to join all elements of an array into a string, separated by commas (or a specified separator)?",
+    "question": "7. What is the output of: [1,2,3,4].reduce((acc, val) => acc + val, 0)?",
     "options": [
-      "join()",
-      "concat()",
-      "slice()",
-      "merge()"
+      "10",
+      "1234",
+      "[1,2,3,4]",
+      "Error"
     ],
-    "correctAnswer": "join()"
+    "correctAnswer": "10"
   },
   {
-    "question": "93. Which statement is used to handle different possible values of a single expression?",
+    "question": "8. Which method would you use to transform a NodeList into an Array?",
     "options": [
-      "switch",
-      "if-else",
-      "try-catch",
-      "loop"
+      "NodeList.toArray()",
+      "Array.from(nodeList)",
+      "[...nodeList]",
+      "Both B and C"
     ],
-    "correctAnswer": "switch"
+    "correctAnswer": "Both B and C"
   },
   {
-    "question": "94. Which method can you use to determine whether a string contains a specified substring?",
+    "question": "9. What does the 'pure function' concept in functional programming mean?",
     "options": [
-      "includes()",
+      "Functions that only use ES6 syntax",
+      "Functions with no parameters",
+      "Functions with no side effects and same output for same input",
+      "Functions that only return boolean values"
+    ],
+    "correctAnswer": "Functions with no side effects and same output for same input"
+  },
+  {
+    "question": "10. Which method checks if an array contains a specific element?",
+    "options": [
       "contains()",
-      "hasSubstring()",
-      "indexOf() >= 0"
+      "has()",
+      "includes()",
+      "some()"
     ],
     "correctAnswer": "includes()"
   },
   {
-    "question": "95. Which event is triggered when the user hovers the mouse pointer over an element?",
+    "question": "11. How do you create a Promise that resolves after a specified delay?",
     "options": [
-      "onmouseover",
-      "onmouseenter",
-      "onhover",
-      "onmousestart"
+      "new Promise(resolve => setTimeout(resolve, delay))",
+      "Promise.delay(ms)",
+      "Promise.timeout(ms)",
+      "await delay(ms)"
     ],
-    "correctAnswer": "onmouseover"
+    "correctAnswer": "new Promise(resolve => setTimeout(resolve, delay))"
   },
   {
-    "question": "96. Which property of an Error object in JavaScript provides an error message in a human-readable form?",
+    "question": "12. Which method would you use to execute code when a Promise is rejected?",
     "options": [
-      "error.text",
-      "error.description",
-      "error.message",
-      "error.details"
+      "then()",
+      "finally()",
+      "catch()",
+      "error()"
     ],
-    "correctAnswer": "error.message"
+    "correctAnswer": "catch()"
   },
   {
-    "question": "97. Which statement is true about variables declared with var?",
+    "question": "13. What's the preferred way to create an object in modern JavaScript?",
     "options": [
-      "They are block-scoped.",
-      "They are globally or function-scoped.",
-      "They cannot be hoisted.",
-      "They must be initialized."
+      "var obj = new Object()",
+      "var obj = Object.create(null)",
+      "var obj = {}",
+      "var obj = Object.assign({})"
     ],
-    "correctAnswer": "They are globally or function-scoped."
+    "correctAnswer": "var obj = {}"
   },
   {
-    "question": "98. Which operator could you use to create a rest parameter in a function definition?",
+    "question": "14. Which method removes the first element from an array and returns that element?",
     "options": [
-      "*",
-      "...",
-      "&",
-      "->"
+      "pop()",
+      "shift()",
+      "unshift()",
+      "splice()"
     ],
-    "correctAnswer": "..."
+    "correctAnswer": "shift()"
   },
   {
-    "question": "99. Which JavaScript keyword is used to terminate the execution of the nearest enclosing function and return a value to the caller?",
+    "question": "15. How do you implement method chaining in a JavaScript class?",
     "options": [
-      "stop",
-      "break",
-      "exit",
-      "return"
+      "Return the method result",
+      "Return this at the end of methods",
+      "Use static methods",
+      "Use arrow functions"
     ],
-    "correctAnswer": "return"
+    "correctAnswer": "Return this at the end of methods"
   },
   {
-    "question": "100. Which object in JavaScript represents the HTML document loaded in the browser, serving as an entry point for DOM manipulation?",
+    "question": "16. What is object destructuring used for?",
     "options": [
-      "document",
-      "window",
-      "navigator",
-      "location"
+      "To delete object properties",
+      "To extract values from objects into variables",
+      "To combine multiple objects",
+      "To convert objects to strings"
     ],
-    "correctAnswer": "document"
+    "correctAnswer": "To extract values from objects into variables"
+  },
+  {
+    "question": "17. Which string method returns the character at a specified position?",
+    "options": [
+      "charAt()",
+      "getChar()",
+      "characterAt()",
+      "position()"
+    ],
+    "correctAnswer": "charAt()"
+  },
+  {
+    "question": "18. What is the purpose of the 'bind()' method?",
+    "options": [
+      "To create a new array with results of a function",
+      "To permanently set the value of 'this' in a function",
+      "To combine two strings",
+      "To create a new function from an existing one"
+    ],
+    "correctAnswer": "To permanently set the value of 'this' in a function"
+  },
+  {
+    "question": "19. What does Object.freeze() do?",
+    "options": [
+      "Prevents adding new properties to an object",
+      "Makes an object immutable",
+      "Converts object to JSON string",
+      "Removes all object methods"
+    ],
+    "correctAnswer": "Makes an object immutable"
+  },
+  {
+    "question": "20. Which is NOT a JavaScript primitive type?",
+    "options": [
+      "String",
+      "Boolean",
+      "Array",
+      "Symbol"
+    ],
+    "correctAnswer": "Array"
+  },
+  {
+    "question": "21. What's the difference between null and undefined?",
+    "options": [
+      "There is no difference",
+      "null is assigned by developers, undefined typically by JavaScript",
+      "undefined is for numbers, null is for objects",
+      "null is falsy, undefined is truthy"
+    ],
+    "correctAnswer": "null is assigned by developers, undefined typically by JavaScript"
+  },
+  {
+    "question": "22. What is the output of typeof null?",
+    "options": [
+      "null",
+      "undefined",
+      "object",
+      "primitive"
+    ],
+    "correctAnswer": "object"
+  },
+  {
+    "question": "23. What does the curry function concept do in functional programming?",
+    "options": [
+      "Adds spices to functions",
+      "Transforms a function with multiple arguments into a sequence of functions",
+      "Transforms arrow functions to regular functions",
+      "Combines multiple functions into one"
+    ],
+    "correctAnswer": "Transforms a function with multiple arguments into a sequence of functions"
+  },
+  {
+    "question": "24. Which array method returns a new array containing elements common to all arrays?",
+    "options": [
+      "commonElements()",
+      "filter()",
+      "intersection()",
+      "There is no built-in method for this"
+    ],
+    "correctAnswer": "There is no built-in method for this"
+  },
+  {
+    "question": "25. What is the purpose of Symbol.iterator?",
+    "options": [
+      "To create unique object identifiers",
+      "To enable objects to be used in for...of loops",
+      "To encrypt data",
+      "To create private object properties"
+    ],
+    "correctAnswer": "To enable objects to be used in for...of loops"
+  },
+  {
+    "question": "26. What is a generator function in JavaScript?",
+    "options": [
+      "A function that generates random numbers",
+      "A function that creates other functions",
+      "A function that can be paused and resumed",
+      "A function that automatically runs on page load"
+    ],
+    "correctAnswer": "A function that can be paused and resumed"
+  },
+  {
+    "question": "27. Which method is used to concatenate arrays?",
+    "options": [
+      "append()",
+      "concat()",
+      "join()",
+      "merge()"
+    ],
+    "correctAnswer": "concat()"
+  },
+  {
+    "question": "28. What is function composition in functional programming?",
+    "options": [
+      "Combining two or more functions to create a new function",
+      "Writing functions inside other functions",
+      "Using recursion in functions",
+      "Creating functions with default parameters"
+    ],
+    "correctAnswer": "Combining two or more functions to create a new function"
+  },
+  {
+    "question": "29. What does the 'new' keyword do?",
+    "options": [
+      "Creates a new variable",
+      "Creates a new function",
+      "Creates an instance of an object type",
+      "Creates a new scope"
+    ],
+    "correctAnswer": "Creates an instance of an object type"
+  },
+  {
+    "question": "30. How do you check if a property exists in an object?",
+    "options": [
+      "obj.hasProperty('prop')",
+      "'prop' in obj",
+      "obj.contains('prop')",
+      "Object.has(obj, 'prop')"
+    ],
+    "correctAnswer": "'prop' in obj"
+  },
+  {
+    "question": "31. What is the result of 0.1 + 0.2 === 0.3 in JavaScript?",
+    "options": [
+      "true",
+      "false",
+      "Error",
+      "undefined"
+    ],
+    "correctAnswer": "false"
+  },
+  {
+    "question": "32. Which method converts JSON to a JavaScript object?",
+    "options": [
+      "JSON.toObject()",
+      "JSON.parse()",
+      "JSON.deserialize()",
+      "JSON.decode()"
+    ],
+    "correctAnswer": "JSON.parse()"
+  },
+  {
+    "question": "33. What is a closure in JavaScript?",
+    "options": [
+      "A way to protect variables from changes",
+      "A function bundled with its lexical environment",
+      "A method to close browser windows",
+      "A technique to end function execution"
+    ],
+    "correctAnswer": "A function bundled with its lexical environment"
+  },
+  {
+    "question": "34. Which operator is used for strict equality comparison?",
+    "options": [
+      "==",
+      "===",
+      "=",
+      "equals()"
+    ],
+    "correctAnswer": "==="
+  },
+  {
+    "question": "35. What are JavaScript template literals enclosed with?",
+    "options": [
+      "''",
+      "\"\"",
+      "``",
+      "$$"
+    ],
+    "correctAnswer": "``"
+  },
+  {
+    "question": "36. Which array method tests if all elements pass a provided function?",
+    "options": [
+      "some()",
+      "every()",
+      "all()",
+      "filter()"
+    ],
+    "correctAnswer": "every()"
+  },
+  {
+    "question": "37. What is the prototype chain in JavaScript?",
+    "options": [
+      "A linked list of functions",
+      "The inheritance mechanism for objects",
+      "A sequence of method calls",
+      "A chain of event handlers"
+    ],
+    "correctAnswer": "The inheritance mechanism for objects"
+  },
+  {
+    "question": "38. Which method is used to perform an action on each element of an array without creating a new array?",
+    "options": [
+      "map()",
+      "forEach()",
+      "reduce()",
+      "filter()"
+    ],
+    "correctAnswer": "forEach()"
+  },
+  {
+    "question": "39. How do you implement inheritance in ES6?",
+    "options": [
+      "Using Object.create()",
+      "Using the 'extends' keyword",
+      "Using prototype chaining",
+      "Using mixins"
+    ],
+    "correctAnswer": "Using the 'extends' keyword"
+  },
+  {
+    "question": "40. What is the spread syntax used for?",
+    "options": [
+      "Creating new variables",
+      "Expanding iterables into individual elements",
+      "Compressing arrays",
+      "Creating object references"
+    ],
+    "correctAnswer": "Expanding iterables into individual elements"
+  },
+  {
+    "question": "41. Which method returns a new array with elements that pass a test implemented by a provided function?",
+    "options": [
+      "map()",
+      "filter()",
+      "reduce()",
+      "forEach()"
+    ],
+    "correctAnswer": "filter()"
+  },
+  {
+    "question": "42. What is the purpose of the 'this' keyword in JavaScript?",
+    "options": [
+      "To refer to the current function",
+      "To refer to the execution context",
+      "To create new objects",
+      "To refer to the parent function"
+    ],
+    "correctAnswer": "To refer to the execution context"
+  },
+  {
+    "question": "43. What's the difference between .call() and .apply()?",
+    "options": [
+      "There is no difference",
+      ".call() accepts an argument list, .apply() accepts an array of arguments",
+      ".apply() is for arrow functions, .call() is for regular functions",
+      ".call() is synchronous, .apply() is asynchronous"
+    ],
+    "correctAnswer": ".call() accepts an argument list, .apply() accepts an array of arguments"
+  },
+  {
+    "question": "44. Which method creates a new array with all sub-array elements concatenated recursively?",
+    "options": [
+      "flatten()",
+      "concat()",
+      "flat()",
+      "reduce()"
+    ],
+    "correctAnswer": "flat()"
+  },
+  {
+    "question": "45. What is event bubbling in the DOM?",
+    "options": [
+      "Events floating to the top of the page",
+      "Events propagating from child to parent elements",
+      "Animation effect for UI elements",
+      "Method to cache event handlers"
+    ],
+    "correctAnswer": "Events propagating from child to parent elements"
+  },
+  {
+    "question": "46. Which method is used to sort elements of an array in place?",
+    "options": [
+      "sort()",
+      "order()",
+      "arrange()",
+      "organize()"
+    ],
+    "correctAnswer": "sort()"
+  },
+  {
+    "question": "47. What is a Promise in JavaScript?",
+    "options": [
+      "A guarantee to execute code exactly once",
+      "An object representing the eventual completion or failure of an async operation",
+      "A special type of function that can't be interrupted",
+      "A way to ensure variables maintain their values"
+    ],
+    "correctAnswer": "An object representing the eventual completion or failure of an async operation"
+  },
+  {
+    "question": "48. Which method returns a portion of a string without modifying the original string?",
+    "options": [
+      "splice()",
+      "slice()",
+      "split()",
+      "substring()"
+    ],
+    "correctAnswer": "slice()"
+  },
+  {
+    "question": "49. What is the nullish coalescing operator (??)?",
+    "options": [
+      "Returns its right-hand side operand when its left-hand side is null or undefined",
+      "Combines two values into a single object",
+      "Converts null values to zero",
+      "Checks if a variable has been initialized"
+    ],
+    "correctAnswer": "Returns its right-hand side operand when its left-hand side is null or undefined"
+  },
+  {
+    "question": "50. What is memoization in functional programming?",
+    "options": [
+      "Technique to remember previously computed results",
+      "Method to document code",
+      "Process to convert functions to methods",
+      "Way to optimize recursive calls"
+    ],
+    "correctAnswer": "Technique to remember previously computed results"
+  },
+  {
+    "question": "51. Which string method is used to replace all occurrences of a substring?",
+    "options": [
+      "replace()",
+      "replaceAll()",
+      "substitute()",
+      "swap()"
+    ],
+    "correctAnswer": "replaceAll()"
+  },
+  {
+    "question": "52. How do you define getter and setter methods in a class?",
+    "options": [
+      "Using the get and set keywords",
+      "Using Object.defineProperty()",
+      "Using prototype inheritance",
+      "Both A and B"
+    ],
+    "correctAnswer": "Both A and B"
+  },
+  {
+    "question": "53. What is the difference between map() and forEach()?",
+    "options": [
+      "forEach() is faster than map()",
+      "map() returns a new array, forEach() doesn't",
+      "forEach() can modify the original array, map() cannot",
+      "map() works on objects, forEach() only works on arrays"
+    ],
+    "correctAnswer": "map() returns a new array, forEach() doesn't"
+  },
+  {
+    "question": "54. What is the purpose of the 'super' keyword in a class?",
+    "options": [
+      "To call methods on the current object",
+      "To access the parent class's constructor or methods",
+      "To create a superclass",
+      "To optimize method execution"
+    ],
+    "correctAnswer": "To access the parent class's constructor or methods"
+  },
+  {
+    "question": "55. Which array method is used to add elements to the beginning of an array?",
+    "options": [
+      "unshift()",
+      "prepend()",
+      "addToStart()",
+      "before()"
+    ],
+    "correctAnswer": "unshift()"
+  },
+  {
+    "question": "56. What is a higher-order function?",
+    "options": [
+      "A function that takes longer to execute",
+      "A function that takes or returns another function",
+      "A function with priority execution",
+      "A function with multiple return statements"
+    ],
+    "correctAnswer": "A function that takes or returns another function"
+  },
+  {
+    "question": "57. Which method creates a new array with reversed elements without modifying the original array?",
+    "options": [
+      "reverse()",
+      "[...arr].reverse()",
+      "flip()",
+      "invert()"
+    ],
+    "correctAnswer": "[...arr].reverse()"
+  },
+  {
+    "question": "58. What does the Object.entries() method return?",
+    "options": [
+      "An array of the object's enumerable property values",
+      "An array of the object's enumerable property names",
+      "An array of [key, value] pairs",
+      "A string representation of the object"
+    ],
+    "correctAnswer": "An array of [key, value] pairs"
+  },
+  {
+    "question": "59. What is the purpose of the 'static' keyword in a class?",
+    "options": [
+      "To create immutable class properties",
+      "To define methods that can be called without an instance",
+      "To prevent a class from being extended",
+      "To make properties fixed after initialization"
+    ],
+    "correctAnswer": "To define methods that can be called without an instance"
+  },
+  {
+    "question": "60. What is the difference between a shallow and deep copy of an object?",
+    "options": [
+      "Deep copies take more memory",
+      "Shallow copy only copies the first level, deep copy includes nested objects",
+      "Deep copies are faster to create",
+      "There is no difference in JavaScript"
+    ],
+    "correctAnswer": "Shallow copy only copies the first level, deep copy includes nested objects"
+  },
+  {
+    "question": "61. Which pattern allows you to access array elements using negative indices?",
+    "options": [
+      "arr[-1]",
+      "arr.at(-1)",
+      "arr.get(-1)",
+      "arr.slice(-1)[0]"
+    ],
+    "correctAnswer": "arr.at(-1)"
+  },
+  {
+    "question": "62. What is the purpose of the 'yield' keyword?",
+    "options": [
+      "To temporarily halt execution and return a value from a generator function",
+      "To create private variables in a class",
+      "To optimize function performance",
+      "To check if a variable is defined"
+    ],
+    "correctAnswer": "To temporarily halt execution and return a value from a generator function"
+  },
+  {
+    "question": "63. Which method returns the first index at which an element can be found in an array?",
+    "options": [
+      "findIndex()",
+      "indexOf()",
+      "search()",
+      "position()"
+    ],
+    "correctAnswer": "indexOf()"
+  },
+  {
+    "question": "64. What is the purpose of Object.seal()?",
+    "options": [
+      "Prevents addition and deletion of properties",
+      "Makes all properties read-only",
+      "Encrypts object data",
+      "Creates a deep copy of an object"
+    ],
+    "correctAnswer": "Prevents addition and deletion of properties"
+  },
+  {
+    "question": "65. What will console.log(1 + '2' + 3) output?",
+    "options": [
+      "6",
+      "123",
+      "15",
+      "Error"
+    ],
+    "correctAnswer": "123"
+  },
+  {
+    "question": "66. Which method creates a new date object with the current date and time?",
+    "options": [
+      "new Date()",
+      "Date.now()",
+      "Date.current()",
+      "Date.today()"
+    ],
+    "correctAnswer": "new Date()"
+  },
+  {
+    "question": "67. What's the difference between undefined and null?",
+    "options": [
+      "They are exactly the same",
+      "undefined means a variable has been declared but not assigned a value, null is an explicitly assigned value",
+      "null is a type, undefined is a value",
+      "undefined is for objects, null is for primitives"
+    ],
+    "correctAnswer": "undefined means a variable has been declared but not assigned a value, null is an explicitly assigned value"
+  },
+  {
+    "question": "68. What is the optional chaining operator?",
+    "options": [
+      "?.",
+      "??",
+      "!.",
+      "?:"
+    ],
+    "correctAnswer": "?."
+  },
+  {
+    "question": "69. How do you add a property to an object in JavaScript?",
+    "options": [
+      "Object.addProp(obj, 'prop', value)",
+      "obj.addProperty('prop', value)",
+      "obj['prop'] = value",
+      "obj.defineProperty('prop', value)"
+    ],
+    "correctAnswer": "obj['prop'] = value"
+  },
+  {
+    "question": "70. What is the output of Boolean('')?",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "Error"
+    ],
+    "correctAnswer": "false"
+  },
+  {
+    "question": "71. Which method returns a localized string representation of a date?",
+    "options": [
+      "date.stringify()",
+      "date.toLocaleDateString()",
+      "date.format()",
+      "date.toDateString()"
+    ],
+    "correctAnswer": "date.toLocaleDateString()"
+  },
+  {
+    "question": "72. Which approach is best for combining multiple arrays?",
+    "options": [
+      "array1.push(array2)",
+      "array1.concat(array2)",
+      "[...array1, ...array2]",
+      "Both B and C"
+    ],
+    "correctAnswer": "Both B and C"
+  },
+  {
+    "question": "73. What is the result of 3 + true in JavaScript?",
+    "options": [
+      "3true",
+      "4",
+      "true3",
+      "Error"
+    ],
+    "correctAnswer": "4"
+  },
+  {
+    "question": "74. What is the output of [1, 2, 3].map(num => num * 2)?",
+    "options": [
+      "[1, 2, 3, 1, 2, 3]",
+      "[1, 4, 9]",
+      "[2, 4, 6]",
+      "[3, 6, 9]"
+    ],
+    "correctAnswer": "[2, 4, 6]"
+  },
+  {
+    "question": "75. What is destructuring assignment in JavaScript?",
+    "options": [
+      "A way to delete objects",
+      "A syntax that extracts data from arrays or objects into separate variables",
+      "A way to compare objects",
+      "A technique to optimize memory usage"
+    ],
+    "correctAnswer": "A syntax that extracts data from arrays or objects into separate variables"
+  },
+  {
+    "question": "76. Which array method adds elements to the end of an array?",
+    "options": [
+      "push()",
+      "append()",
+      "add()",
+      "concat()"
+    ],
+    "correctAnswer": "push()"
+  },
+  {
+    "question": "77. What is the purpose of the async/await syntax?",
+    "options": [
+      "To create asynchronous loops",
+      "To simplify working with Promises",
+      "To create synchronous code",
+      "To prevent race conditions"
+    ],
+    "correctAnswer": "To simplify working with Promises"
+  },
+  {
+    "question": "78. What happens when you access an undefined variable property?",
+    "options": [
+      "It returns null",
+      "It returns undefined",
+      "It throws a TypeError",
+      "It throws a ReferenceError"
+    ],
+    "correctAnswer": "It throws a ReferenceError"
+  },
+  {
+    "question": "79. What is the primary use of the Map object in JavaScript?",
+    "options": [
+      "To create visualizations",
+      "To transform values using a function",
+      "To store key-value pairs with any type of keys",
+      "To display geographical information"
+    ],
+    "correctAnswer": "To store key-value pairs with any type of keys"
+  },
+  {
+    "question": "80. How do you check if an object is an array in JavaScript?",
+    "options": [
+      "obj.isArray()",
+      "obj instanceof Array",
+      "Array.isArray(obj)",
+      "Both B and C"
+    ],
+    "correctAnswer": "Both B and C"
+  },
+  {
+    "question": "81. Which tool enables bundling of JavaScript modules?",
+    "options": [
+      "Node.js",
+      "Webpack",
+      "Babel",
+      "NPM"
+    ],
+    "correctAnswer": "Webpack"
+  },
+  {
+    "question": "82. What's the difference between an array's slice() and splice() methods?",
+    "options": [
+      "slice() returns selected elements in a new array, splice() changes the original array",
+      "slice() works on strings, splice() works on arrays",
+      "There is no difference",
+      "slice() is faster than splice()"
+    ],
+    "correctAnswer": "slice() returns selected elements in a new array, splice() changes the original array"
+  },
+  {
+    "question": "83. Which of the following is NOT a falsy value in JavaScript?",
+    "options": [
+      "0",
+      "''",
+      "[]",
+      "null"
+    ],
+    "correctAnswer": "[]"
+  },
+  {
+    "question": "84. How does JavaScript handle integer overflows?",
+    "options": [
+      "It throws an error",
+      "It wraps the value to the opposite end",
+      "It converts to BigInt automatically",
+      "It doesn't have integer overflow"
+    ],
+    "correctAnswer": "It doesn't have integer overflow"
+  },
+  {
+    "question": "85. What are JavaScript Proxies used for?",
+    "options": [
+      "To bypass CORS restrictions",
+      "To create custom behavior for object operations",
+      "To route network requests",
+      "To represent remote objects"
+    ],
+    "correctAnswer": "To create custom behavior for object operations"
+  },
+  {
+    "question": "86. What is the result of 1 + +'2' + +'3'?",
+    "options": [
+      "'123'",
+      "6",
+      "'1' + NaN + NaN",
+      "Error"
+    ],
+    "correctAnswer": "6"
+  },
+  {
+    "question": "87. Which function is used to delay execution without blocking the main thread?",
+    "options": [
+      "setTimeout()",
+      "sleep()",
+      "wait()",
+      "delay()"
+    ],
+    "correctAnswer": "setTimeout()"
+  },
+  {
+    "question": "88. What is the main difference between let and var?",
+    "options": [
+      "var is block-scoped, let is function-scoped",
+      "let is block-scoped, var is function-scoped",
+      "let can be reassigned, var cannot",
+      "var can be accessed before declaration, let causes a ReferenceError"
+    ],
+    "correctAnswer": "let is block-scoped, var is function-scoped"
+  },
+  {
+    "question": "89. Which object method returns an array of all enumerable property values?",
+    "options": [
+      "Object.values()",
+      "Object.propertyValues()",
+      "Object.getValues()",
+      "Object.items()"
+    ],
+    "correctAnswer": "Object.values()"
+  },
+  {
+    "question": "90. What does the 'use strict' directive do?",
+    "options": [
+      "Forces all variables to be declared",
+      "Enables a strict variant of JavaScript with improved error checking",
+      "Optimizes code execution speed",
+      "Forces the browser to render using the latest standards"
+    ],
+    "correctAnswer": "Enables a strict variant of JavaScript with improved error checking"
+  },
+  {
+    "question": "91. Which is the correct way to import all exports from a module?",
+    "options": [
+      "import * from 'module'",
+      "import 'module'",
+      "import * as name from 'module'",
+      "require('module')"
+    ],
+    "correctAnswer": "import * as name from 'module'"
+  },
+  {
+    "question": "92. What is the correct way to create a Set from an array without duplicates?",
+    "options": [
+      "new Set(array)",
+      "Array.toSet()",
+      "Set.from(array)",
+      "array.removeDuplicates()"
+    ],
+    "correctAnswer": "new Set(array)"
+  },
+  {
+    "question": "93. What is the output of Object.is(0, -0)?",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "Error"
+    ],
+    "correctAnswer": "false"
+  },
+  {
+    "question": "94. Which method is used to determine if an array includes a certain value?",
+    "options": [
+      "contains()",
+      "has()",
+      "includes()",
+      "belongsTo()"
+    ],
+    "correctAnswer": "includes()"
+  },
+  {
+    "question": "95. Which method is used to select an element by its ID in the DOM?",
+    "options": [
+      "document.querySelector()",
+      "document.getElementById()",
+      "document.getElementsByClassName()",
+      "document.getElementByName()"
+    ],
+    "correctAnswer": "document.getElementById()"
+  },
+  {
+    "question": "96. How do you create a new HTML element using JavaScript?",
+    "options": [
+      "document.makeElement()",
+      "document.generateElement()",
+      "document.createElement()",
+      "document.newElement()"
+    ],
+    "correctAnswer": "document.createElement()"
+  },
+  {
+    "question": "97. Which property is used to change the text content of an element?",
+    "options": [
+      "element.innerText",
+      "element.textValue",
+      "element.content",
+      "element.innerValue"
+    ],
+    "correctAnswer": "element.innerText"
+  },
+  {
+    "question": "98. Which method adds a specified element as the last child of a parent element?",
+    "options": [
+      "parent.attachChild(element)",
+      "parent.appendChild(element)",
+      "parent.addChild(element)",
+      "parent.insertChild(element)"
+    ],
+    "correctAnswer": "parent.appendChild(element)"
+  },
+  {
+    "question": "99. How do you add an event listener to an element?",
+    "options": [
+      "element.addEventListener(event, callback)",
+      "element.attachEvent(event, callback)",
+      "element.listen(event, callback)",
+      "element.addHandler(event, callback)"
+    ],
+    "correctAnswer": "element.addEventListener(event, callback)"
+  },
+  {
+    "question": "100. Which property allows you to add, remove, or toggle CSS classes on an element?",
+    "options": [
+      "element.style",
+      "element.className",
+      "element.classList",
+      "element.cssStyles"
+    ],
+    "correctAnswer": "element.classList"
   }
 ]

@@ -2,1201 +2,1001 @@
   {
     "question": "1. What does HTML stand for?",
     "options": [
-      "HyperText Markup Language",
-      "HighText Machine Language",
-      "HyperTabular Markup Language",
-      "None of the above"
+      "Hyper Text Markup Language",
+      "High Text Machine Language",
+      "Hyper Tabular Markup Language",
+      "Hyperlink Text Management Language"
     ],
-    "correctAnswer": "HyperText Markup Language"
+    "correctAnswer": "Hyper Text Markup Language"
   },
   {
-    "question": "2. Which tag is used for the largest heading in HTML?",
+    "question": "2. Which element is used to define the document type?",
     "options": [
-      "<h1>",
-      "<h6>",
-      "<heading>",
-      "<head>"
+      "<!DOCTYPE>",
+      "<doctype>",
+      "<meta>",
+      "<type>"
     ],
-    "correctAnswer": "<h1>"
+    "correctAnswer": "<!DOCTYPE>"
   },
   {
-    "question": "3. Which tag defines a paragraph?",
-    "options": [
-      "<p>",
-      "<para>",
-      "<paragraph>",
-      "<text>"
-    ],
-    "correctAnswer": "<p>"
-  },
-  {
-    "question": "4. Which tag defines an image?",
-    "options": [
-      "<img>",
-      "<picture>",
-      "<image>",
-      "<src>"
-    ],
-    "correctAnswer": "<img>"
-  },
-  {
-    "question": "5. Which attribute specifies the URL of an image?",
-    "options": [
-      "src",
-      "href",
-      "link",
-      "url"
-    ],
-    "correctAnswer": "src"
-  },
-  {
-    "question": "6. What is the purpose of the alt attribute in images?",
-    "options": [
-      "Provides alternative text for an image",
-      "Specifies the image source",
-      "Sets the image alignment",
-      "None of the above"
-    ],
-    "correctAnswer": "Provides alternative text for an image"
-  },
-  {
-    "question": "7. Which tag defines a hyperlink?",
+    "question": "3. Which tag creates a hyperlink?",
     "options": [
       "<a>",
       "<link>",
       "<href>",
-      "<hyperlink>"
+      "<nav>"
     ],
     "correctAnswer": "<a>"
   },
   {
-    "question": "8. What attribute defines the destination of a hyperlink?",
+    "question": "4. Which HTML attribute specifies an alternate text for an image?",
     "options": [
-      "href",
+      "alt",
+      "title",
       "src",
-      "link",
-      "destination"
+      "description"
     ],
-    "correctAnswer": "href"
+    "correctAnswer": "alt"
   },
   {
-    "question": "9. Which tag is used to create an unordered list?",
-    "options": [
-      "<ul>",
-      "<ol>",
-      "<li>",
-      "<list>"
-    ],
-    "correctAnswer": "<ul>"
-  },
-  {
-    "question": "10. Which tag is used to create an ordered list?",
-    "options": [
-      "<ol>",
-      "<ul>",
-      "<list>",
-      "<order>"
-    ],
-    "correctAnswer": "<ol>"
-  },
-  {
-    "question": "11. Which tag is used to define a list item?",
-    "options": [
-      "<li>",
-      "<item>",
-      "<list-item>",
-      "<ul>"
-    ],
-    "correctAnswer": "<li>"
-  },
-  {
-    "question": "12. Which tag defines a table in HTML?",
-    "options": [
-      "<table>",
-      "<tab>",
-      "<tr>",
-      "<td>"
-    ],
-    "correctAnswer": "<table>"
-  },
-  {
-    "question": "13. Which tag defines a table row?",
-    "options": [
-      "<tr>",
-      "<row>",
-      "<td>",
-      "<th>"
-    ],
-    "correctAnswer": "<tr>"
-  },
-  {
-    "question": "14. Which tag defines a table cell?",
-    "options": [
-      "<td>",
-      "<cell>",
-      "<th>",
-      "<tr>"
-    ],
-    "correctAnswer": "<td>"
-  },
-  {
-    "question": "15. Which tag defines the table header?",
+    "question": "5. Which HTML element is used for creating a table header?",
     "options": [
       "<th>",
       "<thead>",
       "<header>",
-      "<td>"
+      "<tbl>"
     ],
     "correctAnswer": "<th>"
   },
   {
-    "question": "16. Which tag is used for a line break?",
+    "question": "6. Which tag is used to create an ordered list?",
+    "options": [
+      "<ol>",
+      "<ul>",
+      "<li>",
+      "<dl>"
+    ],
+    "correctAnswer": "<ol>"
+  },
+  {
+    "question": "7. What is the correct HTML element for inserting a line break?",
     "options": [
       "<br>",
       "<lb>",
       "<break>",
-      "<line>"
+      "<newline>"
     ],
     "correctAnswer": "<br>"
   },
   {
-    "question": "17. How do you create a comment in HTML?",
-    "options": [
-      "<!-- Comment -->",
-      "// Comment",
-      "/* Comment */",
-      "<comment>Comment</comment>"
-    ],
-    "correctAnswer": "<!-- Comment -->"
-  },
-  {
-    "question": "18. Which tag is used to define the head section of an HTML document?",
-    "options": [
-      "<head>",
-      "<header>",
-      "<meta>",
-      "<body>"
-    ],
-    "correctAnswer": "<head>"
-  },
-  {
-    "question": "19. Which tag is used to define the body section of an HTML document?",
-    "options": [
-      "<body>",
-      "<head>",
-      "<main>",
-      "<section>"
-    ],
-    "correctAnswer": "<body>"
-  },
-  {
-    "question": "20. Which tag is used to define a form?",
-    "options": [
-      "<form>",
-      "<input>",
-      "<formulate>",
-      "<button>"
-    ],
-    "correctAnswer": "<form>"
-  },
-  {
-    "question": "21. Which attribute specifies the URL to which a form is submitted?",
-    "options": [
-      "action",
-      "method",
-      "submit",
-      "href"
-    ],
-    "correctAnswer": "action"
-  },
-  {
-    "question": "22. Which tag defines an input field?",
-    "options": [
-      "<input>",
-      "<field>",
-      "<text>",
-      "<form>"
-    ],
-    "correctAnswer": "<input>"
-  },
-  {
-    "question": "23. Which attribute defines the type of an input field?",
-    "options": [
-      "type",
-      "input-type",
-      "field-type",
-      "data-type"
-    ],
-    "correctAnswer": "type"
-  },
-  {
-    "question": "24. Which tag defines a drop-down list?",
-    "options": [
-      "<select>",
-      "<dropdown>",
-      "<list>",
-      "<option>"
-    ],
-    "correctAnswer": "<select>"
-  },
-  {
-    "question": "25. Which tag defines an option in a drop-down list?",
-    "options": [
-      "<option>",
-      "<opt>",
-      "<choice>",
-      "<select-item>"
-    ],
-    "correctAnswer": "<option>"
-  },
-  {
-    "question": "26. What does the <br> tag do?",
-    "options": [
-      "Inserts a line break",
-      "Creates a new paragraph",
-      "Bold text",
-      "Italicizes text"
-    ],
-    "correctAnswer": "Inserts a line break"
-  },
-  {
-    "question": "27. What does the <hr> tag do?",
-    "options": [
-      "Inserts a horizontal rule",
-      "Creates a heading",
-      "Inserts an image",
-      "Creates a hyperlink"
-    ],
-    "correctAnswer": "Inserts a horizontal rule"
-  },
-  {
-    "question": "28. Which tag defines a division or section in an HTML document?",
-    "options": [
-      "<div>",
-      "<span>",
-      "<section>",
-      "<article>"
-    ],
-    "correctAnswer": "<div>"
-  },
-  {
-    "question": "29. Which tag defines a blockquote?",
-    "options": [
-      "<blockquote>",
-      "<quote>",
-      "<q>",
-      "<cite>"
-    ],
-    "correctAnswer": "<blockquote>"
-  },
-  {
-    "question": "30. Which tag defines emphasized text?",
-    "options": [
-      "<em>",
-      "<i>",
-      "<strong>",
-      "<b>"
-    ],
-    "correctAnswer": "<em>"
-  },
-  {
-    "question": "31. Which tag defines strong text?",
-    "options": [
-      "<strong>",
-      "<b>",
-      "<em>",
-      "<i>"
-    ],
-    "correctAnswer": "<strong>"
-  },
-  {
-    "question": "32. Which tag is used to display inline code?",
-    "options": [
-      "<code>",
-      "<pre>",
-      "<samp>",
-      "<kbd>"
-    ],
-    "correctAnswer": "<code>"
-  },
-  {
-    "question": "33. Which tag is used to display a code block?",
-    "options": [
-      "<pre>",
-      "<code>",
-      "<blockcode>",
-      "<script>"
-    ],
-    "correctAnswer": "<pre>"
-  },
-  {
-    "question": "34. Which tag is used to define a footer in an HTML document?",
-    "options": [
-      "<footer>",
-      "<bottom>",
-      "<section>",
-      "<aside>"
-    ],
-    "correctAnswer": "<footer>"
-  },
-  {
-    "question": "35. Which tag is used to define a header in an HTML document?",
-    "options": [
-      "<header>",
-      "<head>",
-      "<top>",
-      "<nav>"
-    ],
-    "correctAnswer": "<header>"
-  },
-  {
-    "question": "36. Which tag is used to define navigation links?",
-    "options": [
-      "<nav>",
-      "<navigation>",
-      "<menu>",
-      "<ul>"
-    ],
-    "correctAnswer": "<nav>"
-  },
-  {
-    "question": "37. Which tag is used to define a section in HTML5?",
-    "options": [
-      "<section>",
-      "<div>",
-      "<article>",
-      "<header>"
-    ],
-    "correctAnswer": "<section>"
-  },
-  {
-    "question": "38. Which tag is used to define an article in HTML5?",
-    "options": [
-      "<article>",
-      "<post>",
-      "<entry>",
-      "<section>"
-    ],
-    "correctAnswer": "<article>"
-  },
-  {
-    "question": "39. Which tag is used to define a figure in HTML5?",
-    "options": [
-      "<figure>",
-      "<image>",
-      "<pic>",
-      "<diagram>"
-    ],
-    "correctAnswer": "<figure>"
-  },
-  {
-    "question": "40. Which tag is used to define a figcaption in HTML5?",
-    "options": [
-      "<figcaption>",
-      "<caption>",
-      "<label>",
-      "<legend>"
-    ],
-    "correctAnswer": "<figcaption>"
-  },
-  {
-    "question": "41. Which tag is used to define a main content area in HTML5?",
-    "options": [
-      "<main>",
-      "<body>",
-      "<section>",
-      "<article>"
-    ],
-    "correctAnswer": "<main>"
-  },
-  {
-    "question": "42. What is the purpose of the <!DOCTYPE html> declaration?",
-    "options": [
-      "It specifies the HTML version and ensures standards mode",
-      "It imports the HTML file",
-      "It defines the document structure",
-      "It is used for linking CSS"
-    ],
-    "correctAnswer": "It specifies the HTML version and ensures standards mode"
-  },
-  {
-    "question": "43. Which attribute specifies the character encoding in an HTML document?",
-    "options": [
-      "charset",
-      "encoding",
-      "char",
-      "code"
-    ],
-    "correctAnswer": "charset"
-  },
-  {
-    "question": "44. What is the correct element to define the document's title?",
+    "question": "8. Which HTML element defines the title of a document?",
     "options": [
       "<title>",
       "<head>",
-      "<meta>",
-      "<header>"
+      "<header>",
+      "<meta>"
     ],
     "correctAnswer": "<title>"
   },
   {
-    "question": "45. Which tag is used to embed a video in an HTML document?",
+    "question": "9. Which HTML tag is used to create a form?",
     "options": [
-      "<video>",
-      "<media>",
-      "<movie>",
-      "<iframe>"
-    ],
-    "correctAnswer": "<video>"
-  },
-  {
-    "question": "46. Which tag is used to embed audio in an HTML document?",
-    "options": [
-      "<audio>",
-      "<sound>",
-      "<music>",
-      "<embed>"
-    ],
-    "correctAnswer": "<audio>"
-  },
-  {
-    "question": "47. Which attribute is used to specify a video file's URL?",
-    "options": [
-      "src",
-      "href",
-      "source",
-      "file"
-    ],
-    "correctAnswer": "src"
-  },
-  {
-    "question": "48. Which attribute in the <video> tag defines whether the video should play automatically?",
-    "options": [
-      "autoplay",
-      "auto",
-      "play",
-      "begin"
-    ],
-    "correctAnswer": "autoplay"
-  },
-  {
-    "question": "49. Which attribute in the <video> tag defines whether controls should be displayed?",
-    "options": [
-      "controls",
-      "show-controls",
-      "display",
-      "buttons"
-    ],
-    "correctAnswer": "controls"
-  },
-  {
-    "question": "50. Which tag is used to embed a scalable vector graphic?",
-    "options": [
-      "<svg>",
-      "<canvas>",
-      "<vector>",
-      "<img>"
-    ],
-    "correctAnswer": "<svg>"
-  },
-  {
-    "question": "51. Which tag is used to define metadata about an HTML document?",
-    "options": [
-      "<meta>",
-      "<data>",
-      "<info>",
-      "<script>"
-    ],
-    "correctAnswer": "<meta>"
-  },
-  {
-    "question": "52. Which attribute in the <meta> tag specifies the author of the document?",
-    "options": [
-      "name=\"author\"",
-      "content=\"author\"",
-      "author",
-      "meta-author"
-    ],
-    "correctAnswer": "name=\"author\""
-  },
-  {
-    "question": "53. Which attribute in the <meta> tag is used to specify the description of a webpage?",
-    "options": [
-      "name=\"description\"",
-      "description",
-      "meta-description",
-      "content=\"description\""
-    ],
-    "correctAnswer": "name=\"description\""
-  },
-  {
-    "question": "54. Which tag is used to link an external CSS file?",
-    "options": [
-      "<link>",
-      "<style>",
-      "<css>",
-      "<script>"
-    ],
-    "correctAnswer": "<link>"
-  },
-  {
-    "question": "55. Which attribute in the <link> tag specifies the relationship between the current document and the linked file?",
-    "options": [
-      "rel",
-      "href",
-      "type",
-      "src"
-    ],
-    "correctAnswer": "rel"
-  },
-  {
-    "question": "56. Which attribute in the <link> tag specifies the location of the linked file?",
-    "options": [
-      "href",
-      "src",
-      "link",
-      "path"
-    ],
-    "correctAnswer": "href"
-  },
-  {
-    "question": "57. Which tag is used to define a script in HTML?",
-    "options": [
-      "<script>",
-      "<code>",
-      "<js>",
-      "<scripting>"
-    ],
-    "correctAnswer": "<script>"
-  },
-  {
-    "question": "58. Which attribute in the <script> tag specifies the URL of an external script file?",
-    "options": [
-      "src",
-      "href",
-      "link",
-      "script"
-    ],
-    "correctAnswer": "src"
-  },
-  {
-    "question": "59. Which attribute is used to include inline styles in an HTML element?",
-    "options": [
-      "style",
-      "class",
-      "css",
-      "font"
-    ],
-    "correctAnswer": "style"
-  },
-  {
-    "question": "60. What does the target attribute in an anchor tag do?",
-    "options": [
-      "Specifies where to open the linked document",
-      "Specifies the URL",
-      "Specifies the link's title",
-      "Specifies the link's text"
-    ],
-    "correctAnswer": "Specifies where to open the linked document"
-  },
-  {
-    "question": "61. Which target value opens the linked document in a new tab?",
-    "options": [
-      "_blank",
-      "_new",
-      "new",
-      "blank"
-    ],
-    "correctAnswer": "_blank"
-  },
-  {
-    "question": "62. Which tag is used to group inline elements in HTML?",
-    "options": [
-      "<span>",
-      "<div>",
-      "<group>",
-      "<section>"
-    ],
-    "correctAnswer": "<span>"
-  },
-  {
-    "question": "63. Which tag is used to create a clickable button?",
-    "options": [
-      "<button>",
+      "<form>",
       "<input>",
-      "<click>",
-      "<a>"
+      "<section>",
+      "<field>"
     ],
-    "correctAnswer": "<button>"
+    "correctAnswer": "<form>"
   },
   {
-    "question": "64. Which attribute in the <input> tag specifies a button's text?",
+    "question": "10. Which attribute sets the text direction?",
     "options": [
-      "value",
-      "text",
-      "label",
-      "placeholder"
+      "dir",
+      "lang",
+      "text-direction",
+      "orientation"
     ],
-    "correctAnswer": "value"
+    "correctAnswer": "dir"
   },
   {
-    "question": "65. Which input type is used to create a checkbox?",
+    "question": "11. Which element defines navigation links?",
     "options": [
-      "checkbox",
-      "radio",
-      "button",
-      "check"
+      "<nav>",
+      "<navigation>",
+      "<menu>",
+      "<links>"
     ],
-    "correctAnswer": "checkbox"
+    "correctAnswer": "<nav>"
   },
   {
-    "question": "66. Which input type is used to create a radio button?",
+    "question": "12. Which HTML element represents self-contained content?",
     "options": [
-      "radio",
-      "checkbox",
-      "button",
+      "<article>",
+      "<section>",
+      "<div>",
+      "<block>"
+    ],
+    "correctAnswer": "<article>"
+  },
+  {
+    "question": "13. Which tag creates a checkbox input?",
+    "options": [
+      "<input type=\"checkbox\">",
+      "<checkbox>",
+      "<option type=\"check\">",
+      "<check>"
+    ],
+    "correctAnswer": "<input type=\"checkbox\">"
+  },
+  {
+    "question": "14. Which attribute specifies where to submit form data?",
+    "options": [
+      "action",
+      "method",
+      "target",
       "submit"
     ],
-    "correctAnswer": "radio"
+    "correctAnswer": "action"
   },
   {
-    "question": "67. Which input type is used for entering an email address?",
+    "question": "15. Which HTML element defines emphasized text?",
     "options": [
-      "email",
-      "text",
-      "number",
-      "url"
+      "<em>",
+      "<i>",
+      "<italic>",
+      "<stress>"
     ],
-    "correctAnswer": "email"
+    "correctAnswer": "<em>"
   },
   {
-    "question": "68. Which input type is used for entering a password?",
-    "options": [
-      "password",
-      "text",
-      "pass",
-      "secure"
-    ],
-    "correctAnswer": "password"
-  },
-  {
-    "question": "69. Which tag is used to create a drop-down list?",
+    "question": "16. What is the correct HTML for creating a dropdown list?",
     "options": [
       "<select>",
       "<dropdown>",
-      "<list>",
-      "<option>"
+      "<option>",
+      "<list>"
     ],
     "correctAnswer": "<select>"
   },
   {
-    "question": "70. Which tag defines the title of a fieldset in a form?",
+    "question": "17. Which HTML element is used for grouping table rows?",
     "options": [
-      "<legend>",
+      "<tbody>",
+      "<tgroup>",
+      "<rowgroup>",
+      "<group>"
+    ],
+    "correctAnswer": "<tbody>"
+  },
+  {
+    "question": "18. Which attribute is used to provide advisory text about an element?",
+    "options": [
+      "title",
+      "alt",
+      "tooltip",
+      "info"
+    ],
+    "correctAnswer": "title"
+  },
+  {
+    "question": "19. Which HTML element represents a thematic break?",
+    "options": [
+      "<hr>",
+      "<br>",
+      "<line>",
+      "<divider>"
+    ],
+    "correctAnswer": "<hr>"
+  },
+  {
+    "question": "20. Which attribute defines the character encoding?",
+    "options": [
+      "charset",
+      "encoding",
+      "character",
+      "unicode"
+    ],
+    "correctAnswer": "charset"
+  },
+  {
+    "question": "21. Which HTML element defines a caption for a table?",
+    "options": [
       "<caption>",
-      "<label>",
-      "<title>"
+      "<title>",
+      "<thead>",
+      "<figcaption>"
     ],
-    "correctAnswer": "<legend>"
+    "correctAnswer": "<caption>"
   },
   {
-    "question": "71. Which tag is used to group related elements in a form?",
+    "question": "22. Which tag is used to create an unordered list?",
     "options": [
-      "<fieldset>",
-      "<group>",
+      "<ul>",
+      "<ol>",
+      "<list>",
+      "<unordered>"
+    ],
+    "correctAnswer": "<ul>"
+  },
+  {
+    "question": "23. Which HTML element displays a scalar measurement within a range?",
+    "options": [
+      "<meter>",
+      "<gauge>",
+      "<measure>",
+      "<range>"
+    ],
+    "correctAnswer": "<meter>"
+  },
+  {
+    "question": "24. Which element creates a definition list?",
+    "options": [
+      "<dl>",
+      "<dt>",
+      "<dd>",
+      "<deflist>"
+    ],
+    "correctAnswer": "<dl>"
+  },
+  {
+    "question": "25. What HTML element contains all the content of an HTML document?",
+    "options": [
+      "<body>",
+      "<html>",
+      "<content>",
+      "<main>"
+    ],
+    "correctAnswer": "<body>"
+  },
+  {
+    "question": "26. Which HTML attribute specifies the URL of the page to load when clicked?",
+    "options": [
+      "href",
+      "src",
+      "link",
+      "url"
+    ],
+    "correctAnswer": "href"
+  },
+  {
+    "question": "27. Which element represents a container for multiple image resources?",
+    "options": [
+      "<picture>",
+      "<images>",
+      "<gallery>",
+      "<imgset>"
+    ],
+    "correctAnswer": "<picture>"
+  },
+  {
+    "question": "28. Which HTML5 element defines a standard section in a document?",
+    "options": [
+      "<section>",
       "<div>",
-      "<form>"
+      "<part>",
+      "<segment>"
     ],
-    "correctAnswer": "<fieldset>"
+    "correctAnswer": "<section>"
   },
   {
-    "question": "72. Which attribute specifies a form element's name?",
+    "question": "29. Which element creates a radio button input?",
     "options": [
-      "name",
-      "id",
-      "class",
-      "type"
+      "<input type=\"radio\">",
+      "<radio>",
+      "<option type=\"radio\">",
+      "<check type=\"round\">"
     ],
-    "correctAnswer": "name"
+    "correctAnswer": "<input type=\"radio\">"
   },
   {
-    "question": "73. Which attribute is used to disable an HTML element?",
-    "options": [
-      "disabled",
-      "readonly",
-      "inactive",
-      "no"
-    ],
-    "correctAnswer": "disabled"
-  },
-  {
-    "question": "74. Which attribute is used to pre-fill a form input with a value?",
-    "options": [
-      "value",
-      "placeholder",
-      "default",
-      "text"
-    ],
-    "correctAnswer": "value"
-  },
-  {
-    "question": "75. Which attribute is used to limit the number of characters in an input field?",
-    "options": [
-      "maxlength",
-      "size",
-      "limit",
-      "length"
-    ],
-    "correctAnswer": "maxlength"
-  },
-  {
-    "question": "76. Which tag is used to create a multi-line text input?",
+    "question": "30. Which tag creates a text area input?",
     "options": [
       "<textarea>",
-      "<input type=\"text\">",
-      "<text>",
+      "<input type=\"textarea\">",
+      "<textfield>",
       "<multiline>"
     ],
     "correctAnswer": "<textarea>"
   },
   {
-    "question": "77. Which attribute of the <textarea> tag specifies the number of visible text lines?",
+    "question": "31. Which HTML5 element represents a piece of self-contained content?",
     "options": [
-      "rows",
-      "cols",
-      "lines",
-      "size"
+      "<article>",
+      "<content>",
+      "<section>",
+      "<piece>"
     ],
-    "correctAnswer": "rows"
+    "correctAnswer": "<article>"
   },
   {
-    "question": "78. Which attribute of the <textarea> tag specifies the visible width?",
+    "question": "32. Which element creates a heading level 1?",
     "options": [
-      "cols",
-      "rows",
-      "width",
-      "size"
+      "<h1>",
+      "<heading1>",
+      "<header1>",
+      "<head1>"
     ],
-    "correctAnswer": "cols"
+    "correctAnswer": "<h1>"
   },
   {
-    "question": "79. What does the <mark> tag do in HTML5?",
+    "question": "33. Which HTML element defines a description list?",
     "options": [
-      "Highlights text",
-      "Displays marked text",
-      "Creates a bookmark",
-      "Indicates important text"
+      "<dl>",
+      "<description>",
+      "<deflist>",
+      "<dir>"
     ],
-    "correctAnswer": "Highlights text"
+    "correctAnswer": "<dl>"
   },
   {
-    "question": "80. Which tag is used to define an abbreviation or acronym in HTML?",
+    "question": "34. Which HTML element defines preformatted text?",
     "options": [
-      "<abbr>",
-      "<acronym>",
-      "<abbrv>",
-      "<ac>"
+      "<pre>",
+      "<code>",
+      "<format>",
+      "<pretext>"
     ],
-    "correctAnswer": "<abbr>"
+    "correctAnswer": "<pre>"
   },
   {
-    "question": "81. Which attribute in the <abbr> tag provides an expansion for the abbreviation?",
-    "options": [
-      "title",
-      "alt",
-      "expanded",
-      "data"
-    ],
-    "correctAnswer": "title"
-  },
-  {
-    "question": "82. Which tag is used to display a horizontal rule?",
-    "options": [
-      "<hr>",
-      "<line>",
-      "<rule>",
-      "<break>"
-    ],
-    "correctAnswer": "<hr>"
-  },
-  {
-    "question": "83. Which tag is used to define a navigation menu in HTML5?",
-    "options": [
-      "<nav>",
-      "<menu>",
-      "<ul>",
-      "<navmenu>"
-    ],
-    "correctAnswer": "<nav>"
-  },
-  {
-    "question": "84. Which tag is used to create a collapsible content section in HTML5?",
-    "options": [
-      "<details>",
-      "<collapse>",
-      "<summary>",
-      "<section>"
-    ],
-    "correctAnswer": "<details>"
-  },
-  {
-    "question": "85. Which tag is used to define the summary or label for a <details> element?",
-    "options": [
-      "<summary>",
-      "<caption>",
-      "<label>",
-      "<header>"
-    ],
-    "correctAnswer": "<summary>"
-  },
-  {
-    "question": "86. Which attribute in the <iframe> tag specifies the URL of the page to embed?",
-    "options": [
-      "src",
-      "href",
-      "link",
-      "data"
-    ],
-    "correctAnswer": "src"
-  },
-  {
-    "question": "87. Which attribute in the <iframe> tag specifies a title for accessibility?",
-    "options": [
-      "title",
-      "alt",
-      "name",
-      "aria-label"
-    ],
-    "correctAnswer": "title"
-  },
-  {
-    "question": "88. What is the purpose of the <noscript> tag?",
-    "options": [
-      "To provide content for browsers that do not support JavaScript",
-      "To disable JavaScript",
-      "To include external scripts",
-      "To define inline scripts"
-    ],
-    "correctAnswer": "To provide content for browsers that do not support JavaScript"
-  },
-  {
-    "question": "89. Which attribute can be used to define custom data attributes on HTML elements?",
-    "options": [
-      "data-*",
-      "custom-*",
-      "attr-*",
-      "user-*"
-    ],
-    "correctAnswer": "data-*"
-  },
-  {
-    "question": "90. How are custom data attributes defined in HTML5?",
-    "options": [
-      "By using attributes that start with data-",
-      "By using the data attribute",
-      "By using custom attributes",
-      "By using id attributes"
-    ],
-    "correctAnswer": "By using attributes that start with data-"
-  },
-  {
-    "question": "91. Which attribute is used to specify the language of an HTML document?",
+    "question": "35. Which HTML attribute is used to specify the language of the document?",
     "options": [
       "lang",
       "language",
-      "xml:lang",
-      "locale"
+      "locale",
+      "region"
     ],
     "correctAnswer": "lang"
   },
   {
-    "question": "92. Which tag is used to define a citation in HTML?",
+    "question": "36. Which element represents a generic container?",
     "options": [
-      "<cite>",
-      "<citation>",
-      "<ref>",
-      "<blockquote>"
+      "<div>",
+      "<container>",
+      "<span>",
+      "<section>"
     ],
-    "correctAnswer": "<cite>"
+    "correctAnswer": "<div>"
   },
   {
-    "question": "93. Which tag is used to define a time element in HTML5?",
+    "question": "37. Which tag defines the document metadata?",
     "options": [
-      "<time>",
-      "<date>",
-      "<clock>",
-      "<timer>"
+      "<meta>",
+      "<metadata>",
+      "<info>",
+      "<data>"
     ],
-    "correctAnswer": "<time>"
+    "correctAnswer": "<meta>"
   },
   {
-    "question": "94. Which attribute in the <time> tag specifies the machine-readable date/time?",
+    "question": "38. Which HTML element represents a figure?",
     "options": [
-      "datetime",
-      "date",
-      "time",
-      "format"
-    ],
-    "correctAnswer": "datetime"
-  },
-  {
-    "question": "95. What does the <wbr> tag do?",
-    "options": [
-      "Suggests a line break opportunity",
-      "Inserts a line break",
-      "Prevents a line break",
-      "Highlights text"
-    ],
-    "correctAnswer": "Suggests a line break opportunity"
-  },
-  {
-    "question": "96. Which attribute is used in <img> tags to define alternative text?",
-    "options": [
-      "alt",
-      "title",
-      "src",
-      "text"
-    ],
-    "correctAnswer": "alt"
-  },
-  {
-    "question": "97. Which tag is used to create a responsive image in HTML5?",
-    "options": [
-      "<picture>",
+      "<figure>",
       "<img>",
-      "<srcset>",
-      "<responsive>"
+      "<graphic>",
+      "<drawing>"
     ],
-    "correctAnswer": "<picture>"
+    "correctAnswer": "<figure>"
   },
   {
-    "question": "98. What is the purpose of the srcset attribute in the <img> tag?",
+    "question": "39. Which attribute sets an input field as required?",
     "options": [
-      "To specify multiple image sources for different device resolutions",
-      "To set the image source",
-      "To define image styles",
-      "To link an image"
+      "required",
+      "mandatory",
+      "needed",
+      "essential"
     ],
-    "correctAnswer": "To specify multiple image sources for different device resolutions"
+    "correctAnswer": "required"
   },
   {
-    "question": "99. Which attribute in the <img> tag specifies image sizes for different viewport widths?",
+    "question": "40. Which element defines keyboard input?",
     "options": [
-      "sizes",
-      "width",
-      "media",
-      "srcset"
+      "<kbd>",
+      "<keyboard>",
+      "<key>",
+      "<input>"
     ],
-    "correctAnswer": "sizes"
+    "correctAnswer": "<kbd>"
   },
   {
-    "question": "100. Which tag is used to embed a favicon in an HTML document?",
+    "question": "41. Which element creates a button?",
     "options": [
-      "<link>",
-      "<favicon>",
-      "<icon>",
-      "<meta>"
+      "<button>",
+      "<input type=\"button\">",
+      "<btn>",
+      "<control>"
     ],
-    "correctAnswer": "<link>"
+    "correctAnswer": "<button>"
   },
   {
-    "question": "101. Which attribute in the <link> tag is used to specify the icon type?",
-    "options": [
-      "type",
-      "rel",
-      "href",
-      "media"
-    ],
-    "correctAnswer": "type"
-  },
-  {
-    "question": "102. Which HTML element represents the footer of a document or section?",
+    "question": "42. Which element creates a footer for a document?",
     "options": [
       "<footer>",
       "<bottom>",
-      "<aside>",
-      "<section>"
+      "<end>",
+      "<footnote>"
     ],
     "correctAnswer": "<footer>"
   },
   {
-    "question": "103. Which HTML element represents the header of a document or section?",
+    "question": "43. Which attribute defines keyboard shortcuts for an element?",
+    "options": [
+      "accesskey",
+      "shortcut",
+      "keyboard",
+      "hotkey"
+    ],
+    "correctAnswer": "accesskey"
+  },
+  {
+    "question": "44. Which element represents a progress bar?",
+    "options": [
+      "<progress>",
+      "<meter>",
+      "<loading>",
+      "<status>"
+    ],
+    "correctAnswer": "<progress>"
+  },
+  {
+    "question": "45. Which HTML element represents the main content of a document?",
+    "options": [
+      "<main>",
+      "<content>",
+      "<body>",
+      "<primary>"
+    ],
+    "correctAnswer": "<main>"
+  },
+  {
+    "question": "46. Which HTML element specifies a header for a document or section?",
     "options": [
       "<header>",
-      "<head>",
+      "<heading>",
       "<top>",
-      "<nav>"
+      "<h1>"
     ],
     "correctAnswer": "<header>"
   },
   {
-    "question": "104. What does the <base> tag do in an HTML document?",
+    "question": "47. Which attribute sets an input field as read-only?",
     "options": [
-      "Specifies the base URL for all relative URLs in the document",
-      "Defines the document's title",
-      "Links a stylesheet",
-      "Sets the document's language"
+      "readonly",
+      "disabled",
+      "static",
+      "noedit"
     ],
-    "correctAnswer": "Specifies the base URL for all relative URLs in the document"
+    "correctAnswer": "readonly"
   },
   {
-    "question": "105. Which attribute in the <base> tag specifies the base URL?",
-    "options": [
-      "href",
-      "src",
-      "base",
-      "url"
-    ],
-    "correctAnswer": "href"
-  },
-  {
-    "question": "106. Which tag is used to define a term in a description list?",
+    "question": "48. Which element creates a definition term?",
     "options": [
       "<dt>",
       "<dd>",
-      "<dl>",
+      "<def>",
       "<term>"
     ],
     "correctAnswer": "<dt>"
   },
   {
-    "question": "107. Which tag is used to define the description in a description list?",
+    "question": "49. Which HTML element embeds external content?",
     "options": [
-      "<dd>",
-      "<dt>",
-      "<dl>",
-      "<desc>"
+      "<iframe>",
+      "<frame>",
+      "<embed>",
+      "<external>"
     ],
-    "correctAnswer": "<dd>"
+    "correctAnswer": "<iframe>"
   },
   {
-    "question": "108. Which tag is used to group terms and definitions in a description list?",
+    "question": "50. Which element groups related form elements?",
     "options": [
-      "<dl>",
-      "<list>",
-      "<description>",
-      "<group>"
+      "<fieldset>",
+      "<group>",
+      "<formgroup>",
+      "<set>"
     ],
-    "correctAnswer": "<dl>"
+    "correctAnswer": "<fieldset>"
   },
   {
-    "question": "109. Which HTML attribute is used to uniquely identify an element on a page?",
+    "question": "51. Which HTML attribute is used to specify a server-side script?",
     "options": [
-      "id",
-      "class",
-      "name",
-      "key"
+      "action",
+      "server",
+      "script",
+      "backend"
     ],
-    "correctAnswer": "id"
+    "correctAnswer": "action"
   },
   {
-    "question": "110. Which HTML attribute is used to reference an element's class?",
+    "question": "52. Which element creates an image map?",
     "options": [
-      "class",
-      "id",
-      "name",
-      "type"
+      "<map>",
+      "<imagemap>",
+      "<area>",
+      "<zones>"
     ],
-    "correctAnswer": "class"
+    "correctAnswer": "<map>"
   },
   {
-    "question": "111. How do you define a self-closing tag in HTML?",
+    "question": "53. Which element represents a caption for a figure?",
     "options": [
-      "By ending the tag with a slash (e.g., <br />)",
-      "By not closing the tag",
-      "By using the self attribute",
-      "Self-closing tags are not supported in HTML"
+      "<figcaption>",
+      "<caption>",
+      "<figtitle>",
+      "<figuretitle>"
     ],
-    "correctAnswer": "By ending the tag with a slash (e.g., <br />)"
+    "correctAnswer": "<figcaption>"
   },
   {
-    "question": "112. Which of the following tags is self-closing in HTML5?",
+    "question": "54. Which HTML element indicates text that has been deleted?",
     "options": [
-      "<img>",
-      "<div>",
-      "<p>",
-      "<span>"
+      "<del>",
+      "<strike>",
+      "<s>",
+      "<removed>"
     ],
-    "correctAnswer": "<img>"
+    "correctAnswer": "<del>"
   },
   {
-    "question": "113. What is semantic HTML?",
+    "question": "55. Which element creates a column group in a table?",
     "options": [
-      "Using HTML markup to reinforce the meaning of information in webpages rather than merely defining its presentation",
-      "Using CSS to style HTML",
-      "Using JavaScript to add behavior to HTML",
-      "Using non-standard tags"
+      "<colgroup>",
+      "<columngroup>",
+      "<cols>",
+      "<cgroup>"
     ],
-    "correctAnswer": "Using HTML markup to reinforce the meaning of information in webpages rather than merely defining its presentation"
+    "correctAnswer": "<colgroup>"
   },
   {
-    "question": "114. Why is semantic HTML important?",
+    "question": "56. Which HTML5 element defines content aside from the page content?",
     "options": [
-      "It improves accessibility, SEO, and code maintainability",
-      "It makes pages load faster",
-      "It adds animations to webpages",
-      "It reduces the need for CSS"
+      "<aside>",
+      "<sidebar>",
+      "<side>",
+      "<extra>"
     ],
-    "correctAnswer": "It improves accessibility, SEO, and code maintainability"
+    "correctAnswer": "<aside>"
   },
   {
-    "question": "115. Which tag defines a section of navigation links?",
+    "question": "57. Which HTML element indicates inserted text?",
+    "options": [
+      "<ins>",
+      "<insert>",
+      "<added>",
+      "<new>"
+    ],
+    "correctAnswer": "<ins>"
+  },
+  {
+    "question": "58. Which element defines a label for a form control?",
+    "options": [
+      "<label>",
+      "<caption>",
+      "<title>",
+      "<text>"
+    ],
+    "correctAnswer": "<label>"
+  },
+  {
+    "question": "59. Which element creates a clickable button in an image map?",
+    "options": [
+      "<area>",
+      "<maparea>",
+      "<spot>",
+      "<zone>"
+    ],
+    "correctAnswer": "<area>"
+  },
+  {
+    "question": "60. Which HTML element creates a date input?",
+    "options": [
+      "<input type=\"date\">",
+      "<date>",
+      "<calendar>",
+      "<datepicker>"
+    ],
+    "correctAnswer": "<input type=\"date\">"
+  },
+  {
+    "question": "61. Which HTML element represents a dialog box?",
+    "options": [
+      "<dialog>",
+      "<modal>",
+      "<popup>",
+      "<window>"
+    ],
+    "correctAnswer": "<dialog>"
+  },
+  {
+    "question": "62. Which element defines options within a select element?",
+    "options": [
+      "<option>",
+      "<item>",
+      "<choice>",
+      "<selection>"
+    ],
+    "correctAnswer": "<option>"
+  },
+  {
+    "question": "63. Which HTML element defines a section of navigation links?",
     "options": [
       "<nav>",
+      "<navigation>",
       "<menu>",
-      "<ul>",
-      "<header>"
+      "<navbar>"
     ],
     "correctAnswer": "<nav>"
   },
   {
-    "question": "116. Which element represents independent, self-contained content?",
+    "question": "64. Which element creates a time input?",
     "options": [
-      "<article>",
-      "<section>",
-      "<div>",
-      "<aside>"
+      "<input type=\"time\">",
+      "<time>",
+      "<clock>",
+      "<timer>"
     ],
-    "correctAnswer": "<article>"
+    "correctAnswer": "<input type=\"time\">"
   },
   {
-    "question": "117. Which tag is used for marking up contact information?",
+    "question": "65. Which HTML element creates a client-side image map?",
     "options": [
-      "<address>",
-      "<contact>",
-      "<info>",
-      "<footer>"
+      "<map>",
+      "<imagemap>",
+      "<areas>",
+      "<hotspots>"
     ],
-    "correctAnswer": "<address>"
+    "correctAnswer": "<map>"
   },
   {
-    "question": "118. Which tag is used to define an address?",
+    "question": "66. Which attribute specifies the relationship between linked documents?",
     "options": [
-      "<address>",
-      "<location>",
-      "<addr>",
-      "<contact>"
+      "rel",
+      "relationship",
+      "connection",
+      "type"
     ],
-    "correctAnswer": "<address>"
+    "correctAnswer": "rel"
   },
   {
-    "question": "119. What does the <dialog> element represent in HTML5?",
+    "question": "67. Which HTML element indicates sample output?",
     "options": [
-      "A dialog box or other interactive component, such as a window",
-      "A navigation menu",
-      "A footer",
-      "A section of text"
+      "<samp>",
+      "<output>",
+      "<sample>",
+      "<example>"
     ],
-    "correctAnswer": "A dialog box or other interactive component, such as a window"
+    "correctAnswer": "<samp>"
   },
   {
-    "question": "120. Which attribute specifies if the <dialog> element is open by default?",
+    "question": "68. Which HTML element represents a ruby annotation?",
     "options": [
-      "open",
-      "visible",
-      "default",
+      "<ruby>",
+      "<annotation>",
+      "<note>",
+      "<pronunciation>"
+    ],
+    "correctAnswer": "<ruby>"
+  },
+  {
+    "question": "69. Which element creates a fieldset legend?",
+    "options": [
+      "<legend>",
+      "<title>",
+      "<caption>",
+      "<heading>"
+    ],
+    "correctAnswer": "<legend>"
+  },
+  {
+    "question": "70. Which HTML element represents a range input control?",
+    "options": [
+      "<input type=\"range\">",
+      "<range>",
+      "<slider>",
+      "<scale>"
+    ],
+    "correctAnswer": "<input type=\"range\">"
+  },
+  {
+    "question": "71. Which HTML element defines a block of preformatted code?",
+    "options": [
+      "<code>",
+      "<pre>",
+      "<coding>",
+      "<source>"
+    ],
+    "correctAnswer": "<code>"
+  },
+  {
+    "question": "72. Which attribute controls form submission method?",
+    "options": [
+      "method",
+      "type",
+      "action",
+      "submit"
+    ],
+    "correctAnswer": "method"
+  },
+  {
+    "question": "73. Which HTML element defines a header cell in a table?",
+    "options": [
+      "<th>",
+      "<header>",
+      "<thead>",
+      "<headcell>"
+    ],
+    "correctAnswer": "<th>"
+  },
+  {
+    "question": "74. Which HTML element represents a span of text with no specific meaning?",
+    "options": [
+      "<span>",
+      "<text>",
+      "<inline>",
+      "<content>"
+    ],
+    "correctAnswer": "<span>"
+  },
+  {
+    "question": "75. Which element creates a menu list?",
+    "options": [
+      "<menu>",
+      "<list>",
+      "<menulist>",
+      "<navigation>"
+    ],
+    "correctAnswer": "<menu>"
+  },
+  {
+    "question": "76. Which HTML element defines text that is no longer accurate or relevant?",
+    "options": [
+      "<s>",
+      "<del>",
+      "<obsolete>",
+      "<outdated>"
+    ],
+    "correctAnswer": "<s>"
+  },
+  {
+    "question": "77. Which HTML element represents emphasized stress emphasis?",
+    "options": [
+      "<strong>",
+      "<b>",
+      "<em>",
+      "<stress>"
+    ],
+    "correctAnswer": "<strong>"
+  },
+  {
+    "question": "78. Which attribute specifies if an element must be checked?",
+    "options": [
+      "checked",
+      "selected",
+      "marked",
       "active"
     ],
-    "correctAnswer": "open"
+    "correctAnswer": "checked"
+  },
+  {
+    "question": "79. Which HTML element defines subscript text?",
+    "options": [
+      "<sub>",
+      "<subscript>",
+      "<lower>",
+      "<down>"
+    ],
+    "correctAnswer": "<sub>"
+  },
+  {
+    "question": "80. Which HTML element defines superscript text?",
+    "options": [
+      "<sup>",
+      "<superscript>",
+      "<upper>",
+      "<up>"
+    ],
+    "correctAnswer": "<sup>"
+  },
+  {
+    "question": "81. Which element allows embedding external applications?",
+    "options": [
+      "<object>",
+      "<embed>",
+      "<app>",
+      "<external>"
+    ],
+    "correctAnswer": "<object>"
+  },
+  {
+    "question": "82. Which HTML element specifies a paragraph?",
+    "options": [
+      "<p>",
+      "<paragraph>",
+      "<text>",
+      "<para>"
+    ],
+    "correctAnswer": "<p>"
+  },
+  {
+    "question": "83. Which HTML element embeds audio content?",
+    "options": [
+      "<audio>",
+      "<sound>",
+      "<media>",
+      "<player>"
+    ],
+    "correctAnswer": "<audio>"
+  },
+  {
+    "question": "84. Which HTML element embeds video content?",
+    "options": [
+      "<video>",
+      "<movie>",
+      "<media>",
+      "<player>"
+    ],
+    "correctAnswer": "<video>"
+  },
+  {
+    "question": "85. Which HTML element creates a numbered list item?",
+    "options": [
+      "<li>",
+      "<item>",
+      "<ol>",
+      "<listitem>"
+    ],
+    "correctAnswer": "<li>"
+  },
+  {
+    "question": "86. Which HTML element specifies abbreviations?",
+    "options": [
+      "<abbr>",
+      "<acronym>",
+      "<short>",
+      "<abbreviation>"
+    ],
+    "correctAnswer": "<abbr>"
+  },
+  {
+    "question": "87. Which HTML element defines a description for a term?",
+    "options": [
+      "<dd>",
+      "<description>",
+      "<def>",
+      "<detail>"
+    ],
+    "correctAnswer": "<dd>"
+  },
+  {
+    "question": "88. Which HTML element defines a block of quoted content?",
+    "options": [
+      "<blockquote>",
+      "<quote>",
+      "<q>",
+      "<citation>"
+    ],
+    "correctAnswer": "<blockquote>"
+  },
+  {
+    "question": "89. Which HTML element defines a table row?",
+    "options": [
+      "<tr>",
+      "<row>",
+      "<tablerow>",
+      "<trow>"
+    ],
+    "correctAnswer": "<tr>"
+  },
+  {
+    "question": "90. Which HTML element defines a table cell?",
+    "options": [
+      "<td>",
+      "<cell>",
+      "<data>",
+      "<tablecell>"
+    ],
+    "correctAnswer": "<td>"
+  },
+  {
+    "question": "91. Which HTML element creates a submit button?",
+    "options": [
+      "<input type=\"submit\">",
+      "<submit>",
+      "<button type=\"submit\">",
+      "<send>"
+    ],
+    "correctAnswer": "<input type=\"submit\">"
+  },
+  {
+    "question": "92. Which HTML element groups the footer content in a table?",
+    "options": [
+      "<tfoot>",
+      "<tablefooter>",
+      "<footer>",
+      "<footerrow>"
+    ],
+    "correctAnswer": "<tfoot>"
+  },
+  {
+    "question": "93. Which HTML element defines a title for a details element?",
+    "options": [
+      "<summary>",
+      "<title>",
+      "<caption>",
+      "<heading>"
+    ],
+    "correctAnswer": "<summary>"
+  },
+  {
+    "question": "94. Which HTML element creates a telephone input field?",
+    "options": [
+      "<input type=\"tel\">",
+      "<telephone>",
+      "<phone>",
+      "<number>"
+    ],
+    "correctAnswer": "<input type=\"tel\">"
+  },
+  {
+    "question": "95. Which HTML element creates an email input field?",
+    "options": [
+      "<input type=\"email\">",
+      "<email>",
+      "<mail>",
+      "<address>"
+    ],
+    "correctAnswer": "<input type=\"email\">"
+  },
+  {
+    "question": "96. Which HTML element represents a definition term?",
+    "options": [
+      "<dt>",
+      "<definition>",
+      "<term>",
+      "<defined>"
+    ],
+    "correctAnswer": "<dt>"
+  },
+  {
+    "question": "97. Which HTML element creates a hidden input field?",
+    "options": [
+      "<input type=\"hidden\">",
+      "<hidden>",
+      "<invisible>",
+      "<secret>"
+    ],
+    "correctAnswer": "<input type=\"hidden\">"
+  },
+  {
+    "question": "98. Which HTML element creates a color input control?",
+    "options": [
+      "<input type=\"color\">",
+      "<color>",
+      "<colorpicker>",
+      "<palette>"
+    ],
+    "correctAnswer": "<input type=\"color\">"
+  },
+  {
+    "question": "99. Which HTML element indicates details that a user can open and close?",
+    "options": [
+      "<details>",
+      "<summary>",
+      "<accordion>",
+      "<expand>"
+    ],
+    "correctAnswer": "<details>"
+  },
+  {
+    "question": "100. Which HTML element defines a section in a document?",
+    "options": [
+      "<section>",
+      "<div>",
+      "<block>",
+      "<part>"
+    ],
+    "correctAnswer": "<section>"
   }
 ]
