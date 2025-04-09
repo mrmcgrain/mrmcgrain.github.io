@@ -1,0 +1,1102 @@
+[
+  {
+    "question": "1. What does HTML stand for?",
+    "options": [
+      "Hyper Text Markup Language",
+      "High Text Machine Language",
+      "Hyper Tabular Markup Language",
+      "Hyperlink Text Management Language"
+    ],
+    "correctAnswer": "Hyper Text Markup Language",
+    "explanation": "The correct answer is \"Hyper Text Markup Language\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "2. Which element is used to define the document type?",
+    "options": [
+      "<!DOCTYPE>",
+      "<doctype>",
+      "<meta>",
+      "<type>"
+    ],
+    "correctAnswer": "<!DOCTYPE>",
+    "explanation": "The correct answer is \"<!DOCTYPE>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "3. Which tag creates a hyperlink?",
+    "options": [
+      "<a>",
+      "<link>",
+      "<href>",
+      "<nav>"
+    ],
+    "correctAnswer": "<a>",
+    "explanation": "The correct answer is \"<a>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "4. Which HTML attribute specifies an alternate text for an image?",
+    "options": [
+      "alt",
+      "title",
+      "src",
+      "description"
+    ],
+    "correctAnswer": "alt",
+    "explanation": "The correct answer is \"alt\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "5. Which HTML element is used for creating a table header?",
+    "options": [
+      "<th>",
+      "<thead>",
+      "<header>",
+      "<tbl>"
+    ],
+    "correctAnswer": "<th>",
+    "explanation": "The correct answer is \"<th>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "6. Which tag is used to create an ordered list?",
+    "options": [
+      "<ol>",
+      "<ul>",
+      "<li>",
+      "<dl>"
+    ],
+    "correctAnswer": "<ol>",
+    "explanation": "The correct answer is \"<ol>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "7. What is the correct HTML element for inserting a line break?",
+    "options": [
+      "<br>",
+      "<lb>",
+      "<break>",
+      "<newline>"
+    ],
+    "correctAnswer": "<br>",
+    "explanation": "The correct answer is \"<br>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "8. Which HTML element defines the title of a document?",
+    "options": [
+      "<title>",
+      "<head>",
+      "<header>",
+      "<meta>"
+    ],
+    "correctAnswer": "<title>",
+    "explanation": "The correct answer is \"<title>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "9. Which HTML tag is used to create a form?",
+    "options": [
+      "<form>",
+      "<input>",
+      "<section>",
+      "<field>"
+    ],
+    "correctAnswer": "<form>",
+    "explanation": "The correct answer is \"<form>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "10. Which attribute sets the text direction?",
+    "options": [
+      "dir",
+      "lang",
+      "text-direction",
+      "orientation"
+    ],
+    "correctAnswer": "dir",
+    "explanation": "The correct answer is \"dir\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "11. Which element defines navigation links?",
+    "options": [
+      "<nav>",
+      "<navigation>",
+      "<menu>",
+      "<links>"
+    ],
+    "correctAnswer": "<nav>",
+    "explanation": "The correct answer is \"<nav>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "12. Which HTML element represents self-contained content?",
+    "options": [
+      "<article>",
+      "<section>",
+      "<div>",
+      "<block>"
+    ],
+    "correctAnswer": "<article>",
+    "explanation": "The correct answer is \"<article>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "13. Which tag creates a checkbox input?",
+    "options": [
+      "<input type=\"checkbox\">",
+      "<checkbox>",
+      "<option type=\"check\">",
+      "<check>"
+    ],
+    "correctAnswer": "<input type=\"checkbox\">",
+    "explanation": "The correct answer is \"<input type=\"checkbox\">\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "14. Which attribute specifies where to submit form data?",
+    "options": [
+      "action",
+      "method",
+      "target",
+      "submit"
+    ],
+    "correctAnswer": "action",
+    "explanation": "The correct answer is \"action\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "15. Which HTML element defines emphasized text?",
+    "options": [
+      "<em>",
+      "<i>",
+      "<italic>",
+      "<stress>"
+    ],
+    "correctAnswer": "<em>",
+    "explanation": "The correct answer is \"<em>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "16. What is the correct HTML for creating a dropdown list?",
+    "options": [
+      "<select>",
+      "<dropdown>",
+      "<option>",
+      "<list>"
+    ],
+    "correctAnswer": "<select>",
+    "explanation": "The correct answer is \"<select>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "17. Which HTML element is used for grouping table rows?",
+    "options": [
+      "<tbody>",
+      "<tgroup>",
+      "<rowgroup>",
+      "<group>"
+    ],
+    "correctAnswer": "<tbody>",
+    "explanation": "The correct answer is \"<tbody>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "18. Which attribute is used to provide advisory text about an element?",
+    "options": [
+      "title",
+      "alt",
+      "tooltip",
+      "info"
+    ],
+    "correctAnswer": "title",
+    "explanation": "The correct answer is \"title\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "19. Which HTML element represents a thematic break?",
+    "options": [
+      "<hr>",
+      "<br>",
+      "<line>",
+      "<divider>"
+    ],
+    "correctAnswer": "<hr>",
+    "explanation": "The correct answer is \"<hr>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "20. Which attribute defines the character encoding?",
+    "options": [
+      "charset",
+      "encoding",
+      "character",
+      "unicode"
+    ],
+    "correctAnswer": "charset",
+    "explanation": "The correct answer is \"charset\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "21. Which HTML element defines a caption for a table?",
+    "options": [
+      "<caption>",
+      "<title>",
+      "<thead>",
+      "<figcaption>"
+    ],
+    "correctAnswer": "<caption>",
+    "explanation": "The correct answer is \"<caption>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "22. Which tag is used to create an unordered list?",
+    "options": [
+      "<ul>",
+      "<ol>",
+      "<list>",
+      "<unordered>"
+    ],
+    "correctAnswer": "<ul>",
+    "explanation": "The correct answer is \"<ul>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "23. Which HTML element displays a scalar measurement within a range?",
+    "options": [
+      "<meter>",
+      "<gauge>",
+      "<measure>",
+      "<range>"
+    ],
+    "correctAnswer": "<meter>",
+    "explanation": "The correct answer is \"<meter>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "24. Which element creates a definition list?",
+    "options": [
+      "<dl>",
+      "<dt>",
+      "<dd>",
+      "<deflist>"
+    ],
+    "correctAnswer": "<dl>",
+    "explanation": "The correct answer is \"<dl>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "25. What HTML element contains all the content of an HTML document?",
+    "options": [
+      "<body>",
+      "<html>",
+      "<content>",
+      "<main>"
+    ],
+    "correctAnswer": "<body>",
+    "explanation": "The correct answer is \"<body>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "26. Which HTML attribute specifies the URL of the page to load when clicked?",
+    "options": [
+      "href",
+      "src",
+      "link",
+      "url"
+    ],
+    "correctAnswer": "href",
+    "explanation": "The correct answer is \"href\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "27. Which element represents a container for multiple image resources?",
+    "options": [
+      "<picture>",
+      "<images>",
+      "<gallery>",
+      "<imgset>"
+    ],
+    "correctAnswer": "<picture>",
+    "explanation": "The correct answer is \"<picture>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "28. Which HTML5 element defines a standard section in a document?",
+    "options": [
+      "<section>",
+      "<div>",
+      "<part>",
+      "<segment>"
+    ],
+    "correctAnswer": "<section>",
+    "explanation": "The correct answer is \"<section>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "29. Which element creates a radio button input?",
+    "options": [
+      "<input type=\"radio\">",
+      "<radio>",
+      "<option type=\"radio\">",
+      "<check type=\"round\">"
+    ],
+    "correctAnswer": "<input type=\"radio\">",
+    "explanation": "The correct answer is \"<input type=\"radio\">\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "30. Which tag creates a text area input?",
+    "options": [
+      "<textarea>",
+      "<input type=\"textarea\">",
+      "<textfield>",
+      "<multiline>"
+    ],
+    "correctAnswer": "<textarea>",
+    "explanation": "The correct answer is \"<textarea>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "31. Which HTML5 element represents a piece of self-contained content?",
+    "options": [
+      "<article>",
+      "<content>",
+      "<section>",
+      "<piece>"
+    ],
+    "correctAnswer": "<article>",
+    "explanation": "The correct answer is \"<article>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "32. Which element creates a heading level 1?",
+    "options": [
+      "<h1>",
+      "<heading1>",
+      "<header1>",
+      "<head1>"
+    ],
+    "correctAnswer": "<h1>",
+    "explanation": "The correct answer is \"<h1>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "33. Which HTML element defines a description list?",
+    "options": [
+      "<dl>",
+      "<description>",
+      "<deflist>",
+      "<dir>"
+    ],
+    "correctAnswer": "<dl>",
+    "explanation": "The correct answer is \"<dl>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "34. Which HTML element defines preformatted text?",
+    "options": [
+      "<pre>",
+      "<code>",
+      "<format>",
+      "<pretext>"
+    ],
+    "correctAnswer": "<pre>",
+    "explanation": "The correct answer is \"<pre>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "35. Which HTML attribute is used to specify the language of the document?",
+    "options": [
+      "lang",
+      "language",
+      "locale",
+      "region"
+    ],
+    "correctAnswer": "lang",
+    "explanation": "The correct answer is \"lang\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "36. Which element represents a generic container?",
+    "options": [
+      "<div>",
+      "<container>",
+      "<span>",
+      "<section>"
+    ],
+    "correctAnswer": "<div>",
+    "explanation": "The correct answer is \"<div>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "37. Which tag defines the document metadata?",
+    "options": [
+      "<meta>",
+      "<metadata>",
+      "<info>",
+      "<data>"
+    ],
+    "correctAnswer": "<meta>",
+    "explanation": "The correct answer is \"<meta>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "38. Which HTML element represents a figure?",
+    "options": [
+      "<figure>",
+      "<img>",
+      "<graphic>",
+      "<drawing>"
+    ],
+    "correctAnswer": "<figure>",
+    "explanation": "The correct answer is \"<figure>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "39. Which attribute sets an input field as required?",
+    "options": [
+      "required",
+      "mandatory",
+      "needed",
+      "essential"
+    ],
+    "correctAnswer": "required",
+    "explanation": "The correct answer is \"required\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "40. Which element defines keyboard input?",
+    "options": [
+      "<kbd>",
+      "<keyboard>",
+      "<key>",
+      "<input>"
+    ],
+    "correctAnswer": "<kbd>",
+    "explanation": "The correct answer is \"<kbd>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "41. Which element creates a button?",
+    "options": [
+      "<button>",
+      "<input type=\"button\">",
+      "<btn>",
+      "<control>"
+    ],
+    "correctAnswer": "<button>",
+    "explanation": "The correct answer is \"<button>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "42. Which element creates a footer for a document?",
+    "options": [
+      "<footer>",
+      "<bottom>",
+      "<end>",
+      "<footnote>"
+    ],
+    "correctAnswer": "<footer>",
+    "explanation": "The correct answer is \"<footer>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "43. Which attribute defines keyboard shortcuts for an element?",
+    "options": [
+      "accesskey",
+      "shortcut",
+      "keyboard",
+      "hotkey"
+    ],
+    "correctAnswer": "accesskey",
+    "explanation": "The correct answer is \"accesskey\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "44. Which element represents a progress bar?",
+    "options": [
+      "<progress>",
+      "<meter>",
+      "<loading>",
+      "<status>"
+    ],
+    "correctAnswer": "<progress>",
+    "explanation": "The correct answer is \"<progress>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "45. Which HTML element represents the main content of a document?",
+    "options": [
+      "<main>",
+      "<content>",
+      "<body>",
+      "<primary>"
+    ],
+    "correctAnswer": "<main>",
+    "explanation": "The correct answer is \"<main>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "46. Which HTML element specifies a header for a document or section?",
+    "options": [
+      "<header>",
+      "<heading>",
+      "<top>",
+      "<h1>"
+    ],
+    "correctAnswer": "<header>",
+    "explanation": "The correct answer is \"<header>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "47. Which attribute sets an input field as read-only?",
+    "options": [
+      "readonly",
+      "disabled",
+      "static",
+      "noedit"
+    ],
+    "correctAnswer": "readonly",
+    "explanation": "The correct answer is \"readonly\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "48. Which element creates a definition term?",
+    "options": [
+      "<dt>",
+      "<dd>",
+      "<def>",
+      "<term>"
+    ],
+    "correctAnswer": "<dt>",
+    "explanation": "The correct answer is \"<dt>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "49. Which HTML element embeds external content?",
+    "options": [
+      "<iframe>",
+      "<frame>",
+      "<embed>",
+      "<external>"
+    ],
+    "correctAnswer": "<iframe>",
+    "explanation": "The correct answer is \"<iframe>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "50. Which element groups related form elements?",
+    "options": [
+      "<fieldset>",
+      "<group>",
+      "<formgroup>",
+      "<set>"
+    ],
+    "correctAnswer": "<fieldset>",
+    "explanation": "The correct answer is \"<fieldset>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "51. Which HTML attribute is used to specify a server-side script?",
+    "options": [
+      "action",
+      "server",
+      "script",
+      "backend"
+    ],
+    "correctAnswer": "action",
+    "explanation": "The correct answer is \"action\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "52. Which element creates an image map?",
+    "options": [
+      "<map>",
+      "<imagemap>",
+      "<area>",
+      "<zones>"
+    ],
+    "correctAnswer": "<map>",
+    "explanation": "The correct answer is \"<map>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "53. Which element represents a caption for a figure?",
+    "options": [
+      "<figcaption>",
+      "<caption>",
+      "<figtitle>",
+      "<figuretitle>"
+    ],
+    "correctAnswer": "<figcaption>",
+    "explanation": "The correct answer is \"<figcaption>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "54. Which HTML element indicates text that has been deleted?",
+    "options": [
+      "<del>",
+      "<strike>",
+      "<s>",
+      "<removed>"
+    ],
+    "correctAnswer": "<del>",
+    "explanation": "The correct answer is \"<del>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "55. Which element creates a column group in a table?",
+    "options": [
+      "<colgroup>",
+      "<columngroup>",
+      "<cols>",
+      "<cgroup>"
+    ],
+    "correctAnswer": "<colgroup>",
+    "explanation": "The correct answer is \"<colgroup>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "56. Which HTML5 element defines content aside from the page content?",
+    "options": [
+      "<aside>",
+      "<sidebar>",
+      "<side>",
+      "<extra>"
+    ],
+    "correctAnswer": "<aside>",
+    "explanation": "The correct answer is \"<aside>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "57. Which HTML element indicates inserted text?",
+    "options": [
+      "<ins>",
+      "<insert>",
+      "<added>",
+      "<new>"
+    ],
+    "correctAnswer": "<ins>",
+    "explanation": "The correct answer is \"<ins>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "58. Which element defines a label for a form control?",
+    "options": [
+      "<label>",
+      "<caption>",
+      "<title>",
+      "<text>"
+    ],
+    "correctAnswer": "<label>",
+    "explanation": "The correct answer is \"<label>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "59. Which element creates a clickable button in an image map?",
+    "options": [
+      "<area>",
+      "<maparea>",
+      "<spot>",
+      "<zone>"
+    ],
+    "correctAnswer": "<area>",
+    "explanation": "The correct answer is \"<area>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "60. Which HTML element creates a date input?",
+    "options": [
+      "<input type=\"date\">",
+      "<date>",
+      "<calendar>",
+      "<datepicker>"
+    ],
+    "correctAnswer": "<input type=\"date\">",
+    "explanation": "The correct answer is \"<input type=\"date\">\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "61. Which HTML element represents a dialog box?",
+    "options": [
+      "<dialog>",
+      "<modal>",
+      "<popup>",
+      "<window>"
+    ],
+    "correctAnswer": "<dialog>",
+    "explanation": "The correct answer is \"<dialog>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "62. Which element defines options within a select element?",
+    "options": [
+      "<option>",
+      "<item>",
+      "<choice>",
+      "<selection>"
+    ],
+    "correctAnswer": "<option>",
+    "explanation": "The correct answer is \"<option>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "63. Which HTML element defines a section of navigation links?",
+    "options": [
+      "<nav>",
+      "<navigation>",
+      "<menu>",
+      "<navbar>"
+    ],
+    "correctAnswer": "<nav>",
+    "explanation": "The correct answer is \"<nav>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "64. Which element creates a time input?",
+    "options": [
+      "<input type=\"time\">",
+      "<time>",
+      "<clock>",
+      "<timer>"
+    ],
+    "correctAnswer": "<input type=\"time\">",
+    "explanation": "The correct answer is \"<input type=\"time\">\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "65. Which HTML element creates a client-side image map?",
+    "options": [
+      "<map>",
+      "<imagemap>",
+      "<areas>",
+      "<hotspots>"
+    ],
+    "correctAnswer": "<map>",
+    "explanation": "The correct answer is \"<map>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "66. Which attribute specifies the relationship between linked documents?",
+    "options": [
+      "rel",
+      "relationship",
+      "connection",
+      "type"
+    ],
+    "correctAnswer": "rel",
+    "explanation": "The correct answer is \"rel\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "67. Which HTML element indicates sample output?",
+    "options": [
+      "<samp>",
+      "<output>",
+      "<sample>",
+      "<example>"
+    ],
+    "correctAnswer": "<samp>",
+    "explanation": "The correct answer is \"<samp>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "68. Which HTML element represents a ruby annotation?",
+    "options": [
+      "<ruby>",
+      "<annotation>",
+      "<note>",
+      "<pronunciation>"
+    ],
+    "correctAnswer": "<ruby>",
+    "explanation": "The correct answer is \"<ruby>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "69. Which element creates a fieldset legend?",
+    "options": [
+      "<legend>",
+      "<title>",
+      "<caption>",
+      "<heading>"
+    ],
+    "correctAnswer": "<legend>",
+    "explanation": "The correct answer is \"<legend>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "70. Which HTML element represents a range input control?",
+    "options": [
+      "<input type=\"range\">",
+      "<range>",
+      "<slider>",
+      "<scale>"
+    ],
+    "correctAnswer": "<input type=\"range\">",
+    "explanation": "The correct answer is \"<input type=\"range\">\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "71. Which HTML element defines a block of preformatted code?",
+    "options": [
+      "<code>",
+      "<pre>",
+      "<coding>",
+      "<source>"
+    ],
+    "correctAnswer": "<code>",
+    "explanation": "The correct answer is \"<code>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "72. Which attribute controls form submission method?",
+    "options": [
+      "method",
+      "type",
+      "action",
+      "submit"
+    ],
+    "correctAnswer": "method",
+    "explanation": "The correct answer is \"method\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "73. Which HTML element defines a header cell in a table?",
+    "options": [
+      "<th>",
+      "<header>",
+      "<thead>",
+      "<headcell>"
+    ],
+    "correctAnswer": "<th>",
+    "explanation": "The correct answer is \"<th>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "74. Which HTML element represents a span of text with no specific meaning?",
+    "options": [
+      "<span>",
+      "<text>",
+      "<inline>",
+      "<content>"
+    ],
+    "correctAnswer": "<span>",
+    "explanation": "The correct answer is \"<span>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "75. Which element creates a menu list?",
+    "options": [
+      "<menu>",
+      "<list>",
+      "<menulist>",
+      "<navigation>"
+    ],
+    "correctAnswer": "<menu>",
+    "explanation": "The correct answer is \"<menu>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "76. Which HTML element defines text that is no longer accurate or relevant?",
+    "options": [
+      "<s>",
+      "<del>",
+      "<obsolete>",
+      "<outdated>"
+    ],
+    "correctAnswer": "<s>",
+    "explanation": "The correct answer is \"<s>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "77. Which HTML element represents emphasized stress emphasis?",
+    "options": [
+      "<strong>",
+      "<b>",
+      "<em>",
+      "<stress>"
+    ],
+    "correctAnswer": "<strong>",
+    "explanation": "The correct answer is \"<strong>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "78. Which attribute specifies if an element must be checked?",
+    "options": [
+      "checked",
+      "selected",
+      "marked",
+      "active"
+    ],
+    "correctAnswer": "checked",
+    "explanation": "The correct answer is \"checked\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "79. Which HTML element defines subscript text?",
+    "options": [
+      "<sub>",
+      "<subscript>",
+      "<lower>",
+      "<down>"
+    ],
+    "correctAnswer": "<sub>",
+    "explanation": "The correct answer is \"<sub>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "80. Which HTML element defines superscript text?",
+    "options": [
+      "<sup>",
+      "<superscript>",
+      "<upper>",
+      "<up>"
+    ],
+    "correctAnswer": "<sup>",
+    "explanation": "The correct answer is \"<sup>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "81. Which element allows embedding external applications?",
+    "options": [
+      "<object>",
+      "<embed>",
+      "<app>",
+      "<external>"
+    ],
+    "correctAnswer": "<object>",
+    "explanation": "The correct answer is \"<object>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "82. Which HTML element specifies a paragraph?",
+    "options": [
+      "<p>",
+      "<paragraph>",
+      "<text>",
+      "<para>"
+    ],
+    "correctAnswer": "<p>",
+    "explanation": "The correct answer is \"<p>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "83. Which HTML element embeds audio content?",
+    "options": [
+      "<audio>",
+      "<sound>",
+      "<media>",
+      "<player>"
+    ],
+    "correctAnswer": "<audio>",
+    "explanation": "The correct answer is \"<audio>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "84. Which HTML element embeds video content?",
+    "options": [
+      "<video>",
+      "<movie>",
+      "<media>",
+      "<player>"
+    ],
+    "correctAnswer": "<video>",
+    "explanation": "The correct answer is \"<video>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "85. Which HTML element creates a numbered list item?",
+    "options": [
+      "<li>",
+      "<item>",
+      "<ol>",
+      "<listitem>"
+    ],
+    "correctAnswer": "<li>",
+    "explanation": "The correct answer is \"<li>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "86. Which HTML element specifies abbreviations?",
+    "options": [
+      "<abbr>",
+      "<acronym>",
+      "<short>",
+      "<abbreviation>"
+    ],
+    "correctAnswer": "<abbr>",
+    "explanation": "The correct answer is \"<abbr>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "87. Which HTML element defines a description for a term?",
+    "options": [
+      "<dd>",
+      "<description>",
+      "<def>",
+      "<detail>"
+    ],
+    "correctAnswer": "<dd>",
+    "explanation": "The correct answer is \"<dd>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "88. Which HTML element defines a block of quoted content?",
+    "options": [
+      "<blockquote>",
+      "<quote>",
+      "<q>",
+      "<citation>"
+    ],
+    "correctAnswer": "<blockquote>",
+    "explanation": "The correct answer is \"<blockquote>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "89. Which HTML element defines a table row?",
+    "options": [
+      "<tr>",
+      "<row>",
+      "<tablerow>",
+      "<trow>"
+    ],
+    "correctAnswer": "<tr>",
+    "explanation": "The correct answer is \"<tr>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "90. Which HTML element defines a table cell?",
+    "options": [
+      "<td>",
+      "<cell>",
+      "<data>",
+      "<tablecell>"
+    ],
+    "correctAnswer": "<td>",
+    "explanation": "The correct answer is \"<td>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "91. Which HTML element creates a submit button?",
+    "options": [
+      "<input type=\"submit\">",
+      "<submit>",
+      "<button type=\"submit\">",
+      "<send>"
+    ],
+    "correctAnswer": "<input type=\"submit\">",
+    "explanation": "The correct answer is \"<input type=\"submit\">\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "92. Which HTML element groups the footer content in a table?",
+    "options": [
+      "<tfoot>",
+      "<tablefooter>",
+      "<footer>",
+      "<footerrow>"
+    ],
+    "correctAnswer": "<tfoot>",
+    "explanation": "The correct answer is \"<tfoot>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "93. Which HTML element defines a title for a details element?",
+    "options": [
+      "<summary>",
+      "<title>",
+      "<caption>",
+      "<heading>"
+    ],
+    "correctAnswer": "<summary>",
+    "explanation": "The correct answer is \"<summary>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "94. Which HTML element creates a telephone input field?",
+    "options": [
+      "<input type=\"tel\">",
+      "<telephone>",
+      "<phone>",
+      "<number>"
+    ],
+    "correctAnswer": "<input type=\"tel\">",
+    "explanation": "The correct answer is \"<input type=\"tel\">\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "95. Which HTML element creates an email input field?",
+    "options": [
+      "<input type=\"email\">",
+      "<email>",
+      "<mail>",
+      "<address>"
+    ],
+    "correctAnswer": "<input type=\"email\">",
+    "explanation": "The correct answer is \"<input type=\"email\">\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "96. Which HTML element represents a definition term?",
+    "options": [
+      "<dt>",
+      "<definition>",
+      "<term>",
+      "<defined>"
+    ],
+    "correctAnswer": "<dt>",
+    "explanation": "The correct answer is \"<dt>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "97. Which HTML element creates a hidden input field?",
+    "options": [
+      "<input type=\"hidden\">",
+      "<hidden>",
+      "<invisible>",
+      "<secret>"
+    ],
+    "correctAnswer": "<input type=\"hidden\">",
+    "explanation": "The correct answer is \"<input type=\"hidden\">\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "98. Which HTML element creates a color input control?",
+    "options": [
+      "<input type=\"color\">",
+      "<color>",
+      "<colorpicker>",
+      "<palette>"
+    ],
+    "correctAnswer": "<input type=\"color\">",
+    "explanation": "The correct answer is \"<input type=\"color\">\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "99. Which HTML element indicates details that a user can open and close?",
+    "options": [
+      "<details>",
+      "<summary>",
+      "<accordion>",
+      "<expand>"
+    ],
+    "correctAnswer": "<details>",
+    "explanation": "The correct answer is \"<details>\" because it best fits the concept being tested in this question."
+  },
+  {
+    "question": "100. Which HTML element defines a section in a document?",
+    "options": [
+      "<section>",
+      "<div>",
+      "<block>",
+      "<part>"
+    ],
+    "correctAnswer": "<section>",
+    "explanation": "The correct answer is \"<section>\" because it best fits the concept being tested in this question."
+  }
+]

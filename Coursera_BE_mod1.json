@@ -1,0 +1,552 @@
+[
+  {
+    "question": "1. Which type of testing treats the system as a 'black box'?",
+    "options": [
+      "White-box testing",
+      "Integration testing",
+      "Black-box testing",
+      "Unit testing"
+    ],
+    "correctAnswer": "Black-box testing",
+    "explanation": "Black-box testing examines the functionality of an application without peering into its internal structures or workings."
+  },
+  {
+    "question": "2. What does SDLC stand for?",
+    "options": [
+      "Software Design Lifecycle",
+      "System Development Lifecycle",
+      "Software Development Lifecycle",
+      "System Design Lifecycle"
+    ],
+    "correctAnswer": "Software Development Lifecycle",
+    "explanation": "SDLC stands for Software Development Lifecycle, a process for planning, creating, testing, and deploying an information system."
+  },
+  {
+    "question": "3. What is the purpose of functional testing?",
+    "options": [
+      "To test usability",
+      "To test performance",
+      "To verify correct behavior of functions",
+      "To test scalability"
+    ],
+    "correctAnswer": "To verify correct behavior of functions",
+    "explanation": "Functional testing ensures that the software behaves according to specified requirements. It checks that each function of the application operates correctly with the given input."
+  },
+  {
+    "question": "4. What does SDLC stand for?",
+    "options": [
+      "Software Design Lifecycle",
+      "System Development Lifecycle",
+      "Software Development Lifecycle",
+      "System Design Lifecycle"
+    ],
+    "correctAnswer": "Software Development Lifecycle",
+    "explanation": "SDLC stands for Software Development Lifecycle, a process for planning, creating, testing, and deploying an information system."
+  },
+  {
+    "question": "5. What type of testing focuses on performance and security?",
+    "options": [
+      "Functional testing",
+      "Unit testing",
+      "Non-functional testing",
+      "Smoke testing"
+    ],
+    "correctAnswer": "Non-functional testing",
+    "explanation": "Non-functional testing evaluates aspects like performance, scalability, and security to ensure the software operates well under expected conditions."
+  },
+  {
+    "question": "6. What is the purpose of functional testing?",
+    "options": [
+      "To test usability",
+      "To test performance",
+      "To verify correct behavior of functions",
+      "To test scalability"
+    ],
+    "correctAnswer": "To verify correct behavior of functions",
+    "explanation": "Functional testing ensures that the software behaves according to specified requirements. It checks that each function of the application operates correctly with the given input."
+  },
+  {
+    "question": "7. Which type of testing treats the system as a 'black box'?",
+    "options": [
+      "White-box testing",
+      "Integration testing",
+      "Black-box testing",
+      "Unit testing"
+    ],
+    "correctAnswer": "Black-box testing",
+    "explanation": "Black-box testing examines the functionality of an application without peering into its internal structures or workings."
+  },
+  {
+    "question": "8. What type of testing focuses on performance and security?",
+    "options": [
+      "Functional testing",
+      "Unit testing",
+      "Non-functional testing",
+      "Smoke testing"
+    ],
+    "correctAnswer": "Non-functional testing",
+    "explanation": "Non-functional testing evaluates aspects like performance, scalability, and security to ensure the software operates well under expected conditions."
+  },
+  {
+    "question": "9. Which role facilitates communication in Scrum teams?",
+    "options": [
+      "Product Owner",
+      "UX Designer",
+      "Scrum Master",
+      "Business Analyst"
+    ],
+    "correctAnswer": "Scrum Master",
+    "explanation": "The Scrum Master ensures that communication flows smoothly among team members and removes any obstacles the team may face."
+  },
+  {
+    "question": "10. What type of testing focuses on performance and security?",
+    "options": [
+      "Functional testing",
+      "Unit testing",
+      "Non-functional testing",
+      "Smoke testing"
+    ],
+    "correctAnswer": "Non-functional testing",
+    "explanation": "Non-functional testing evaluates aspects like performance, scalability, and security to ensure the software operates well under expected conditions."
+  },
+  {
+    "question": "11. What is a key advantage of using the SDLC?",
+    "options": [
+      "Encourages ad-hoc development",
+      "Increases creativity",
+      "Reduces risks through a structured approach",
+      "Minimizes documentation"
+    ],
+    "correctAnswer": "Reduces risks through a structured approach",
+    "explanation": "The SDLC provides a structured approach to software development, which helps reduce risks, improve efficiency, and ensure better quality control."
+  },
+  {
+    "question": "12. What type of testing focuses on performance and security?",
+    "options": [
+      "Functional testing",
+      "Unit testing",
+      "Non-functional testing",
+      "Smoke testing"
+    ],
+    "correctAnswer": "Non-functional testing",
+    "explanation": "Non-functional testing evaluates aspects like performance, scalability, and security to ensure the software operates well under expected conditions."
+  },
+  {
+    "question": "13. Which type of testing treats the system as a 'black box'?",
+    "options": [
+      "White-box testing",
+      "Integration testing",
+      "Black-box testing",
+      "Unit testing"
+    ],
+    "correctAnswer": "Black-box testing",
+    "explanation": "Black-box testing examines the functionality of an application without peering into its internal structures or workings."
+  },
+  {
+    "question": "14. Which document contains functional and non-functional requirements?",
+    "options": [
+      "Design document",
+      "User manual",
+      "Software Requirements Specification",
+      "Test plan"
+    ],
+    "correctAnswer": "Software Requirements Specification",
+    "explanation": "The Software Requirements Specification (SRS) defines all expected software behaviors, including functional, performance, and interface requirements."
+  },
+  {
+    "question": "15. In semantic versioning, what does the first number (e.g., 2 in 2.4.1) represent?",
+    "options": [
+      "Patch",
+      "Minor update",
+      "Major change",
+      "Build number"
+    ],
+    "correctAnswer": "Major change",
+    "explanation": "The first number indicates a major change that often includes backward-incompatible updates to the software."
+  },
+  {
+    "question": "16. In semantic versioning, what does the first number (e.g., 2 in 2.4.1) represent?",
+    "options": [
+      "Patch",
+      "Minor update",
+      "Major change",
+      "Build number"
+    ],
+    "correctAnswer": "Major change",
+    "explanation": "The first number indicates a major change that often includes backward-incompatible updates to the software."
+  },
+  {
+    "question": "17. Which software development model follows a sequential approach?",
+    "options": [
+      "Agile",
+      "Scrum",
+      "Waterfall",
+      "Iterative"
+    ],
+    "correctAnswer": "Waterfall",
+    "explanation": "The Waterfall model follows a strict, step-by-step process, where each phase must be completed before moving on to the next."
+  },
+  {
+    "question": "18. What does SDLC stand for?",
+    "options": [
+      "Software Design Lifecycle",
+      "System Development Lifecycle",
+      "Software Development Lifecycle",
+      "System Design Lifecycle"
+    ],
+    "correctAnswer": "Software Development Lifecycle",
+    "explanation": "SDLC stands for Software Development Lifecycle, a process for planning, creating, testing, and deploying an information system."
+  },
+  {
+    "question": "19. Which software development model follows a sequential approach?",
+    "options": [
+      "Agile",
+      "Scrum",
+      "Waterfall",
+      "Iterative"
+    ],
+    "correctAnswer": "Waterfall",
+    "explanation": "The Waterfall model follows a strict, step-by-step process, where each phase must be completed before moving on to the next."
+  },
+  {
+    "question": "20. What is the purpose of functional testing?",
+    "options": [
+      "To test usability",
+      "To test performance",
+      "To verify correct behavior of functions",
+      "To test scalability"
+    ],
+    "correctAnswer": "To verify correct behavior of functions",
+    "explanation": "Functional testing ensures that the software behaves according to specified requirements. It checks that each function of the application operates correctly with the given input."
+  },
+  {
+    "question": "21. Which software development model follows a sequential approach?",
+    "options": [
+      "Agile",
+      "Scrum",
+      "Waterfall",
+      "Iterative"
+    ],
+    "correctAnswer": "Waterfall",
+    "explanation": "The Waterfall model follows a strict, step-by-step process, where each phase must be completed before moving on to the next."
+  },
+  {
+    "question": "22. What is a key advantage of using the SDLC?",
+    "options": [
+      "Encourages ad-hoc development",
+      "Increases creativity",
+      "Reduces risks through a structured approach",
+      "Minimizes documentation"
+    ],
+    "correctAnswer": "Reduces risks through a structured approach",
+    "explanation": "The SDLC provides a structured approach to software development, which helps reduce risks, improve efficiency, and ensure better quality control."
+  },
+  {
+    "question": "23. Who is mainly responsible for designing the software\u2019s user interface?",
+    "options": [
+      "Product Owner",
+      "UX Designer",
+      "System Architect",
+      "Scrum Master"
+    ],
+    "correctAnswer": "UX Designer",
+    "explanation": "The UX Designer focuses on the user experience and interface design, ensuring the product is intuitive and user-friendly."
+  },
+  {
+    "question": "24. Which role facilitates communication in Scrum teams?",
+    "options": [
+      "Product Owner",
+      "UX Designer",
+      "Scrum Master",
+      "Business Analyst"
+    ],
+    "correctAnswer": "Scrum Master",
+    "explanation": "The Scrum Master ensures that communication flows smoothly among team members and removes any obstacles the team may face."
+  },
+  {
+    "question": "25. Which document contains functional and non-functional requirements?",
+    "options": [
+      "Design document",
+      "User manual",
+      "Software Requirements Specification",
+      "Test plan"
+    ],
+    "correctAnswer": "Software Requirements Specification",
+    "explanation": "The Software Requirements Specification (SRS) defines all expected software behaviors, including functional, performance, and interface requirements."
+  },
+  {
+    "question": "26. Which type of testing treats the system as a 'black box'?",
+    "options": [
+      "White-box testing",
+      "Integration testing",
+      "Black-box testing",
+      "Unit testing"
+    ],
+    "correctAnswer": "Black-box testing",
+    "explanation": "Black-box testing examines the functionality of an application without peering into its internal structures or workings."
+  },
+  {
+    "question": "27. In semantic versioning, what does the first number (e.g., 2 in 2.4.1) represent?",
+    "options": [
+      "Patch",
+      "Minor update",
+      "Major change",
+      "Build number"
+    ],
+    "correctAnswer": "Major change",
+    "explanation": "The first number indicates a major change that often includes backward-incompatible updates to the software."
+  },
+  {
+    "question": "28. In semantic versioning, what does the first number (e.g., 2 in 2.4.1) represent?",
+    "options": [
+      "Patch",
+      "Minor update",
+      "Major change",
+      "Build number"
+    ],
+    "correctAnswer": "Major change",
+    "explanation": "The first number indicates a major change that often includes backward-incompatible updates to the software."
+  },
+  {
+    "question": "29. Which type of testing treats the system as a 'black box'?",
+    "options": [
+      "White-box testing",
+      "Integration testing",
+      "Black-box testing",
+      "Unit testing"
+    ],
+    "correctAnswer": "Black-box testing",
+    "explanation": "Black-box testing examines the functionality of an application without peering into its internal structures or workings."
+  },
+  {
+    "question": "30. Which document contains functional and non-functional requirements?",
+    "options": [
+      "Design document",
+      "User manual",
+      "Software Requirements Specification",
+      "Test plan"
+    ],
+    "correctAnswer": "Software Requirements Specification",
+    "explanation": "The Software Requirements Specification (SRS) defines all expected software behaviors, including functional, performance, and interface requirements."
+  },
+  {
+    "question": "31. Which document contains functional and non-functional requirements?",
+    "options": [
+      "Design document",
+      "User manual",
+      "Software Requirements Specification",
+      "Test plan"
+    ],
+    "correctAnswer": "Software Requirements Specification",
+    "explanation": "The Software Requirements Specification (SRS) defines all expected software behaviors, including functional, performance, and interface requirements."
+  },
+  {
+    "question": "32. Which role facilitates communication in Scrum teams?",
+    "options": [
+      "Product Owner",
+      "UX Designer",
+      "Scrum Master",
+      "Business Analyst"
+    ],
+    "correctAnswer": "Scrum Master",
+    "explanation": "The Scrum Master ensures that communication flows smoothly among team members and removes any obstacles the team may face."
+  },
+  {
+    "question": "33. What is a key advantage of using the SDLC?",
+    "options": [
+      "Encourages ad-hoc development",
+      "Increases creativity",
+      "Reduces risks through a structured approach",
+      "Minimizes documentation"
+    ],
+    "correctAnswer": "Reduces risks through a structured approach",
+    "explanation": "The SDLC provides a structured approach to software development, which helps reduce risks, improve efficiency, and ensure better quality control."
+  },
+  {
+    "question": "34. What does SDLC stand for?",
+    "options": [
+      "Software Design Lifecycle",
+      "System Development Lifecycle",
+      "Software Development Lifecycle",
+      "System Design Lifecycle"
+    ],
+    "correctAnswer": "Software Development Lifecycle",
+    "explanation": "SDLC stands for Software Development Lifecycle, a process for planning, creating, testing, and deploying an information system."
+  },
+  {
+    "question": "35. Who is mainly responsible for designing the software\u2019s user interface?",
+    "options": [
+      "Product Owner",
+      "UX Designer",
+      "System Architect",
+      "Scrum Master"
+    ],
+    "correctAnswer": "UX Designer",
+    "explanation": "The UX Designer focuses on the user experience and interface design, ensuring the product is intuitive and user-friendly."
+  },
+  {
+    "question": "36. What does SDLC stand for?",
+    "options": [
+      "Software Design Lifecycle",
+      "System Development Lifecycle",
+      "Software Development Lifecycle",
+      "System Design Lifecycle"
+    ],
+    "correctAnswer": "Software Development Lifecycle",
+    "explanation": "SDLC stands for Software Development Lifecycle, a process for planning, creating, testing, and deploying an information system."
+  },
+  {
+    "question": "37. In semantic versioning, what does the first number (e.g., 2 in 2.4.1) represent?",
+    "options": [
+      "Patch",
+      "Minor update",
+      "Major change",
+      "Build number"
+    ],
+    "correctAnswer": "Major change",
+    "explanation": "The first number indicates a major change that often includes backward-incompatible updates to the software."
+  },
+  {
+    "question": "38. Who is mainly responsible for designing the software\u2019s user interface?",
+    "options": [
+      "Product Owner",
+      "UX Designer",
+      "System Architect",
+      "Scrum Master"
+    ],
+    "correctAnswer": "UX Designer",
+    "explanation": "The UX Designer focuses on the user experience and interface design, ensuring the product is intuitive and user-friendly."
+  },
+  {
+    "question": "39. Who is mainly responsible for designing the software\u2019s user interface?",
+    "options": [
+      "Product Owner",
+      "UX Designer",
+      "System Architect",
+      "Scrum Master"
+    ],
+    "correctAnswer": "UX Designer",
+    "explanation": "The UX Designer focuses on the user experience and interface design, ensuring the product is intuitive and user-friendly."
+  },
+  {
+    "question": "40. Who is mainly responsible for designing the software\u2019s user interface?",
+    "options": [
+      "Product Owner",
+      "UX Designer",
+      "System Architect",
+      "Scrum Master"
+    ],
+    "correctAnswer": "UX Designer",
+    "explanation": "The UX Designer focuses on the user experience and interface design, ensuring the product is intuitive and user-friendly."
+  },
+  {
+    "question": "41. What type of testing focuses on performance and security?",
+    "options": [
+      "Functional testing",
+      "Unit testing",
+      "Non-functional testing",
+      "Smoke testing"
+    ],
+    "correctAnswer": "Non-functional testing",
+    "explanation": "Non-functional testing evaluates aspects like performance, scalability, and security to ensure the software operates well under expected conditions."
+  },
+  {
+    "question": "42. What does SDLC stand for?",
+    "options": [
+      "Software Design Lifecycle",
+      "System Development Lifecycle",
+      "Software Development Lifecycle",
+      "System Design Lifecycle"
+    ],
+    "correctAnswer": "Software Development Lifecycle",
+    "explanation": "SDLC stands for Software Development Lifecycle, a process for planning, creating, testing, and deploying an information system."
+  },
+  {
+    "question": "43. Which document contains functional and non-functional requirements?",
+    "options": [
+      "Design document",
+      "User manual",
+      "Software Requirements Specification",
+      "Test plan"
+    ],
+    "correctAnswer": "Software Requirements Specification",
+    "explanation": "The Software Requirements Specification (SRS) defines all expected software behaviors, including functional, performance, and interface requirements."
+  },
+  {
+    "question": "44. Which software development model follows a sequential approach?",
+    "options": [
+      "Agile",
+      "Scrum",
+      "Waterfall",
+      "Iterative"
+    ],
+    "correctAnswer": "Waterfall",
+    "explanation": "The Waterfall model follows a strict, step-by-step process, where each phase must be completed before moving on to the next."
+  },
+  {
+    "question": "45. What is a key advantage of using the SDLC?",
+    "options": [
+      "Encourages ad-hoc development",
+      "Increases creativity",
+      "Reduces risks through a structured approach",
+      "Minimizes documentation"
+    ],
+    "correctAnswer": "Reduces risks through a structured approach",
+    "explanation": "The SDLC provides a structured approach to software development, which helps reduce risks, improve efficiency, and ensure better quality control."
+  },
+  {
+    "question": "46. Which document contains functional and non-functional requirements?",
+    "options": [
+      "Design document",
+      "User manual",
+      "Software Requirements Specification",
+      "Test plan"
+    ],
+    "correctAnswer": "Software Requirements Specification",
+    "explanation": "The Software Requirements Specification (SRS) defines all expected software behaviors, including functional, performance, and interface requirements."
+  },
+  {
+    "question": "47. What type of testing focuses on performance and security?",
+    "options": [
+      "Functional testing",
+      "Unit testing",
+      "Non-functional testing",
+      "Smoke testing"
+    ],
+    "correctAnswer": "Non-functional testing",
+    "explanation": "Non-functional testing evaluates aspects like performance, scalability, and security to ensure the software operates well under expected conditions."
+  },
+  {
+    "question": "48. What is a key advantage of using the SDLC?",
+    "options": [
+      "Encourages ad-hoc development",
+      "Increases creativity",
+      "Reduces risks through a structured approach",
+      "Minimizes documentation"
+    ],
+    "correctAnswer": "Reduces risks through a structured approach",
+    "explanation": "The SDLC provides a structured approach to software development, which helps reduce risks, improve efficiency, and ensure better quality control."
+  },
+  {
+    "question": "49. What is a key advantage of using the SDLC?",
+    "options": [
+      "Encourages ad-hoc development",
+      "Increases creativity",
+      "Reduces risks through a structured approach",
+      "Minimizes documentation"
+    ],
+    "correctAnswer": "Reduces risks through a structured approach",
+    "explanation": "The SDLC provides a structured approach to software development, which helps reduce risks, improve efficiency, and ensure better quality control."
+  },
+  {
+    "question": "50. Which type of testing treats the system as a 'black box'?",
+    "options": [
+      "White-box testing",
+      "Integration testing",
+      "Black-box testing",
+      "Unit testing"
+    ],
+    "correctAnswer": "Black-box testing",
+    "explanation": "Black-box testing examines the functionality of an application without peering into its internal structures or workings."
+  }
+]
