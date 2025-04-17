@@ -1,0 +1,551 @@
+[
+  {
+    "question": "1. What does the command 'git init' do?",
+    "options": [
+      "Creates a new Git repository",
+      "Deletes the current repository",
+      "Uploads changes to a remote",
+      "Shows the repository status"
+    ],
+    "correctAnswer": "Creates a new Git repository",
+    "explanation": "The 'git init' command initializes a new Git repository in the current directory, creating all necessary files to start tracking changes."
+  },
+  {
+    "question": "2. What is the main purpose of 'git clone'?",
+    "options": [
+      "Creates a local copy of a repository",
+      "Deletes the remote repository",
+      "Updates the current branch",
+      "Commits staged changes"
+    ],
+    "correctAnswer": "Creates a local copy of a repository",
+    "explanation": "'git clone' copies an existing repository from a remote source to your local machine, including all history and branches."
+  },
+  {
+    "question": "3. Which command shows the working directory status?",
+    "options": [
+      "git status",
+      "git log",
+      "git diff",
+      "git show"
+    ],
+    "correctAnswer": "git status",
+    "explanation": "'git status' displays changes staged for commit, changes not staged, and untracked files in the working directory."
+  },
+  {
+    "question": "4. What does 'git add' achieve?",
+    "options": [
+      "Stages changes for commit",
+      "Removes files from history",
+      "Deletes a branch",
+      "Shows differences between commits"
+    ],
+    "correctAnswer": "Stages changes for commit",
+    "explanation": "'git add' moves changes from the working directory into the staging area, preparing them for the next commit."
+  },
+  {
+    "question": "5. What is the function of 'git commit'?",
+    "options": [
+      "Records staged changes in history",
+      "Updates remote branches",
+      "Removes untracked files",
+      "Displays commit logs"
+    ],
+    "correctAnswer": "Records staged changes in history",
+    "explanation": "'git commit' creates a new commit object recording the staged changes along with a descriptive message."
+  },
+  {
+    "question": "6. Which command sends local commits to remote?",
+    "options": [
+      "git push",
+      "git fetch",
+      "git pull",
+      "git merge"
+    ],
+    "correctAnswer": "git push",
+    "explanation": "'git push' uploads your local commit history to the specified remote repository, updating it with your changes."
+  },
+  {
+    "question": "7. What does 'git pull' combine?",
+    "options": [
+      "Fetches and merges remote changes",
+      "Pushes and rebases local changes",
+      "Deletes and recreates branches",
+      "Compiles code and runs tests"
+    ],
+    "correctAnswer": "Fetches and merges remote changes",
+    "explanation": "'git pull' is equivalent to 'git fetch' followed by 'git merge', updating your branch with remote commits."
+  },
+  {
+    "question": "8. How do you view commit history?",
+    "options": [
+      "git log",
+      "git status",
+      "git commit",
+      "git tag"
+    ],
+    "correctAnswer": "git log",
+    "explanation": "'git log' shows the commit history for the current branch, including commit IDs, authors, dates, and messages."
+  },
+  {
+    "question": "9. What does 'git branch' list?",
+    "options": [
+      "Local branches in the repository",
+      "Remote branches only",
+      "All tags in the repository",
+      "All staged files"
+    ],
+    "correctAnswer": "Local branches in the repository",
+    "explanation": "'git branch' without options lists all local branches, highlighting the one currently checked out."
+  },
+  {
+    "question": "10. How do you switch branches?",
+    "options": [
+      "git checkout <branch>",
+      "git merge <branch>",
+      "git init <branch>",
+      "git add <branch>"
+    ],
+    "correctAnswer": "git checkout <branch>",
+    "explanation": "'git checkout <branch>' updates the working directory to reflect the specified branch's latest commit."
+  },
+  {
+    "question": "11. What is 'git merge' used for?",
+    "options": [
+      "Combining two branches together",
+      "Deleting a branch permanently",
+      "Cloning a remote repository",
+      "Creating a new commit message"
+    ],
+    "correctAnswer": "Combining two branches together",
+    "explanation": "'git merge' integrates changes from the named branch into the current branch."
+  },
+  {
+    "question": "12. What does 'git fetch' do?",
+    "options": [
+      "Downloads remote changes only",
+      "Uploads local changes to remote",
+      "Deletes local branches",
+      "Initializes a repository"
+    ],
+    "correctAnswer": "Downloads remote changes only",
+    "explanation": "'git fetch' retrieves updates from a remote repository but does not merge them into your working branch."
+  },
+  {
+    "question": "13. How can you view differences between commits?",
+    "options": [
+      "git diff <commit> <commit>",
+      "git status <commit>",
+      "git log <commit>",
+      "git branch <commit>"
+    ],
+    "correctAnswer": "git diff <commit> <commit>",
+    "explanation": "'git diff <commit> <commit>' shows the line-by-line differences between two commits."
+  },
+  {
+    "question": "14. What is the purpose of 'git tag'?",
+    "options": [
+      "Marks specific commits with a name",
+      "Deletes old commits",
+      "Starts a new branch",
+      "Stages changes for commit"
+    ],
+    "correctAnswer": "Marks specific commits with a name",
+    "explanation": "'git tag' assigns a human-readable label to a commit, often used for release versions."
+  },
+  {
+    "question": "15. What does 'git reset --hard' perform?",
+    "options": [
+      "Resets index and working tree to a commit",
+      "Deletes all remote branches",
+      "Stashes changes temporarily",
+      "Tags the current commit"
+    ],
+    "correctAnswer": "Resets index and working tree to a commit",
+    "explanation": "'git reset --hard <commit>' discards all current changes and resets HEAD, index, and working directory."
+  },
+  {
+    "question": "16. Which command stashes uncommitted changes?",
+    "options": [
+      "git stash",
+      "git clean",
+      "git cherry-pick",
+      "git rebase"
+    ],
+    "correctAnswer": "git stash",
+    "explanation": "'git stash' temporarily shelves changes in the working directory so you can work on a clean branch."
+  },
+  {
+    "question": "17. How do you apply a stash?",
+    "options": [
+      "git stash apply",
+      "git stash create",
+      "git stash drop",
+      "git stash clear"
+    ],
+    "correctAnswer": "git stash apply",
+    "explanation": "'git stash apply' re-applies the most recent stashed changes onto the working directory."
+  },
+  {
+    "question": "18. What is the effect of 'git cherry-pick'?",
+    "options": [
+      "Applies a specific commit to current branch",
+      "Deletes a commit permanently",
+      "Merges two branches together",
+      "Fetches changes from remote"
+    ],
+    "correctAnswer": "Applies a specific commit to current branch",
+    "explanation": "'git cherry-pick <commit>' applies the changes from the specified commit onto the current branch."
+  },
+  {
+    "question": "19. What does 'git revert' do?",
+    "options": [
+      "Creates a new commit undoing changes",
+      "Deletes commits from history",
+      "Resets to a previous commit",
+      "Stashes changes for later"
+    ],
+    "correctAnswer": "Creates a new commit undoing changes",
+    "explanation": "'git revert <commit>' makes a new commit that reverses the changes introduced by the specified commit."
+  },
+  {
+    "question": "20. How do you remove untracked files?",
+    "options": [
+      "git clean -f",
+      "git rm",
+      "git reset",
+      "git prune"
+    ],
+    "correctAnswer": "git clean -f",
+    "explanation": "'git clean -f' deletes all untracked files from the working directory."
+  },
+  {
+    "question": "21. What is a bare repository?",
+    "options": [
+      "A repo without working directory",
+      "A repo with only commits",
+      "A repo without commits",
+      "A repo without branches"
+    ],
+    "correctAnswer": "A repo without working directory",
+    "explanation": "A bare repository contains the version control data but no checked-out working files."
+  },
+  {
+    "question": "22. What does 'git remote add' configure?",
+    "options": [
+      "A new remote repository link",
+      "A new branch locally",
+      "A new tag for a commit",
+      "A new stash entry"
+    ],
+    "correctAnswer": "A new remote repository link",
+    "explanation": "'git remote add <name> <url>' adds a remote named <name> pointing to <url>."
+  },
+  {
+    "question": "23. How do you rename a branch?",
+    "options": [
+      "git branch -m old new",
+      "git checkout -b new",
+      "git rename branch old new",
+      "git change branch name"
+    ],
+    "correctAnswer": "git branch -m old new",
+    "explanation": "'git branch -m old new' renames the branch from old to new."
+  },
+  {
+    "question": "24. What is .gitignore used for?",
+    "options": [
+      "List files Git should ignore",
+      "List files to commit first",
+      "List branches to delete",
+      "List contributors excluded"
+    ],
+    "correctAnswer": "List files Git should ignore",
+    "explanation": "A .gitignore file specifies files and directories that Git should not track or stage."
+  },
+  {
+    "question": "25. Which command shows a one-line log graph?",
+    "options": [
+      "git log --oneline --graph",
+      "git show --graph",
+      "git diff --graph",
+      "git status --short"
+    ],
+    "correctAnswer": "git log --oneline --graph",
+    "explanation": "'git log --oneline --graph' displays a compact commit history with an ASCII graph of branch structure."
+  },
+  {
+    "question": "26. How do you change the last commit message?",
+    "options": [
+      "git commit --amend",
+      "git commit --fix",
+      "git rebase --edit",
+      "git reset --soft"
+    ],
+    "correctAnswer": "git commit --amend",
+    "explanation": "'git commit --amend' allows editing the message of the most recent commit."
+  },
+  {
+    "question": "27. What does 'git rebase' perform?",
+    "options": [
+      "Moves branch commits onto another base",
+      "Deletes remote branches",
+      "Creates a new repository",
+      "Shows branch history"
+    ],
+    "correctAnswer": "Moves branch commits onto another base",
+    "explanation": "'git rebase <branch>' replays commits from your current branch onto the tip of <branch>."
+  },
+  {
+    "question": "28. How can you skip commits during rebase?",
+    "options": [
+      "Use git rebase --skip",
+      "Use git rebase --abort",
+      "Use git rebase --continue",
+      "Use git rebase --edit"
+    ],
+    "correctAnswer": "Use git rebase --skip",
+    "explanation": "'git rebase --skip' skips the current patch and continues rebasing the remaining commits."
+  },
+  {
+    "question": "29. What is a fast-forward merge?",
+    "options": [
+      "Branch pointer moves forward directly",
+      "A merge that creates a new commit",
+      "A merge that resets branch",
+      "A merge that aborts on conflict"
+    ],
+    "correctAnswer": "Branch pointer moves forward directly",
+    "explanation": "A fast-forward merge advances the current branch pointer to the target branch without creating a merge commit."
+  },
+  {
+    "question": "30. What does 'git bisect' help with?",
+    "options": [
+      "Finding a commit that introduced a bug",
+      "Listing commits in reverse order",
+      "Merging two branches",
+      "Rebasing onto another branch"
+    ],
+    "correctAnswer": "Finding a commit that introduced a bug",
+    "explanation": "'git bisect' uses binary search to identify the specific commit that caused a bug."
+  },
+  {
+    "question": "31. What is the purpose of Git hooks?",
+    "options": [
+      "Run scripts on Git events",
+      "Backup repository automatically",
+      "Synchronize remote branches",
+      "Generate documentation files"
+    ],
+    "correctAnswer": "Run scripts on Git events",
+    "explanation": "Git hooks are scripts triggered by actions such as commits or merges, enabling custom workflows."
+  },
+  {
+    "question": "32. How do you list configured remotes?",
+    "options": [
+      "git remote -v",
+      "git remote add",
+      "git remote show"
+    ],
+    "correctAnswer": "git remote -v",
+    "explanation": "'git remote -v' shows each remote's name and fetch/push URLs."
+  },
+  {
+    "question": "33. Which command initializes a submodule?",
+    "options": [
+      "git submodule add <url>",
+      "git subtree add <url>",
+      "git add submodule <url>",
+      "git clone --submodule"
+    ],
+    "correctAnswer": "git submodule add <url>",
+    "explanation": "'git submodule add <url>' adds a repository as a subdirectory and tracks it as a submodule."
+  },
+  {
+    "question": "34. What is GitHub Pages for?",
+    "options": [
+      "Hosting static websites",
+      "Scheduling GitHub Actions",
+      "Managing organization teams",
+      "Reviewing pull requests"
+    ],
+    "correctAnswer": "Hosting static websites",
+    "explanation": "GitHub Pages allows you to deploy static content directly from a repository's branch."
+  },
+  {
+    "question": "35. How do you create a new tag?",
+    "options": [
+      "git tag <name>",
+      "git tag -d <name>",
+      "git branch <name>",
+      "git create-tag <name>"
+    ],
+    "correctAnswer": "git tag <name>",
+    "explanation": "'git tag <name>' creates a lightweight tag at the current commit."
+  },
+  {
+    "question": "36. What command deletes a local branch?",
+    "options": [
+      "git branch -d <branch>",
+      "git branch -r <branch>",
+      "git branch -m <branch>",
+      "git branch -a <branch>"
+    ],
+    "correctAnswer": "git branch -d <branch>",
+    "explanation": "'git branch -d <branch>' deletes the specified local branch if it has been merged."
+  },
+  {
+    "question": "37. How do you force-delete a branch?",
+    "options": [
+      "git branch -D <branch>",
+      "git branch -d <branch>",
+      "git branch -R <branch>",
+      "git delete-branch <branch>"
+    ],
+    "correctAnswer": "git branch -D <branch>",
+    "explanation": "'git branch -D <branch>' forcefully deletes the local branch regardless of merge status."
+  },
+  {
+    "question": "38. What is a fork on GitHub?",
+    "options": [
+      "A copy of a repository to your account",
+      "A labels file for issues",
+      "A GitHub feature flag",
+      "A commit rollback mechanism"
+    ],
+    "correctAnswer": "A copy of a repository to your account",
+    "explanation": "Forking on GitHub creates your own copy of another user's repository under your account."
+  },
+  {
+    "question": "39. What is GitHub Actions used for?",
+    "options": [
+      "Automating workflows and CI/CD",
+      "Managing repository forks",
+      "Creating pull requests",
+      "Hosting project documentation"
+    ],
+    "correctAnswer": "Automating workflows and CI/CD",
+    "explanation": "GitHub Actions lets you define custom workflows to build, test, and deploy code when events occur."
+  },
+  {
+    "question": "40. How do you open an issue on GitHub?",
+    "options": [
+      "Click 'New issue' in the repository UI",
+      "Run git issue create",
+      "Push a commit with 'issue' prefix",
+      "Tag a commit with issue number"
+    ],
+    "correctAnswer": "Click 'New issue' in the repository UI",
+    "explanation": "In the GitHub web interface, selecting 'New issue' allows you to report bugs or request features."
+  },
+  {
+    "question": "41. What are GitHub Labels used for?",
+    "options": [
+      "Categorizing issues and pull requests",
+      "Managing branch permissions",
+      "Merging code changes",
+      "Configuring webhooks"
+    ],
+    "correctAnswer": "Categorizing issues and pull requests",
+    "explanation": "Labels help organize and filter issues or pull requests by type, priority, or status."
+  },
+  {
+    "question": "42. How do you lock a conversation on GitHub?",
+    "options": [
+      "Click 'Lock conversation' in issue UI",
+      "Add 'lock' label to issue",
+      "Close all comments manually",
+      "Run git lock conversation"
+    ],
+    "correctAnswer": "Click 'Lock conversation' in issue UI",
+    "explanation": "Repository maintainers can lock discussions to prevent further comments on issues or pull requests."
+  },
+  {
+    "question": "43. What are Git subtrees used for?",
+    "options": [
+      "Incorporating one repo into another",
+      "Managing user permissions",
+      "Staging changes selectively",
+      "Generating code coverage reports"
+    ],
+    "correctAnswer": "Incorporating one repo into another",
+    "explanation": "Git subtrees allow you to merge and maintain a separate repository within a subdirectory."
+  },
+  {
+    "question": "44. How do you create a GitHub milestone?",
+    "options": [
+      "Go to 'Milestones' and click 'New Milestone'",
+      "Tag issues with 'milestone' label",
+      "Add a milestone file in repo",
+      "Run git milestone add"
+    ],
+    "correctAnswer": "Go to 'Milestones' and click 'New Milestone'",
+    "explanation": "Milestones group issues and pull requests under a specific project goal or release."
+  },
+  {
+    "question": "45. What is protected branch on GitHub?",
+    "options": [
+      "Branch with restricted actions",
+      "Branch without any commits",
+      "Branch that auto-merges all requests",
+      "Branch only visible to admins"
+    ],
+    "correctAnswer": "Branch with restricted actions",
+    "explanation": "Protected branches prevent force pushes, deletions, and require reviews or status checks before merging."
+  },
+  {
+    "question": "46. Which merge method squashes commits?",
+    "options": [
+      "Squash and merge",
+      "Rebase and merge",
+      "Create a merge commit",
+      "Fast-forward merge"
+    ],
+    "correctAnswer": "Squash and merge",
+    "explanation": "Squash and merge combines all commits from a feature branch into a single commit in the base branch."
+  },
+  {
+    "question": "47. How do you rebase interactively?",
+    "options": [
+      "git rebase -i <base>",
+      "git rebase <branch>",
+      "git rebase --force",
+      "git rebase --skip"
+    ],
+    "correctAnswer": "git rebase -i <base>",
+    "explanation": "'git rebase -i <base>' opens an editor allowing you to reorder, squash, or edit commits."
+  },
+  {
+    "question": "48. What does 'origin' refer to?",
+    "options": [
+      "Default remote repository name",
+      "Default branch name",
+      "Local repository alias",
+      "Main commit pointer"
+    ],
+    "correctAnswer": "Default remote repository name",
+    "explanation": "By convention, 'origin' is the name given to the primary remote repository when cloning."
+  },
+  {
+    "question": "49. How do you configure username globally?",
+    "options": [
+      "git config --global user.name \"Name\"",
+      "git set user.name \"Name\"",
+      "git install user.name",
+      "git profile set name"
+    ],
+    "correctAnswer": "git config --global user.name \"Name\"",
+    "explanation": "This command sets your Git username for all repositories on the current machine."
+  },
+  {
+    "question": "50. What file stores local configuration?",
+    "options": [
+      ".git/config",
+      "~/.gitconfig",
+      ".gitignore",
+      ".gitattributes"
+    ],
+    "correctAnswer": ".git/config",
+    "explanation": "The .git/config file contains repository-specific configuration settings including remotes and hooks."
+  }
+]
