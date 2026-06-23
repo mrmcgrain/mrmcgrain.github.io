@@ -23,11 +23,46 @@ const projects = [
 ];
 
 const skillGroups = [
-  ['Frontend', ['JavaScript', 'TypeScript', 'React', 'Next.js', 'Astro', 'Tailwind CSS', 'HTML', 'CSS']],
-  ['Backend', ['Node.js', 'Express', 'REST APIs', 'JWT', 'Socket.io']],
-  ['Database', ['MongoDB', 'PostgreSQL', 'Mongoose']],
-  ['AI & Tools', ['OpenAI API', 'Codex', 'Claude Code', 'GitHub Copilot', 'Docker', 'Linux']],
-  ['Security', ['Auth', 'Authorization', 'Input Validation', 'API Security']],
+  ['Languages', ['JavaScript ES6+', 'TypeScript', 'Python', 'HTML5', 'CSS3']],
+  ['Frontend', ['React.js', 'Next.js', 'Tailwind CSS', 'Responsive UI', 'Redux', 'Context API']],
+  [
+    'Backend',
+    [
+      'Node.js',
+      'Express.js',
+      'RESTful APIs',
+      'JWT Authentication',
+      'MongoDB',
+      'PostgreSQL',
+      'Socket.io',
+    ],
+  ],
+  ['DevOps & Tools', ['Git', 'GitHub', 'Docker', 'Linux', 'CI/CD Pipelines']],
+  ['Accessibility', ['WCAG 2.2 AA', 'Title II ADA Compliance']],
+  [
+    'AI & Automation',
+    [
+      'GitHub Copilot',
+      'OpenAI Codex',
+      'Claude Code',
+      'Hermes Agent Harness',
+      'Prompt Engineering',
+    ],
+  ],
+  [
+    'Security & Infrastructure',
+    [
+      'Web Security',
+      'Secure Authentication',
+      'Authorization',
+      'Input Validation',
+      'REST API Security',
+      'Network Security',
+      'Linux Environments',
+      'Systems Engineering',
+      'Networking',
+    ],
+  ],
 ];
 ---
 
@@ -53,18 +88,25 @@ const skillGroups = [
       <div class="hero-inner">
         <div class="hero-copy">
           <p class="eyebrow">Software Engineer - MERN Instructor - AI Builder</p>
-          <h1>Hello, I&apos;m Michael.</h1>
+          <h1>Dare to Dream</h1>
           <p class="hero-lede">
             I build accessible full-stack applications, AI-assisted workflows, and secure web
             systems with the kind of visual polish clients remember.
           </p>
           <div class="hero-actions">
             <a class="primary-action" href="#work">View Projects <span aria-hidden="true">-></span></a>
-            <a class="secondary-action" href="mailto:michael.r.mcgrain@gmail.com">Contact Me</a>
+            <a
+              class="secondary-action"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=michael.r.mcgrain%40gmail.com&su=Portfolio%20Inquiry"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Contact Me
+            </a>
           </div>
           <ul class="hero-traits" aria-label="Core strengths">
             <li><span aria-hidden="true">&lt;/&gt;</span> Clean Code</li>
-            <li><span aria-hidden="true">[]</span> Teaching</li>
+            <li><span aria-hidden="true">[]</span> Technical Instructor</li>
             <li><span aria-hidden="true">*</span> AI Explorer</li>
           </ul>
         </div>
@@ -129,9 +171,22 @@ const skillGroups = [
               <h2>About Me</h2>
             </div>
             <p>
-              I&apos;m a software engineer and coding instructor based in Phoenix, Arizona. My
-              background spans full-stack web development, systems engineering, networking,
-              security-minded implementation, and technical mentorship.
+              I&apos;m a Full-Stack Software Engineer and Technical Instructor with more than 17 years
+              of experience across software development, systems engineering, networking,
+              infrastructure, and secure technology operations.
+            </p>
+            <p>
+              I build modern, accessible web applications using the MERN stack, with a focus on
+              clean architecture, responsive design, RESTful APIs, WCAG 2.2 accessibility, and secure
+              development practices. My work includes authentication and authorization, input
+              validation, API security, CI/CD workflows, and deployment in Linux-based environments.
+            </p>
+            <p>
+              I also use AI-assisted development tools to improve productivity, accelerate
+              problem-solving, and build practical solutions. I&apos;m a strong advocate that AI is not a
+              crutch nor replacement for our code, but a peer programmer. As an instructor and
+              mentor, I enjoy helping others grow their technical skills while creating technology
+              that supports businesses, learners, and meaningful community impact.
             </p>
             <ul class="about-points">
               <li><span aria-hidden="true">pin</span> Phoenix, Arizona</li>
@@ -169,18 +224,45 @@ const skillGroups = [
         <div>
           <div class="number-title">
             <span>04</span>
-            <h2>Let&apos;s Build Something Great</h2>
+            <h2>Let&apos;s turn your dreams into a reality</h2>
           </div>
           <p>Have a project in mind, a role to discuss, or a system that needs a stronger shape?</p>
         </div>
-        <a class="contact-button" href="mailto:michael.r.mcgrain@gmail.com">
-          <span aria-hidden="true">mail</span>
+        <a
+          class="contact-button"
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=michael.r.mcgrain%40gmail.com&su=Portfolio%20Inquiry"
+          target="_blank"
+          rel="noreferrer"
+        >
           Get In Touch
         </a>
         <div class="social-links" aria-label="Social links">
-          <a href="https://github.com/mrmcgrain" aria-label="GitHub">GH</a>
-          <a href="https://linkedin.com/in/michaelRmcgrain" aria-label="LinkedIn">in</a>
-          <a href="mailto:michael.r.mcgrain@gmail.com" aria-label="Email">@</a>
+          <a href="https://github.com/mrmcgrain" aria-label="GitHub" target="_blank" rel="noreferrer">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path
+                d="M12 .7a11.3 11.3 0 0 0-3.6 22c.6.1.8-.2.8-.6v-2c-3.4.7-4.1-1.5-4.1-1.5-.5-1.4-1.3-1.8-1.3-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 .1.7 2.7 3.4 2 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.3.5-2.4 1.2-3.3-.1-.3-.5-1.6.1-3.3 0 0 1-.3 3.4 1.2a11.6 11.6 0 0 1 6.2 0c2.4-1.5 3.4-1.2 3.4-1.2.6 1.7.2 3 .1 3.3.8.9 1.2 2 1.2 3.3 0 4.7-2.8 5.7-5.5 6 .4.3.8 1 .8 2.1v3.2c0 .4.2.7.8.6A11.3 11.3 0 0 0 12 .7Z"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://linkedin.com/in/michaelRmcgrain"
+            aria-label="LinkedIn"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path
+                d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45Z"
+              />
+            </svg>
+          </a>
+          <a href="#contact" aria-label="Phone">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path
+                d="M6.6 2.5 9.2 8c.2.5.1 1.1-.3 1.5l-1.5 1.4a13.2 13.2 0 0 0 5.7 5.7l1.4-1.5c.4-.4 1-.5 1.5-.3l5.5 2.6c.6.3.9.9.8 1.6l-.5 3c-.1.7-.8 1.2-1.5 1.2A19.5 19.5 0 0 1 .8 3.7c0-.7.5-1.4 1.2-1.5l3-.5c.7-.1 1.3.2 1.6.8Z"
+              />
+            </svg>
+          </a>
         </div>
       </div>
     </section>
@@ -619,7 +701,7 @@ const skillGroups = [
 
   .about-block p {
     max-width: 650px;
-    margin: 0.8rem 0 0;
+    margin: 0.75rem 0 0;
     color: #3f4350;
     line-height: 1.45;
   }
@@ -646,19 +728,21 @@ const skillGroups = [
 
   .skill-list {
     display: grid;
-    gap: 0.75rem;
+    gap: 0.68rem;
     margin-top: 0.9rem;
   }
 
   .skill-row {
     display: grid;
-    grid-template-columns: 7rem 1fr;
+    grid-template-columns: minmax(8.75rem, 0.38fr) minmax(0, 1fr);
     gap: 1rem;
     align-items: start;
   }
 
   .skill-row strong {
-    font-size: 0.86rem;
+    color: #242936;
+    font-size: 0.82rem;
+    line-height: 1.25;
   }
 
   .skill-row div {
@@ -668,7 +752,8 @@ const skillGroups = [
   }
 
   .skill-row span {
-    padding: 0.38rem 0.8rem;
+    padding: 0.34rem 0.64rem;
+    overflow-wrap: anywhere;
   }
 
   .cta {
@@ -709,6 +794,22 @@ const skillGroups = [
     border-radius: 7px;
     color: #ffffff;
     font-weight: 900;
+    transition:
+      border-color 180ms ease,
+      background 180ms ease,
+      transform 180ms ease;
+  }
+
+  .social-links a:hover {
+    border-color: rgba(255, 255, 255, 0.38);
+    background: rgba(255, 255, 255, 0.08);
+    transform: translateY(-2px);
+  }
+
+  .social-links svg {
+    width: 1.18rem;
+    height: 1.18rem;
+    fill: currentColor;
   }
 
   @media (max-width: 980px) {
