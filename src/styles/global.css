@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+  font-family:
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  background: #04060d;
+  color: #f5f3ee;
+  --ink: #04060d;
+  --paper: #f5f3ee;
+  --muted: #b9b3a7;
+  --line: rgba(245, 243, 238, 0.16);
+  --panel: rgba(245, 243, 238, 0.06);
+  --panel-strong: rgba(245, 243, 238, 0.1);
+  --circuit: #5ce1a8;
+  --signal: #65d6ff;
+  --heat: #ff7a59;
+  --violet: #b99cff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background: #04060d;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(92, 225, 168, 0.3);
+  color: var(--paper);
+}
+
+.container {
+  width: min(1180px, calc(100% - 32px));
+  margin-inline: auto;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: var(--circuit);
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.eyebrow::before {
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 999px;
+  background: currentColor;
+  content: "";
+  box-shadow: 0 0 18px currentColor;
+}
+
+.section-title {
+  max-width: 760px;
+  margin: 0;
+  color: var(--paper);
+  font-size: clamp(2rem, 5vw, 4.8rem);
+  font-weight: 760;
+  letter-spacing: 0;
+  line-height: 0.96;
+}
+
+.section-copy {
+  max-width: 680px;
+  margin: 1rem 0 0;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.surface {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.28);
+  backdrop-filter: blur(18px);
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: min(100% - 24px, 1180px);
+  }
+}
