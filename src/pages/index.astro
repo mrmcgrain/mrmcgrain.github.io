@@ -10,6 +10,13 @@ const projects = [
     variant: 'dashboard',
     image: '/images/ciw-test-thumbnail.png',
     url: 'https://mrmcgrain.github.io/ciwTEST/',
+    breakdown: [
+      'Built as a certification-style testing station for student practice and assessment.',
+      'Randomizes 100-question sessions across multiple learning pathways.',
+      'Tracks progress, timing, completion state, and final scoring.',
+      'Records attention events such as tab or window changes during a session.',
+      'Hosted on GitHub Pages for easy access and live demonstration.',
+    ],
   },
   {
     title: 'AI Study Companion',
@@ -192,6 +199,23 @@ const skillGroups = [
                     <li>{tag}</li>
                   ))}
                 </ul>
+                {
+                  project.breakdown && (
+                    <details class="project-details">
+                      <summary>
+                        Project Details
+                        <svg aria-hidden="true" viewBox="0 0 24 24">
+                          <path d="m6.7 8.8 5.3 5.4 5.3-5.4 1.4 1.4-6.7 6.8-6.7-6.8 1.4-1.4Z" />
+                        </svg>
+                      </summary>
+                      <div>
+                        {project.breakdown.map((item) => (
+                          <p>{item}</p>
+                        ))}
+                      </div>
+                    </details>
+                  )
+                }
               </article>
             ))
           }
@@ -684,6 +708,65 @@ const skillGroups = [
 
   .project-card li {
     padding: 0.35rem 0.7rem;
+  }
+
+  .project-details {
+    margin-top: 0.95rem;
+    border-top: 1px solid #d9dde8;
+    padding-top: 0.75rem;
+  }
+
+  .project-details summary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    color: #7553e7;
+    cursor: pointer;
+    font-size: 0.86rem;
+    font-weight: 800;
+    list-style: none;
+    outline-offset: 4px;
+  }
+
+  .project-details summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .project-details svg {
+    width: 1rem;
+    height: 1rem;
+    fill: currentColor;
+    transition: transform 180ms ease;
+  }
+
+  .project-details[open] svg {
+    transform: rotate(180deg);
+  }
+
+  .project-details div {
+    display: grid;
+    gap: 0.45rem;
+    margin-top: 0.65rem;
+  }
+
+  .project-details p {
+    position: relative;
+    margin: 0;
+    padding-left: 1rem;
+    color: #3f4350;
+    font-size: 0.88rem;
+    line-height: 1.42;
+  }
+
+  .project-details p::before {
+    position: absolute;
+    top: 0.55em;
+    left: 0;
+    width: 0.34rem;
+    height: 0.34rem;
+    border-radius: 999px;
+    background: #8d6bff;
+    content: "";
   }
 
   .project-preview,
