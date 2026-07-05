@@ -223,6 +223,16 @@ const skillGroups = [
           }
         </div>
 
+        <section class="demo-links" aria-labelledby="demo-links-title">
+          <div>
+            <span>Website demos</span>
+            <h3 id="demo-links-title">Live website demo links</h3>
+          </div>
+          <a href="https://mrmcgrain.github.io/WebsitesDemo/" target="_blank" rel="noreferrer">
+            WebsitesDemo <span aria-hidden="true">-></span>
+          </a>
+        </section>
+
         <div class="about-skills-grid">
           <section class="about-block" id="about">
             <div class="number-title">
@@ -788,6 +798,54 @@ const skillGroups = [
     object-position: center;
   }
 
+  .demo-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 1.65rem;
+    border-top: 1px solid #d9dde8;
+    padding-top: 1rem;
+  }
+
+  .demo-links span {
+    color: #7d5cff;
+    font-size: 0.78rem;
+    font-weight: 850;
+    text-transform: uppercase;
+  }
+
+  .demo-links h3 {
+    margin: 0.25rem 0 0;
+    color: #242936;
+    font-size: 1.05rem;
+  }
+
+  .demo-links a {
+    display: inline-flex;
+    min-height: 2.7rem;
+    align-items: center;
+    justify-content: center;
+    gap: 0.45rem;
+    border: 1px solid #d5d9e3;
+    border-radius: 7px;
+    padding: 0.7rem 1rem;
+    background: #ffffff;
+    color: #7553e7;
+    font-weight: 800;
+    transition:
+      border-color 180ms ease,
+      box-shadow 180ms ease,
+      transform 180ms ease;
+  }
+
+  .demo-links a:hover,
+  .demo-links a:focus-visible {
+    border-color: rgba(117, 83, 231, 0.46);
+    box-shadow: 0 12px 34px rgba(12, 18, 33, 0.1);
+    transform: translateY(-2px);
+  }
+
   .project-preview {
     background: linear-gradient(145deg, #11151f, #05070d);
   }
@@ -1116,6 +1174,15 @@ const skillGroups = [
     .section-heading {
       align-items: flex-start;
       flex-direction: column;
+    }
+
+    .demo-links {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+
+    .demo-links a {
+      width: 100%;
     }
 
     .project-grid {
