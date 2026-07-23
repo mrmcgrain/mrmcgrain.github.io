@@ -1,0 +1,624 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const projects = [
+  {
+    title: 'Candidate Assessment Platform',
+    label: 'Assessment systems',
+    year: '2026',
+    description:
+      'A focused testing environment that turns large question banks, attention events, and completion data into a clear experience for learners and instructors.',
+    tags: ['JavaScript', 'Assessment UX', 'Google Sheets'],
+    image: '/images/ciw-test-thumbnail.png',
+    url: 'https://mrmcgrain.github.io/ciwTEST/',
+    accent: '#9f87ff',
+  },
+  {
+    title: 'Dare to Dream',
+    label: 'Immersive studio',
+    year: '2026',
+    description:
+      'A scroll-led digital studio built around atmosphere, narrative pacing, and direct paths from curiosity to project inquiry.',
+    tags: ['Interactive Design', '3D Direction', 'Responsive UI'],
+    image: '/images/dare-to-dream-thumbnail.png',
+    url: 'https://daretodream.dev/',
+    accent: '#ff6ea9',
+  },
+  {
+    title: 'CodeCraftsMan Scroll World',
+    label: 'Cinematic web experience',
+    year: '2026',
+    description:
+      'A continuous flight through a digital forge and strategy chamber—systems thinking translated into a visual world visitors can move through.',
+    tags: ['Scroll Experience', 'Cinematic UI', 'Art Direction'],
+    image: '/images/codecraftsman-forge-entrance-thumbnail.png',
+    imageHover: '/images/codecraftsman-strategy-chamber-thumbnail.png',
+    url: 'https://mrmcgrain.github.io/WebsitesDemo/sites/codecraftsman-scroll-world/',
+    accent: '#ff9b52',
+  },
+  {
+    title: 'Oceanside Property Care',
+    label: 'Local service platform',
+    year: '2026',
+    description:
+      'A coastal property-care presence designed to establish trust quickly, clarify the service offer, and move homeowners toward a quote.',
+    tags: ['Responsive Design', 'Local SEO', 'Lead Generation'],
+    image: '/images/oceanside-property-care-house-thumbnail.png',
+    url: 'https://mrmcgrain.github.io/WebsitesDemo/sites/oceanside-property-care-premium-mockup/',
+    accent: '#57c8cf',
+  },
+  {
+    title: '8001 Nails & Spa',
+    label: 'Salon booking experience',
+    year: '2026',
+    description:
+      'An elegant local-business site that puts real nail work at the center while keeping reviews, directions, and booking actions close at hand.',
+    tags: ['Local Business', 'Conversion UX', 'Responsive Video'],
+    image: '/images/8001-nails-spa-mobile.png',
+    video: '/videos/8001-nails-spa-preview.mp4',
+    url: 'https://mrmcgrain.github.io/WebsitesDemo/sites/8001nail/',
+    accent: '#d391a6',
+  },
+];
+---
+
+<BaseLayout
+  title="Selected Work — Editorial Concept | Michael McGrain"
+  description="An alternate editorial presentation of Michael McGrain's selected software and web projects."
+>
+  <main class="concept-shell">
+    <header class="concept-nav">
+      <a class="identity" href="/" aria-label="Return to current portfolio">
+        <img src="/images/mm-monogram.png" alt="" width="45" height="28" />
+        <span>Michael McGrain</span>
+      </a>
+      <div class="concept-status">
+        <span></span>
+        Selected Work / Alternate Direction
+      </div>
+      <a class="back-link" href="/#work">Current version <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <section class="concept-intro">
+      <div class="intro-kicker">
+        <span>01—05</span>
+        <span>Software · Systems · Experiences</span>
+      </div>
+      <h1>Work made to be<br /><em>used, felt,</em> and remembered.</h1>
+      <div class="intro-foot">
+        <p>
+          A curated selection of accessible products, conversion-minded websites, and immersive
+          digital experiences—built from Phoenix, Arizona.
+        </p>
+        <a href="#project-01">Explore the work <span aria-hidden="true">↓</span></a>
+      </div>
+    </section>
+
+    <section class="project-ledger" aria-label="Selected projects">
+      {
+        projects.map((project, index) => (
+          <article
+            class:list={['project-row', { 'is-reversed': index % 2 === 1, 'has-video': project.video }]}
+            id={`project-${String(index + 1).padStart(2, '0')}`}
+            style={`--project-accent: ${project.accent}`}
+          >
+            <div class="project-copy">
+              <div class="project-number" aria-hidden="true">{String(index + 1).padStart(2, '0')}</div>
+              <div class="project-meta">
+                <span>{project.label}</span>
+                <span>{project.year}</span>
+              </div>
+              <h2>{project.title}</h2>
+              <p>{project.description}</p>
+              <ul aria-label={`${project.title} technologies and capabilities`}>
+                {project.tags.map((tag) => <li>{tag}</li>)}
+              </ul>
+              <a class="project-action" href={project.url} target="_blank" rel="noreferrer">
+                View live project <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+
+            {
+              project.video ? (
+                <div class="project-media media-video">
+                  <span class="video-stage">
+                    <video
+                      controls
+                      muted
+                      playsinline
+                      preload="metadata"
+                      poster={project.image}
+                      aria-label={`${project.title} video preview`}
+                    >
+                      <source src={project.video} type="video/mp4" />
+                    </video>
+                  </span>
+                  <a
+                    class="media-corner"
+                    href={project.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label={`Open ${project.title}`}
+                  >
+                    <span aria-hidden="true">↗</span>
+                  </a>
+                </div>
+              ) : (
+                <a
+                  class:list={['project-media', { 'has-alternate': project.imageHover }]}
+                  href={project.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label={`Open ${project.title}`}
+                >
+                  <span class="image-stage">
+                    <img src={project.image} alt="" width="1440" height="900" loading="lazy" />
+                    {project.imageHover && (
+                      <img class="alternate-image" src={project.imageHover} alt="" width="1264" height="608" loading="lazy" />
+                    )}
+                  </span>
+                  <span class="media-corner" aria-hidden="true">↗</span>
+                </a>
+              )
+            }
+          </article>
+        ))
+      }
+    </section>
+
+    <footer class="concept-footer">
+      <p>Different structure. Same work. Stronger hierarchy.</p>
+      <a href="/#work">Compare with the current Selected Work <span aria-hidden="true">→</span></a>
+    </footer>
+  </main>
+</BaseLayout>
+
+<style>
+  :global(body) {
+    overflow-x: clip;
+  }
+
+  .concept-shell {
+    min-height: 100vh;
+    background:
+      radial-gradient(circle at 76% 4%, rgba(159, 135, 255, 0.14), transparent 28rem),
+      #0a0a0c;
+    color: #f4f0e8;
+  }
+
+  .concept-nav,
+  .concept-intro,
+  .project-ledger,
+  .concept-footer {
+    width: min(1380px, calc(100% - 64px));
+    margin-inline: auto;
+  }
+
+  .concept-nav {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 2rem;
+    border-bottom: 1px solid rgba(244, 240, 232, 0.16);
+    padding: 1.5rem 0;
+  }
+
+  .identity,
+  .concept-status,
+  .back-link {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .identity {
+    gap: 0.9rem;
+    font-weight: 800;
+  }
+
+  .identity img {
+    width: 2.55rem;
+    height: auto;
+  }
+
+  .concept-status {
+    gap: 0.55rem;
+    color: rgba(244, 240, 232, 0.62);
+    font-size: 0.72rem;
+    font-weight: 750;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+  }
+
+  .concept-status span {
+    width: 0.48rem;
+    height: 0.48rem;
+    border-radius: 999px;
+    background: #9f87ff;
+    box-shadow: 0 0 16px rgba(159, 135, 255, 0.8);
+  }
+
+  .back-link {
+    justify-self: end;
+    gap: 0.45rem;
+    border-bottom: 1px solid rgba(244, 240, 232, 0.4);
+    padding-bottom: 0.25rem;
+    font-size: 0.84rem;
+    font-weight: 750;
+  }
+
+  .concept-intro {
+    padding: clamp(5rem, 11vw, 10rem) 0 clamp(4.5rem, 9vw, 8rem);
+  }
+
+  .intro-kicker,
+  .intro-foot,
+  .project-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .intro-kicker {
+    color: rgba(244, 240, 232, 0.58);
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 0.73rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .concept-intro h1 {
+    max-width: 1200px;
+    margin: 2rem 0 0;
+    font-size: clamp(3.5rem, 8.7vw, 8.9rem);
+    font-weight: 820;
+    letter-spacing: -0.065em;
+    line-height: 0.87;
+  }
+
+  .concept-intro h1 em {
+    color: #b6a5ff;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-weight: 400;
+  }
+
+  .intro-foot {
+    align-items: flex-end;
+    gap: 2rem;
+    margin-top: clamp(3rem, 7vw, 6.5rem);
+  }
+
+  .intro-foot p {
+    max-width: 570px;
+    margin: 0;
+    color: rgba(244, 240, 232, 0.68);
+    font-size: clamp(1rem, 1.5vw, 1.22rem);
+    line-height: 1.65;
+  }
+
+  .intro-foot a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.65rem;
+    min-height: 3rem;
+    border: 1px solid rgba(244, 240, 232, 0.28);
+    border-radius: 999px;
+    padding: 0.7rem 1.1rem;
+    font-size: 0.84rem;
+    font-weight: 750;
+  }
+
+  .project-ledger {
+    border-top: 1px solid rgba(244, 240, 232, 0.2);
+  }
+
+  .project-row {
+    display: grid;
+    grid-template-columns: minmax(17rem, 0.72fr) minmax(0, 1.55fr);
+    align-items: stretch;
+    gap: clamp(2rem, 6vw, 7rem);
+    border-bottom: 1px solid rgba(244, 240, 232, 0.2);
+    padding: clamp(4rem, 7vw, 7rem) 0;
+  }
+
+  .project-row.is-reversed {
+    grid-template-columns: minmax(0, 1.55fr) minmax(17rem, 0.72fr);
+  }
+
+  .project-row.is-reversed .project-copy {
+    grid-column: 2;
+  }
+
+  .project-row.is-reversed .project-media {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .project-copy {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 0;
+  }
+
+  .project-number {
+    color: var(--project-accent);
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 0.76rem;
+    font-weight: 800;
+  }
+
+  .project-meta {
+    width: 100%;
+    margin-top: 2.7rem;
+    color: rgba(244, 240, 232, 0.55);
+    font-size: 0.7rem;
+    font-weight: 760;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .project-copy h2 {
+    max-width: 520px;
+    margin: 1.25rem 0 0;
+    font-size: clamp(2.25rem, 4vw, 4.75rem);
+    font-weight: 780;
+    letter-spacing: -0.055em;
+    line-height: 0.94;
+  }
+
+  .project-copy > p {
+    max-width: 520px;
+    margin: 1.5rem 0 0;
+    color: rgba(244, 240, 232, 0.66);
+    line-height: 1.65;
+  }
+
+  .project-copy ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 2rem 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .project-copy li {
+    border: 1px solid rgba(244, 240, 232, 0.18);
+    border-radius: 999px;
+    padding: 0.4rem 0.72rem;
+    color: rgba(244, 240, 232, 0.72);
+    font-size: 0.7rem;
+  }
+
+  .project-action {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
+    margin-top: auto;
+    border-bottom: 1px solid var(--project-accent);
+    padding: 2.5rem 0 0.3rem;
+    color: #ffffff;
+    font-size: 0.82rem;
+    font-weight: 800;
+    outline-offset: 5px;
+  }
+
+  .project-action span,
+  .media-corner {
+    color: var(--project-accent);
+  }
+
+  .project-media {
+    position: relative;
+    display: block;
+    min-width: 0;
+    min-height: clamp(23rem, 48vw, 41rem);
+    border: 1px solid rgba(244, 240, 232, 0.16);
+    border-radius: 1.15rem;
+    background: #151519;
+    outline-offset: 6px;
+    overflow: hidden;
+    box-shadow: 0 35px 100px rgba(0, 0, 0, 0.38);
+  }
+
+  .image-stage,
+  .video-stage {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    place-items: center;
+  }
+
+  .image-stage img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition:
+      opacity 520ms ease,
+      transform 700ms cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .project-media:hover .image-stage img,
+  .project-media:focus-visible .image-stage img {
+    transform: scale(1.035);
+  }
+
+  .alternate-image {
+    opacity: 0;
+  }
+
+  .has-alternate:hover .image-stage img:first-child,
+  .has-alternate:focus-visible .image-stage img:first-child {
+    opacity: 0;
+  }
+
+  .has-alternate:hover .alternate-image,
+  .has-alternate:focus-visible .alternate-image {
+    opacity: 1;
+  }
+
+  .media-corner {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: grid;
+    width: 2.65rem;
+    height: 2.65rem;
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    border-radius: 999px;
+    background: rgba(6, 6, 8, 0.7);
+    font-size: 1rem;
+    backdrop-filter: blur(12px);
+    place-items: center;
+  }
+
+  .media-video {
+    background:
+      radial-gradient(circle at 50% 50%, color-mix(in srgb, var(--project-accent) 32%, transparent), transparent 38%),
+      linear-gradient(145deg, #171318, #08080a);
+  }
+
+  .video-stage {
+    padding: clamp(1.5rem, 4vw, 3rem);
+  }
+
+  .video-stage video {
+    width: auto;
+    max-width: 100%;
+    height: 100%;
+    max-height: 36rem;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 1.35rem;
+    background: #060607;
+    object-fit: contain;
+    box-shadow: 0 30px 70px rgba(0, 0, 0, 0.58);
+  }
+
+  .concept-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 3rem 0 5rem;
+    color: rgba(244, 240, 232, 0.58);
+    font-size: 0.82rem;
+  }
+
+  .concept-footer p {
+    margin: 0;
+  }
+
+  .concept-footer a {
+    color: #f4f0e8;
+    font-weight: 760;
+  }
+
+  @media (max-width: 900px) {
+    .concept-nav {
+      grid-template-columns: 1fr auto;
+    }
+
+    .concept-status {
+      display: none;
+    }
+
+    .project-row,
+    .project-row.is-reversed {
+      grid-template-columns: 1fr;
+      gap: 2.4rem;
+    }
+
+    .project-row.is-reversed .project-copy,
+    .project-row.is-reversed .project-media {
+      grid-column: 1;
+      grid-row: auto;
+    }
+
+    .project-copy {
+      min-height: 0;
+    }
+
+    .project-action {
+      margin-top: 0;
+    }
+
+    .project-media {
+      min-height: clamp(20rem, 70vw, 36rem);
+    }
+  }
+
+  @media (max-width: 640px) {
+    .concept-nav,
+    .concept-intro,
+    .project-ledger,
+    .concept-footer {
+      width: min(100% - 28px, 1380px);
+    }
+
+    .identity span {
+      font-size: 0.9rem;
+    }
+
+    .back-link {
+      font-size: 0;
+    }
+
+    .back-link span {
+      font-size: 1rem;
+    }
+
+    .intro-kicker span:last-child {
+      display: none;
+    }
+
+    .concept-intro h1 {
+      font-size: clamp(2.95rem, 14vw, 5.3rem);
+    }
+
+    .intro-foot,
+    .concept-footer {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+
+    .project-row {
+      padding: 3.5rem 0;
+    }
+
+    .project-meta {
+      margin-top: 1.75rem;
+    }
+
+    .project-media {
+      min-height: 20rem;
+      border-radius: 0.85rem;
+    }
+
+    .project-row.has-video .project-media {
+      min-height: 38rem;
+    }
+
+    .video-stage {
+      padding: 1rem;
+    }
+
+    .video-stage video {
+      width: 100%;
+      height: 100%;
+      max-height: none;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .image-stage img {
+      transition: none;
+    }
+
+    .project-media:hover .image-stage img,
+    .project-media:focus-visible .image-stage img {
+      transform: none;
+    }
+  }
+</style>
